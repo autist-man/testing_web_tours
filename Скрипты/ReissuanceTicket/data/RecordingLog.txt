@@ -1,0 +1,1377 @@
+[API Trapper      (1cb4:1cf4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (248c: a60)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (117c:1b68)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (117c:2860)] ------------------------------------------------------------------------------------------
+[Network Analyzer (117c:2860)] Load Network Traffic Analyzers:
+[Network Analyzer (117c:2860)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (117c:2860)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (117c:2860)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (117c:2860)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (117c:2860)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (117c:2860)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (117c:2860)] ------------------------------------------------------------------------------------------
+[Network Analyzer (117c:2a1c)] Address lookup for TEMUR = 192.168.1.185
+[API Trapper      (1ff0:1540)] Recording in 64-bit mode: C:\Windows\system32\cmd.exe
+[API Trapper      (2108:2628)] Recording in 32-bit mode: C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\Browser\WCChromeExtn\WCChromeNativeMessagingHost.exe
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 27275  (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (117c:2010)]   (Sid:  1) Server -> Client : 42 bytes 
+[Network Analyzer (117c:2010)]   (Sid:  1) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.222.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 52.86.242.95:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 52.86.242.95:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (117c:2054)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2804)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:1dac)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 87.250.250.41:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1954)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2780)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 165.22.206.33:443   (Service=)  (Sid=  7)  PROXIED!
+[Net An. Error    (117c:203c)] SSL_connect(ssl_id = 1756809168352 = 0000019909FC85E0) Failed, ctx = 0000019909FC8900, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (117c:203c)]   (Sid:  7) SSL handshake with remote server Failed!
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 45.79.133.252:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 45.79.133.252:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 45.79.133.252:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 45.79.133.252:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (1bf0: 88c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c: 93c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (117c:25c8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2054)] SSLAccept(ssl_id = 1756811873376 = 000001990A25CC60) Failed, ctx = 000001990A25C620, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (117c:2804)] SSLAccept(ssl_id = 1756809159552 = 0000019909FC6380) Failed, ctx = 000001990A25CF80, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (117c:1dac)] SSLAccept(ssl_id = 1756809161152 = 0000019909FC69C0) Failed, ctx = 000001990A25CF80, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (117c:1954)] SSLAccept(ssl_id = 1756809163552 = 0000019909FC7320) Failed, ctx = 0000019909FC7C80, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (117c:2780)] SSLAccept(ssl_id = 1756809167552 = 0000019909FC82C0) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (117c:2054)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (117c:2804)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (117c:1dac)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (117c:1954)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (117c:2780)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 85.10.210.166:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a80)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.94:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (117c:2830)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 15.188.154.177:443   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /WebTours"   
+[Network Analyzer (117c:2a1c)]   (Sid: 10) Client -> Server @ : 535 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 10) Server -> Client : 506 bytes  (Service=HTTP)
+[Network Analyzer (117c: 93c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2830)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:25c8)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "GET /WebTours/"   
+[Network Analyzer (117c:2a1c)]   (Sid: 10) Client -> Server @ : 536 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid:  9) Client -> Server @ : 541 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:  9) Connection Terminated (by Server)
+[Web Request      (117c:2a1c)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Client -> Server @ : 368 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 10) Server -> Client : 663 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2af8)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.222.156:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 416 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2af8)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Net An. Error    (117c:14e0)] SSL_connect(ssl_id = 1756817467104 = 000001990A7B26E0) Failed, ctx = 000001990A7B20A0, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (117c:14e0)]   (Sid: 14) SSL handshake with remote server Failed!
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.94:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1189 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Server -> Client : 55 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 35.201.97.85:443   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (117c:2a1c)] "POST /oauth2/v4/token"   
+[Network Analyzer (117c:2a1c)]   (Sid: 13) Client -> Server @ : 710 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/header.html"   
+[Network Analyzer (117c:2a1c)]   (Sid: 10) Client -> Server @ : 573 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 10) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer (117c:1268)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 13) Server -> Client : 1100 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:243c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2278)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:1530)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1530)] Request Connection: Remote Server @ 151.139.128.14:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 10) Connection Terminated (by Server)
+[Web Request      (117c:2a1c)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCECk%2Baa7DrIG9rq59LAqCuao%3D"   
+[Network Analyzer (117c:2a1c)]   (Sid: 18) Client -> Server @ : 245 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 18) Server -> Client : 385 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCECk%2Baa7DrIG9rq59LAqCuao%3D"   
+[Network Analyzer (117c:2a1c)]   (Sid: 18) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 18) Server -> Client : 385 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (117c: d60)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c: d60)] Request Connection: Remote Server @ 151.139.128.14:80   (Service=)  (Sid= 19)  PROXIED!
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Web Request      (117c:2a1c)] "GET /SectigoRSAExtendedValidationSecureServerCA.crl"   
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Client -> Server @ : 162 bytes (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (117c:1268)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:243c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.222.84:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (117c:2278)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c: 5b4)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 209.85.233.94:443   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (117c:2a1c)] "POST /oauth2/v4/token"   
+[Network Analyzer (117c:2a1c)]   (Sid: 13) Client -> Server @ : 661 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c: 5b4)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "GET /settings/do_ad_settings_allow_floc_poc"   
+[Network Analyzer (117c:2a1c)]   (Sid: 15) Client -> Server @ : 1229 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /docs/common/netcheck.gif?zx=8ukroddwm9n6"   
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /config.json"   
+[Network Analyzer (117c:2a1c)]   (Sid: 17) Client -> Server @ : 388 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 1808 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 13) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 13) Server -> Client : 395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 15) Server -> Client : 1689 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /SectigoRSAExtendedValidationSecureServerCA.crl"   
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Client -> Server @ : 205 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:28e0)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 435 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 14290 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 2160 bytes  (Service=HTTP)
+[Network Analyzer (117c:1d94)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16344 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Server -> Client : 4555 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 17) Server -> Client : 1640 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a80)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:28e0)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:1d94)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Client -> Server @ : 584 bytes (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /abp-filters-anti-cv.txt?addonName=adblockpluschrome&addonVersion=3.9.5&application=chrome&applicationVersion=85.0.4183.102&platform=chromium&platformVersion=85.0.4183.102&lastVersion=202009141630&downloadCount=4%2B&firstVersion=20200901"   
+[Network Analyzer (117c:2a1c)]   (Sid: 11) Client -> Server @ : 615 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (117c:2a1c)]   (Sid: 24) Client -> Server @ : 476 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 21) Client -> Server @ : 1871 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (117c:2a1c)]   (Sid: 21) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 24) Server -> Client : 4487 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=85"   
+[Network Analyzer (117c:2a1c)]   (Sid: 22) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (117c:2a1c)]   (Sid: 24) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 24) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 22) Server -> Client : 379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Server -> Client : 1067 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 11) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 11) Server -> Client : 13181 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 21) Server -> Client : 1670 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 21) Server -> Client : 319 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 21) Server -> Client : 53 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 21) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Client -> Server @ : 671 bytes (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/home.html"   
+[Network Analyzer (117c:2a1c)]   (Sid: 24) Client -> Server @ : 667 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 24) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (117c:1d38)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (117c:1d38)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Client -> Server @ : 553 bytes (Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /v1/issuetoken"   
+[Network Analyzer (117c:2a1c)]   (Sid: 25) Client -> Server @ : 1395 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 25) Server -> Client : 1295 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 25) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.95:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /favicon.ico"   
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (117c:23cc)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:23cc)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Web Request      (117c:2a1c)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCU35IjnBRbgwEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer (117c:2a1c)]   (Sid: 26) Client -> Server @ : 539 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 209.85.233.194:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 26) Server -> Client : 665 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:1ff4)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:1ff4)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Web Request      (117c:2a1c)] "GET /document/backgroundsync?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Client -> Server @ : 1396 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.95:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (117c:295c)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:295c)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1078 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINODUuMC40MTgzLjEwMhopCAUQARobCg0IBRAGGAEiAzAwMTABELWjCRoCGAtSIpBNIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARCJ7wcaAhgLPGm5KiIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQvvkHGgIYCzGzwfEiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABELmPCBoCGAsslNSFIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYC_474o8iBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEOAbGgIYCwOa5dgiBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgLItEfZCIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ7EAaAhgLF713zyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBhoCGAsi7f5dIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAdGgIYC1Zq65EiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEN8JGgIYC2l4IuAiBCABIAIoARooCA0QARoaCg0IDRAGGAEiAzAwMTABEKd7GgIYC6E3v-AiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEOChBBoCGAtiQhshIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARC8BRoCGAtOgxa3IgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (117c:2a1c)]   (Sid: 29) Client -> Server @ : 1277 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 6043 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 29) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 29) Server -> Client : 1315 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.222.101:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.162.188:5228   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1ddc)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (117c:1ddc)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[API Trapper      (1418: 6bc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (117c:175c)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:175c)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:1c24)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:1c24)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "GET /static/document/client/js/1585150076-homescreen_backgroundsync_binary.js"   
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Client -> Server @ : 1153 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=85.0.4183.102&lang=ru&acceptformat=crx3&x=id%3Ddhonedofcehedkacjbmcmbidcbadjnla%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D1%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc&x=id%3Dopmifgdgmgcgnbfkjcjohedicldjilbg%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D1%2526e%253D1&x=id%3Doadboiipflhobonjjffjbfekfjcgkhco%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1"   
+[Network Analyzer (117c:2a1c)]   (Sid: 30) Client -> Server @ : 1164 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 31) Client -> Server @ : 154 bytes (SSL)
+[Network Analyzer (117c:2a1c)]   (Sid: 32) Client -> Server @ : 1105 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /service/update2/json?cup2key=10:3443143836&cup2hreq=0187aa79be37661b5f276c9441867e32d3d747b4e9621abc6387065ab1be606e"   
+[Network Analyzer (117c:2a1c)]   (Sid: 32) Client -> Server @ : 5476 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 31) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 5492 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 31) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 6865 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 31) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 4119 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 3188 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 30) Server -> Client : 866 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 32) Server -> Client : 1322 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 4119 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1189 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 5492 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:1100)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 4119 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 32) Server -> Client : 879 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 30) Server -> Client : 360 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 32) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1281 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 13730 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 10800 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 5492 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 5492 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:1100)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 9611 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 8054 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 33) Client -> Server @ : 1084 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 4119 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /service/update2/json?cup2key=10:2885431349&cup2hreq=5e1f8000fab03375ff38c5ca0421d24eb8f0de14c5f16799836032962d110d1f"   
+[Network Analyzer (117c:2a1c)]   (Sid: 33) Client -> Server @ : 4270 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 4211 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 5570 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid: 33) Server -> Client : 1322 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 33) Server -> Client : 667 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.163.113:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 33) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c: d10)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c: d10)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.163.113:443   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      (117c:2a1c)] "OPTIONS /drive/v2internal/about?openDrive=true&reason=301&syncType=0&errorRecovery=false&fields=kind%2Cuser%2CquotaBytesTotal%2CquotaBytesUsed%2CquotaBytesUsedAggregate%2CquotaBytesUsedInTrash%2CquotaBytesByService%2CquotaType%2CrootFolderId%2CdomainSharingPolicy%2ClargestChangeId%2CimportFormats&retryCount=0&dsNonce=5yv8t3r8y3x9&key=AIzaSyA6AfoqwG2xSObx_AG2wLavKP-pyWWdfEU"   
+[Network Analyzer (117c:2a1c)]   (Sid: 34) Client -> Server @ : 898 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2b4c)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2b4c)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 34) Server -> Client : 900 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "OPTIONS /drive/v2internal/changes/getRemainingCount?openDrive=false&reason=301&syncType=0&errorRecovery=false&pageToken=14156&dsNonce=5yv8t3r8y3x9&key=AIzaSyA6AfoqwG2xSObx_AG2wLavKP-pyWWdfEU"   
+[Network Analyzer (117c:2a1c)]   (Sid: 35) Client -> Server @ : 713 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[API Trapper      ( f8c:28e4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.163.113:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 35) Server -> Client : 900 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:16bc)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:16bc)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.163.113:443   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /drive/v2internal/about?openDrive=true&reason=301&syncType=0&errorRecovery=false&fields=kind%2Cuser%2CquotaBytesTotal%2CquotaBytesUsed%2CquotaBytesUsedAggregate%2CquotaBytesUsedInTrash%2CquotaBytesByService%2CquotaType%2CrootFolderId%2CdomainSharingPolicy%2ClargestChangeId%2CimportFormats&retryCount=0&dsNonce=5yv8t3r8y3x9&key=AIzaSyA6AfoqwG2xSObx_AG2wLavKP-pyWWdfEU"   
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Client -> Server @ : 1534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c: 398)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c: 398)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Server -> Client : 899 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /drive/v2internal/changes/getRemainingCount?openDrive=false&reason=301&syncType=0&errorRecovery=false&pageToken=14156&dsNonce=5yv8t3r8y3x9&key=AIzaSyA6AfoqwG2xSObx_AG2wLavKP-pyWWdfEU"   
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Client -> Server @ : 1349 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 1210 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Client -> Server @ : 1285 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dz6vwly1g3tpo%3D%3D%3D%3D%3D%22&key=AIzaSyA6AfoqwG2xSObx_AG2wLavKP-pyWWdfEU"   
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Client -> Server @ : 2130 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 968 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 194 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.139:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.194:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (117c: cc4)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c: cc4)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 38) Client -> Server @ : 1226 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /log?hasfast=true&auth=SAPISIDHASH%200358b47aeb9fe8cb30e0477266e83833a4644704&authuser=0&format=json"   
+[Network Analyzer (117c:2a1c)]   (Sid: 38) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 38) Server -> Client : 1121 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2554)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2554)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 24) Connection Terminated (by Server)
+[Web Request      (117c:2a1c)] "GET /drive/_/dataservice/backgroundsync?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Client -> Server @ : 1566 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1169 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "OPTIONS /drive/v2internal/changes/getRemainingCount?openDrive=false&reason=301&syncType=0&errorRecovery=false&pageToken=14178&dsNonce=ijxhsbdvu1vw&key=AIzaSyDLol3l87BBbfa-oQPI1b_5ymSTx8j30Ik"   
+[Network Analyzer (117c:2a1c)]   (Sid: 35) Client -> Server @ : 772 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 35) Server -> Client : 901 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /drive/v2internal/changes/getRemainingCount?openDrive=false&reason=301&syncType=0&errorRecovery=false&pageToken=14178&dsNonce=ijxhsbdvu1vw&key=AIzaSyDLol3l87BBbfa-oQPI1b_5ymSTx8j30Ik"   
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Client -> Server @ : 1408 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 1211 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 139 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Client -> Server @ : 1344 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3D1trjc6v1px7m%3D%3D%3D%3D%3D%22&key=AIzaSyDLol3l87BBbfa-oQPI1b_5ymSTx8j30Ik"   
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Client -> Server @ : 2950 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 969 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 1223 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 38) Client -> Server @ : 1285 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /log?hasfast=true&auth=SAPISIDHASH%204454a2b4f4ab25a95a6e2d2faf10be1a1c14b060&authuser=0&format=json"   
+[Network Analyzer (117c:2a1c)]   (Sid: 38) Client -> Server @ : 651 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 38) Server -> Client : 1143 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 38) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "OPTIONS /drive/v2internal/about?openDrive=true&reason=301&syncType=0&errorRecovery=false&fields=kind%2Cuser%2CquotaBytesTotal%2CquotaBytesUsed%2CquotaBytesUsedAggregate%2CquotaBytesUsedInTrash%2CquotaBytesByService%2CquotaType%2CrootFolderId%2CdomainSharingPolicy%2ClargestChangeId%2CimportFormats&retryCount=0&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ"   
+[Network Analyzer (117c:2a1c)]   (Sid: 35) Client -> Server @ : 890 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "OPTIONS /drive/v2internal/changes/getRemainingCount?openDrive=false&reason=301&syncType=0&errorRecovery=false&pageToken=14188&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ"   
+[Network Analyzer (117c:2a1c)]   (Sid: 34) Client -> Server @ : 705 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 35) Server -> Client : 884 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 34) Server -> Client : 884 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /drive/v2internal/about?openDrive=true&reason=301&syncType=0&errorRecovery=false&fields=kind%2Cuser%2CquotaBytesTotal%2CquotaBytesUsed%2CquotaBytesUsedAggregate%2CquotaBytesUsedInTrash%2CquotaBytesByService%2CquotaType%2CrootFolderId%2CdomainSharingPolicy%2ClargestChangeId%2CimportFormats&retryCount=0&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ"   
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Client -> Server @ : 1568 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /drive/v2internal/changes/getRemainingCount?openDrive=false&reason=301&syncType=0&errorRecovery=false&pageToken=14188&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ"   
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Client -> Server @ : 1411 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Server -> Client : 932 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /drive/serviceworker.js?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Client -> Server @ : 1619 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Server -> Client : 960 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a24)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (117c:2a24)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Client -> Server @ : 1314 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dtzpq3nks1oml%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ"   
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Client -> Server @ : 1977 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 40) Client -> Server @ : 541 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /ext/stat"   
+[Network Analyzer (117c:2a1c)]   (Sid: 40) Client -> Server @ : 3636 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 40) Server -> Client : 5475 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 2234 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 2023 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Server -> Client : 968 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Server -> Client : 351 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.194:443   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /drive/offline/coldstart?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Client -> Server @ : 1555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1508)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.163.132:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (117c:1508)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1364 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 9 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /drive/_/dataservice/cacheproxy?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 41) Client -> Server @ : 1562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 225 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 93 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 153 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 3896 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 2746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 7 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 2703 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 664 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:258c)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 14798 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 14116 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:258c)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2ae0)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (117c:2a1c)] "GET /images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"   
+[Network Analyzer (117c:2a1c)]   (Sid: 42) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 64.233.163.132:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 42) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 42) Server -> Client : 32 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2ae0)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 794 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /ogw/ADGmqu-RbLv5tYTg_idYzcCmot55nXhAQNfMLSBEV9RB=s32-c-mo"   
+[Network Analyzer (117c:2a1c)]   (Sid: 43) Client -> Server @ : 668 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Server -> Client : 507 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 41) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 41) Server -> Client : 409 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:28ac)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 41) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:28ac)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 43) Server -> Client : 520 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /ogw/ADGmqu-RbLv5tYTg_idYzcCmot55nXhAQNfMLSBEV9RB=s83-c-mo"   
+[Network Analyzer (117c:2a1c)]   (Sid: 44) Client -> Server @ : 668 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 44) Server -> Client : 520 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 15.188.154.177:443   (Service=)  (Sid= 45)  PROXIED!
+[Net An. Error    (117c:18ac)] SSL_connect(ssl_id = 1756827514304 = 000001990B1475C0) Failed, ctx = 000001990A7B20A0, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (117c:18ac)]   (Sid: 45) SSL handshake with remote server Failed!
+[Web Request      (117c:2a1c)] "POST /ext/def?hk=XfgceCdD"   
+[Network Analyzer (117c:2a1c)]   (Sid: 40) Client -> Server @ : 1004 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 40) Server -> Client : 1851 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 40) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 178.32.55.52:80   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (117c: 530)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c: 530)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "POST /?1600108222037&kf2uzwmm"   
+[Network Analyzer (117c:2a1c)]   (Sid: 46) Client -> Server @ : 669 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 46) Server -> Client : 10909 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 46) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 178.32.55.52:80   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (117c:18b8)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:18b8)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "POST /r?1600108224316&kf2uzwmn"   
+[Network Analyzer (117c:2a1c)]   (Sid: 47) Client -> Server @ : 701 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 47) Server -> Client : 292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 47) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.222.84:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 27) Connection Terminated (by Client)
+[Net An. Error    (117c:1cd8)] SSL_connect(ssl_id = 1756827503104 = 000001990B144A00) Failed, ctx = 000001990A25D5C0, err = "SSLv2/v3 read server hello A", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (117c:1cd8)]   (Sid: 14) SSL handshake with remote server Failed!
+[Network Analyzer (117c:2a1c)]   (Sid: 20) Connection Terminated (by Client)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 15.188.154.177:443   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Error    (117c:194c)] SSL_connect(ssl_id = 1756827504704 = 000001990B145040) Failed, ctx = 000001990A7B20A0, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (117c:194c)]   (Sid: 48) SSL handshake with remote server Failed!
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 178.32.55.52:80   (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (117c:2048)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (117c:2048)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c: 1e0)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Web Request      (117c:2a1c)] "POST /ext/beacon?hk=CNKAMhRU"   
+[Network Analyzer (117c:2a1c)]   (Sid: 49) Client -> Server @ : 1050 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 49) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 49) Connection Terminated (by Server)
+[Network Analyzer (117c:2408)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c: 1e0)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2408)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 52)  PROXIED!
+[Web Request      (117c:2a1c)] "POST /ext/beacon?hk=bcMIytnt"   
+[Network Analyzer (117c:2a1c)]   (Sid: 50) Client -> Server @ : 874 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /?1600108358216&kf2uzwmo"   
+[Network Analyzer (117c:2a1c)]   (Sid: 51) Client -> Server @ : 748 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (117c:2a1c)]   (Sid: 52) Client -> Server @ : 927 bytes (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid: 50) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 50) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 52) Server -> Client : 876 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 52) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (117c:2a1c)]   (Sid: 52) Client -> Server @ : 805 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 51) Server -> Client : 10827 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 51) Connection Terminated (by Server)
+[Network Analyzer (117c:2490)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 52) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 52) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid: 52) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 54)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 55)  PROXIED!
+[Net An. Error    (117c:2490)] SSLAccept(ssl_id = 1756827506304 = 000001990B145680) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Web Request      (117c:2a1c)] "GET /cgi-bin/login.pl?intro=true"   
+[Net An. Error    (117c:2490)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid: 54) Client -> Server @ : 800 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 54) Server -> Client : 1155 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 54) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (117c:2624)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 53) Connection Terminated (by Client)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid: 54) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 51.38.73.96:80   (Service=)  (Sid= 56)  PROXIED!
+[Net An. Error    (117c:2624)] SSLAccept(ssl_id = 1756827500704 = 000001990B1440A0) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Error    (117c:2624)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 57)  PROXIED!
+[Network Analyzer (117c:24b8)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 58)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 60)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 57) Client -> Server @ : 700 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 57) Server -> Client : 1024 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 58) Client -> Server @ : 702 bytes (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 59) Client -> Server @ : 700 bytes (Service=HTTP)
+[Network Analyzer (117c:24b8)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 58) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 60) Client -> Server @ : 700 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 59) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 60) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 61)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1160)]   (Sid: 61) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 62)  PROXIED!
+[Network Analyzer (117c:1bbc)]   (Sid: 62) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 56) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 54.39.179.39:80   (Service=)  (Sid= 63)  PROXIED!
+[Network Analyzer (117c:1160)]   (Sid: 61) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 64)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 65)  PROXIED!
+[Net An. Error    (117c:1bbc)] SSLAccept(ssl_id = 1756811872576 = 000001990A25C940) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Web Request      (117c:2a1c)] "POST /ext/beacon?hk=oryabZgR"   
+[Net An. Error    (117c:1bbc)]   (Sid: 62) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid: 61) Client -> Server @ : 854 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 61) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 61) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 57) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 59) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 58) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 60) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1694)]   (Sid: 63) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 5.39.114.80:80   (Service=)  (Sid= 66)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 67)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /docs/common/netcheck.gif?zx=610fmufmsn92"   
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:1694)]   (Sid: 63) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:23ac)]   (Sid: 65) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 172.217.169.3:443   (Service=)  (Sid= 68)  PROXIED!
+[Net An. Error    (117c:23ac)] SSLAccept(ssl_id = 1756819182080 = 000001990A955200) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:23ac)]   (Sid: 65) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c: a1c)]   (Sid: 66) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c: a1c)]   (Sid: 66) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "POST /?1600108403262&kf2uzwmr"   
+[Network Analyzer (117c:2a1c)]   (Sid: 66) Client -> Server @ : 725 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /offline/common/manifest?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Client -> Server @ : 1234 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:134c)]   (Sid: 67) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:134c)] SSLAccept(ssl_id = 1756819174880 = 000001990A9535E0) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:134c)]   (Sid: 67) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid: 66) Server -> Client : 10839 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 66) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1710)]   (Sid: 68) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 62) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 789 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 65) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 67) Connection Terminated (by Client)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 69)  PROXIED!
+[Network Analyzer (117c:1710)]   (Sid: 68) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 5.39.114.80:80   (Service=)  (Sid= 70)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1cb0)]   (Sid: 69) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 172.217.169.3:443   (Service=)  (Sid= 71)  PROXIED!
+[Web Request      (117c:2a1c)] "POST /domainreliability/upload"   
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Client -> Server @ : 638 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /offline/cacheupdate?al=1&ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Client -> Server @ : 1409 bytes (SSL)(Service=HTTP)
+[Net An. Error    (117c:1cb0)] SSLAccept(ssl_id = 1756819168480 = 000001990A951CE0) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:1cb0)]   (Sid: 69) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Server -> Client : 1327 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /domainreliability/upload"   
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Client -> Server @ : 642 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 172.217.169.3:443   (Service=)  (Sid= 72)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Server -> Client : 1327 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /domainreliability/upload"   
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Client -> Server @ : 942 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:18a8)]   (Sid: 70) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:18a8)]   (Sid: 70) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "POST /r?1600108404059&kf2uzwms"   
+[Network Analyzer (117c:2a1c)]   (Sid: 70) Client -> Server @ : 702 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Server -> Client : 1327 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 70) Server -> Client : 292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 70) Connection Terminated (by Server)
+[Network Analyzer (117c:1f88)]   (Sid: 71) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:1f88)]   (Sid: 71) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 889 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 216 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /offline/cacheupdate?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Client -> Server @ : 1404 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2328)]   (Sid: 72) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2328)]   (Sid: 72) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 69) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 796 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 114 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 73)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (117c:246c)]   (Sid: 73) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:246c)] SSLAccept(ssl_id = 1756819168480 = 000001990A951CE0) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:246c)]   (Sid: 73) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid: 73) Connection Terminated (by Client)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (117c:2a1c)]   (Sid: 64) Client -> Server @ : 842 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 64) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 64) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (117c:2a1c)]   (Sid: 64) Client -> Server @ : 827 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 64) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 64) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid: 63) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 64) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 21) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 33) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 74)  PROXIED!
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid: 38) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 35) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 34) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 37) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 36) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 42) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 39) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 41) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 43) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 44) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (117c:2a1c)]   (Sid: 74) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 75)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /docs/common/netcheck.gif?zx=kexz489jgok9"   
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 75) Client -> Server @ : 702 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 75) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 75) Client -> Server @ : 710 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 75) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid: 74) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 74) Server -> Client : 6737 bytes  (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 76)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 74) Client -> Server @ : 698 bytes (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 75) Client -> Server @ : 702 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 75) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 74) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer (117c:1ec8)]   (Sid: 76) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:1ec8)] SSLAccept(ssl_id = 1756819173280 = 000001990A952FA0) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:1ec8)]   (Sid: 76) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 77)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 76) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 75) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 74) Connection Terminated (by Server)
+[Web Request      (117c:2a1c)] "GET /docs/common/netcheck.gif?zx=u7zkkqvssge5"   
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 71) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 72) Connection Terminated (by Client)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 78)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 79)  PROXIED!
+[Network Analyzer (117c:1c6c)]   (Sid: 78) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:1c6c)] SSLAccept(ssl_id = 1756819177280 = 000001990A953F40) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:1c6c)]   (Sid: 78) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2140)]   (Sid: 79) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:2140)] SSLAccept(ssl_id = 1756819172480 = 000001990A952C80) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:2140)]   (Sid: 79) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid: 78) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 79) Connection Terminated (by Client)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 216.239.32.116:443   (Service=)  (Sid= 80)  PROXIED!
+[Network Analyzer (117c: 470)]   (Sid: 80) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c: 470)]   (Sid: 80) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "OPTIONS /domainreliability/upload-nel"   
+[Network Analyzer (117c:2a1c)]   (Sid: 80) Client -> Server @ : 424 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 80) Server -> Client : 527 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /domainreliability/upload-nel"   
+[Network Analyzer (117c:2a1c)]   (Sid: 80) Client -> Server @ : 777 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Client -> Server @ : 368 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /domainreliability/upload"   
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Client -> Server @ : 1283 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid: 80) Server -> Client : 1327 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 81)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Server -> Client : 1327 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:21f4)]   (Sid: 81) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:21f4)] SSLAccept(ssl_id = 1756819169280 = 000001990A952000) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:21f4)]   (Sid: 81) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid: 81) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 77) Connection Terminated (by Client)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (117c:2a1c)] "GET /docs/common/netcheck.gif?zx=fm3zjcb5k581"   
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Client -> Server @ : 368 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /domainreliability/upload"   
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Client -> Server @ : 2465 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Server -> Client : 1327 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 82)  PROXIED!
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 27275  (Service=)  (Sid= 83)  PROXIED!
+[Web Request      (117c:2a1c)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (117c:2a1c)]   (Sid: 82) Client -> Server @ : 1322 bytes (Service=HTTP)
+[Web Request      (117c:2010)] "POST /command"   
+[Network Analyzer (117c:2010)]   (Sid: 83) Client -> Server @ : 503 bytes (Service=HTTP)
+[Network Analyzer (117c:2010)]   (Sid: 83) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 82) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 82) Server -> Client : 2136 bytes  (Service=HTTP)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid: 82) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 84)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 18821  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 7754  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:18821   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:7754   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 85)  PROXIED!
+[Network Analyzer (117c:29d4)]   (Sid: 85) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (117c:29d4)]   (Sid: 85) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "POST /ext/beacon?hk=QoWSuElx"   
+[Network Analyzer (117c:2a1c)]   (Sid: 85) Client -> Server @ : 878 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 85) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 85) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 5.39.114.80:80   (Service=)  (Sid= 86)  PROXIED!
+[Network Analyzer (117c:21b0)]   (Sid: 86) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:21b0)]   (Sid: 86) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "POST /?1600108596132&kf2uzwmt"   
+[Network Analyzer (117c:2a1c)]   (Sid: 86) Client -> Server @ : 749 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 86) Server -> Client : 10825 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 86) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 5.39.114.80:80   (Service=)  (Sid= 87)  PROXIED!
+[Network Analyzer (117c:1dd4)]   (Sid: 87) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:1dd4)]   (Sid: 87) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "POST /r?1600108598331&kf2uzwmu"   
+[Network Analyzer (117c:2a1c)]   (Sid: 87) Client -> Server @ : 702 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 87) Server -> Client : 292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 87) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 84) Connection Terminated (by Client)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 88)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Web Request      (117c:2a1c)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Client -> Server @ : 844 bytes (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 89)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Client -> Server @ : 822 bytes (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (117c:2a1c)]   (Sid: 89) Client -> Server @ : 823 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 89) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 89) Server -> Client : 286 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 89) Client -> Server @ : 708 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.95:443   (Service=)  (Sid= 90)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 89) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Client -> Server @ : 706 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (117c:19cc)]   (Sid: 90) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:19cc)]   (Sid: 90) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Web Request      (117c:2a1c)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJACUFCU6JtyxUKEgkNVGIprRIAGgASCQ17ncSlEgAaABIJDR87OYUSABoAEgkN2oWZYRIAGgASCQ2pjkq9EgAaAA==?alt=proto"   
+[Network Analyzer (117c:2a1c)]   (Sid: 90) Client -> Server @ : 583 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 91)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 90) Server -> Client : 688 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c: cac)]   (Sid: 91) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (117c: cac)]   (Sid: 91) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (117c:2a1c)] "POST /ext/beacon?hk=woDPKjTw"   
+[Network Analyzer (117c:2a1c)]   (Sid: 91) Client -> Server @ : 942 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 91) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 91) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 89) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 88) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid: 28) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 92)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Web Request      (117c:2a1c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (117c:2a1c)]   (Sid: 92) Client -> Server @ : 1210 bytes (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 93)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 92) Server -> Client : 2715 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 92) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 92) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 94)  PROXIED!
+[Web Request      (117c:2a1c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (117c:2a1c)]   (Sid: 93) Client -> Server @ : 1096 bytes (Service=HTTP)
+[Network Analyzer (117c:10fc)]   (Sid: 94) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (117c:10fc)]   (Sid: 94) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 93) Server -> Client : 3012 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 93) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /ext/beacon?hk=PrRTwrBt"   
+[Network Analyzer (117c:2a1c)]   (Sid: 94) Client -> Server @ : 854 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 94) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 94) Connection Terminated (by Server)
+[Web Request      (117c:2a1c)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCTnKWcjO4LgAEgkNa2iabhIAGgASCQ1Pnif4EgAaABIJDWOTJ4cSABoAEgkNolm4SRIAGgASCQ34tP6gEgAaABIJDVdoLJkSABoAEgkNbfpmyRIAGgA=?alt=proto"   
+[Network Analyzer (117c:2a1c)]   (Sid: 90) Client -> Server @ : 611 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid: 90) Server -> Client : 714 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 95)  PROXIED!
+[Network Analyzer (117c:1720)]   (Sid: 95) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:1720)] SSLAccept(ssl_id = 1756819170080 = 000001990A952320) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:1720)]   (Sid: 95) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid: 95) Connection Terminated (by Client)
+[Network Analyzer (117c:2a1c)]   (Sid: 93) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 209.85.233.194:443   (Service=)  (Sid= 96)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /docs/common/netcheck.gif?zx=daqq7sazif3m"   
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:1f38)]   (Sid: 96) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid= 97)  PROXIED!
+[Network Analyzer (117c:1f38)]   (Sid: 96) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Web Request      (117c:2a1c)] "GET /offline/common/manifest?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Client -> Server @ : 1239 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.73.194:443   (Service=)  (Sid= 98)  PROXIED!
+[Network Analyzer (117c:198c)]   (Sid: 97) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2964)]   (Sid: 98) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Server -> Client : 1040 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Server -> Client : 1006 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:198c)] SSLAccept(ssl_id = 1756819173280 = 000001990A952FA0) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:198c)]   (Sid: 97) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2964)]   (Sid: 98) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 99)  PROXIED!
+[Web Request      (117c:2a1c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (117c:2a1c)]   (Sid: 99) Client -> Server @ : 1292 bytes (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /drive/serviceworker/update?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 98) Client -> Server @ : 1558 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /domainreliability/upload"   
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Client -> Server @ : 890 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 99) Server -> Client : 2901 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (117c:2a1c)]   (Sid: 99) Client -> Server @ : 671 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 99) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 68) Server -> Client : 1327 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 98) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 98) Server -> Client : 326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=100)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 97) Connection Terminated (by Client)
+[Web Request      (117c:2a1c)] "GET /drive/serviceworker.js?ouid=u25fcced371e1c055"   
+[Network Analyzer (117c:2a1c)]   (Sid: 98) Client -> Server @ : 1619 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 98) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 98) Server -> Client : 4424 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 99) Connection Terminated (by Server)
+[Network Analyzer (117c:2a1c)]   (Sid: 80) Connection Terminated (by Server)
+[Web Request      (117c:2a1c)] "GET /docs/common/netcheck.gif?zx=i1bwmvjxzrlv"   
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 16) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Client -> Server @ : 1538 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /offline/jserror?jobset=prod&script=https%3A%2F%2Fdocs.google.com%2Foffline%2Fextension%2Fframe%3Fouid%3D&error=Detected%20timeout%20during%20initialization%20of%20task%20(context%3A%202%2C%20url%3A%20https%3A%2F%2Fdrive.google.com%2Fdrive%2Fserviceworker%2Fupdate%2C%20taskType%3A%20drive_service_worker_update).%20timeout%3A%2030000%20ms)&line=Not%20available"   
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Client -> Server @ : 926 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 209.85.233.194:443   (Service=)  (Sid=101)  PROXIED!
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Server -> Client : 678 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 209.85.233.194:443   (Service=)  (Sid=102)  PROXIED!
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 209.85.233.194:443   (Service=)  (Sid=103)  PROXIED!
+[Web Request      (117c:2a1c)] "POST /document/sync/get?token=AC4w5Viy_B8ScGN13J0D8rUrjPaQgTIX5g%3A1600105100320"
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Client -> Server @ : 1291 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Client -> Server @ : 5725 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:1178)]   (Sid:101) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:1178)]   (Sid:101) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:1dd0)]   (Sid:102) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:1dd0)]   (Sid:102) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:1208)]   (Sid:103) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (117c:1208)]   (Sid:103) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Server -> Client : 962 bytes (SSL) (Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /drawings/sync/get?token=AC4w5Viy_B8ScGN13J0D8rUrjPaQgTIX5g%3A1600105100320"
+[Network Analyzer (117c:2a1c)]   (Sid:101) Client -> Server @ : 1291 bytes (SSL)(Service=HTTP)
+[Web Request      (117c:2a1c)] "POST /presentation/sync/get?token=AC4w5Viy_B8ScGN13J0D8rUrjPaQgTIX5g%3A1600105100320"
+[Network Analyzer (117c:2a1c)]   (Sid:102) Client -> Server @ : 1295 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid: 96) Server -> Client : 1220 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:101) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:102) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:101) Client -> Server @ : 5725 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:102) Client -> Server @ : 5725 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:101) Server -> Client : 962 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:101) Server -> Client : 878 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:101) Server -> Client : 89 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:102) Server -> Client : 962 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2a1c)]   (Sid:102) Server -> Client : 1142 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:102) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid=104)  PROXIED!
+[Network Analyzer (117c:2598)]   (Sid:104) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:2598)] SSLAccept(ssl_id = 1756820042288 = 000001990AA27230) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:2598)]   (Sid:104) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid:104) Connection Terminated (by Client)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (117c:2a1c)]   (Sid:100) Client -> Server @ : 816 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:100) Server -> Client : 1067 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:100) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (117c:2a1c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (117c:2a1c)]   (Sid:100) Client -> Server @ : 668 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:100) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:100) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2a1c)]   (Sid:100) Connection Terminated (by Server)
+[Net An. Warning  (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (117c:2860)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=105)  PROXIED!
+[Web Request      (117c:2a1c)] "GET /WebTours/home.html"   
+[Network Analyzer (117c:2a1c)]   (Sid:105) Client -> Server @ : 764 bytes (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:105) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid=106)  PROXIED!
+[Network Analyzer (117c:18ec)]   (Sid:106) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (117c:18ec)]   (Sid:106) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (117c:2a1c)]   (Sid:105) Connection Terminated (by Server)
+[Web Request      (117c:2a1c)] "POST /ext/beacon?hk=EaxHFndy"   
+[Network Analyzer (117c:2a1c)]   (Sid:106) Client -> Server @ : 1066 bytes (SSL)(Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:106) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Network Analyzer (117c:2a1c)]   (Sid:106) Connection Terminated (by Server)
+[Network Analyzer (117c:2860)] Address lookup for TEMUR = 192.168.1.185
+[Network Analyzer (117c:2860)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid=107)  PROXIED!
+[Network Analyzer (117c:2418)]   (Sid:107) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (117c:2418)] SSLAccept(ssl_id = 1756820040688 = 000001990AA26BF0) Failed, ctx = 0000019909FC7FA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (117c:2418)]   (Sid:107) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (117c:2a1c)]   (Sid:107) Connection Terminated (by Client)

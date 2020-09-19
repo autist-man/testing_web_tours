@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\mtemu\Desktop\Тестирование\Домашки\Скрипты\Скрипты\BuyingTicket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\mtemu\desktop\тестирование\домашки\скрипты\скрипты\buyingticket\\logfile.log
+c:\users\mtemu\desktop\тестирование\домашки\скрипты\скрипты\buyingticket\\combined_BuyingTicket.c
+c:\users\mtemu\desktop\тестирование\домашки\скрипты\скрипты\buyingticket\\pre_cci.c

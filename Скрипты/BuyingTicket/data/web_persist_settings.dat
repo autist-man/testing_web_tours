@@ -1,0 +1,25 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2020/09/13 12:30:55
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2020/09/17 23:24:05
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2020/09/17 23:33:58
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2020/09/18 00:07:37
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2020/09/18 00:19:18
+StartRecordingIsDst_5=0
+StartRecordingGMT_6=2020/09/18 13:29:28
+StartRecordingIsDst_6=0
+StartRecordingGMT_7=2020/09/18 13:32:00
+StartRecordingIsDst_7=0
+StartRecordingGMT_8=2020/09/18 13:49:32
+StartRecordingIsDst_8=0
+StartRecordingGMT_9=2020/09/18 13:54:04
+StartRecordingIsDst_9=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1
+[UserHomePage]
+UserHomePage=https://www.yandex.ru/?win=349&clid=2321163-306

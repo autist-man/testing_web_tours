@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 13 Sep 2020 12:35:01 GMT
+Content-Type: image/gif
+Content-Length: 4686
+Connection: keep-alive
+Cache-Control: private
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+X-Time: 21.85498046875
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, PATCH, OPTIONS
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization, Cookie
+Access-Control-Max-Age: 0
+Access-Control-Allow-Origin: chrome-extension://mbacbcfdfaapbcnlnbmciiaakomhkbkb
+Set-Cookie: mbac=5b8d4aa9-502d-4e36-bcf9-4f8d0bfcdde3; expires=Mon, 13-Sep-2021 12:35:01 GMT; Max-Age=31536000; path=/; domain=.gatpsstat.com; secure; httponly; samesite=none
+Strict-Transport-Security: max-age=31536000
+

@@ -1,0 +1,14 @@
+GET /cgi-bin/welcome.pl?page=search HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Dest: frame
+Sec-Fetch-Mode: navigate
+DNT: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1600524532&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Sasha&address2&Moscow&username&sasha&hash&97&lastName&Carrington%0A&address1&Druzba%20street&creditCard&&expDate&%0A
+

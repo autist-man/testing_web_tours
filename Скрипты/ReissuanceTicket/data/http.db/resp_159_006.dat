@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--QCCR1K4344-->
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="FuncRef.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" /><title>VuGen Function Reference</title>
+        <link rel="icon" type="image/x-icon" href="https://software.microfocus.com/images/favicon.ico" />
+        <!-- Google Tag Manager -->
+        <script type="text/javascript">/*<![CDATA[*/(function(w,d,s,l,i){if(location.protocol.toLowerCase().indexOf('file:')===0)return;w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NJ9842');/*]]>*/</script>
+        <!-- End Google Tag Manager -->
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <style>html,
+body
+{
+	height: 100%;
+	margin-right: 2em;
+}
+
+.wrapper
+{
+	min-height: 100% !important;
+	margin: 0 auto -10em;
+	padding-left: 0.2em;
+}
+
+footer,
+.float
+{
+	height: 10em;
+	margin: 0;
+	clear: both;
+}
+
+div.roundcorners
+{
+	-moz-border-radius-bottomleft: 1em;
+	border-bottom-left-radius: 1em;
+	-moz-border-radius-topright: 1em;
+	border-top-right-radius: 1em;
+	background-color: #f2f2f2;
+	width: 100% !important;
+	padding: 0em;
+}
+
+p.footerlink
+{
+	line-height: 1em;
+	padding: 0em;
+	margin-top: 0;
+	margin-bottom: .6em;
+}
+
+p.footerlink a:visited
+{
+	color: #0073E7 !important;
+}
+
+p.footerlink a:hover
+{
+	color: #000000 !important;
+}
+
+p.spacer
+{
+	font-size: .5em;
+	line-height: .5em;
+	padding: 0em;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+
+</style>
+        <link href="../Resources/Stylesheets/_rsc_SuperDocs.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../FuncRef.htm#FuncRef/Landing Page.htm">Open topic with navigation</a>
+        </p>
+        <div class="wrapper">
+            <div class="nocontent">
+                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="5" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                </div>
+            </div>
+            <h1>Introducing the <span class="_rscC_Basic_VariablesSearchEngineFilterCategory">VuGen</span> <span class="_rscC_Basic_Variables_rsc_Product_Version">2020</span> Function Reference</h1>
+            <p>Welcome to the Virtual User Generator (VuGen) Function Reference. The Function Reference provides descriptions and examples for functions that are used with supported protocols in VuGen test scripts. They can also be used in test scripts that are used with various other Micro Focus products, for example, LoadRunner Cloud.</p>
+            <div class="Admonition_Tip">
+                <p data-mc-autonum="&lt;b&gt;Tip: &lt;/b&gt;"><span class="autonumber"><span><b>Tip: </b></span></span>Code completion (autocomplete) enables you to quickly and accurately write code by providing a list of code items from which you can select options. Press CTRL + SPACE to activate statement completion when your cursor is in the editor. Tooltips appear when you hover over a code element with your mouse.</p>
+            </div>
+            <p>Select a category in the left pane to view the protocol-specific functions, or use the index to find a specific function.</p>
+            <div class="Admonition_Note">
+                <p data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>For DevWeb functions, see the <a href="https://admhelp.microfocus.com/truweb/en/latest/help/Content/DevWeb/DW-JS-SDK.htm" target="_blank">DevWeb JavaScript SDK</a> in the DevWeb Help Center.</p>
+            </div>
+            <p>Indexes:</p>
+            <ul class="SeeAlso">
+                <li value="1"><a href="Index_A_G.htm" class="MCXref xref">Index A-G</a>
+                </li>
+                <li value="2"><a href="Index_H-M.htm" class="MCXref xref">Index H-M</a>
+                </li>
+                <li value="3"><a href="Index_N-V.htm" class="MCXref xref">Index N-V</a>
+                </li>
+                <li value="4"><a href="Index_W-Z.htm" class="MCXref xref">Index W-Z</a>
+                </li>
+            </ul>
+            <p>&#160;</p>
+            <!--        hr width="100%" size="4" align="center" padding-bottom="0" style="clear:both" /> -->
+            <div class="float">
+            </div>
+        </div>
+        <div class="footer" style="font-size: .65em">
+            <!-- <MadCap:conditionalText MadCap:conditions="_rsc_Conditions.Footer"> -->
+            <!--<div class="roundcorners">-->
+            <table class="no_lines" style="border-top:1px solid #B9B8BB;  width:100%; margin-left: auto; margin-right: auto;  ">
+                <col style="width: 250px;" />
+                <col style="width: 329px;" />
+                <col style="width: 237px;" />
+                <tr style="height: 0.5em;">
+                    <td style="vertical-align: top" />
+                    <td style="vertical-align: top;direction: ltr;text-align: center;" />
+                    <td style="vertical-align: top; text-align: right" />
+                </tr>
+                <tr>
+                    <td style="vertical-align: top">
+                        <img src="../Resources/MasterPages/_rscB_banner_graphic.png" style="width: 120px;" />
+                        <p class="footerlink" style="margin-top:1em;font-weight:600;color:#656668">Last updated <span class="_rscC_Basic_Variables_rsc_LastUpdatedDate">March 30, 2020</span></p>
+                        <p class="footerlink"><a href="https://www.microfocus.com/en-us/legal/terms-of-use" target="_blank">Terms of Use</a>&#160;|&#160;<a href="https://www.microfocus.com/about/legal/" target="_blank">Privacy</a><br /><a href="../Resources/MasterPages/_rsc_3P_Legal_Notices.htm#1"> © <span class="_rscC_Basic_Variables_rsc_Copyright_Date_Range">1994-2020</span> <span class="_rscB_Branding_Variables_rsc_Copyright_Name_Short">Micro Focus</span></a></p>
+                    </td>
+                    <td style="vertical-align: top;direction: ltr;text-align: center;padding-top:0">
+                        <p>&#160;</p>
+                    </td>
+                    <td style="vertical-align: top; text-align: right;padding-top:0;font-size:1.125em">
+                        <!--<MadCap:snippetBlock src="../Snippets/Required/_rsc_FeedbackSnip.flsnp" />-->
+                        <p class="footerlink"><a href="javascript:sendFeedback();" class="avoidPrint" data-mc-conditions="_rsc_Conditions.Footer">Send Help Center Feedback</a>
+                        </p>
+                        <!-- Localizable -->
+                        <div id="hp-feedbackDiv" class="hp-feedbackDiv">
+                            <div class="hp-feedbackDivClose"><a href="javascript:closeFeedback();" id="hp-feedbackClose"><img src="../Resources/_TopNav/Images/_TopNav_ic-close.png" /></a>
+                            </div>
+                            <div class="hp-feedbackDivContent">
+                                <!-- Localizable -->
+                                <h1 class="feedback hp-feedbackDivHeader">Send Help Center Feedback</h1>
+                                <p class="hp-feedbackDivBody">Let us know how we can improve your Help Center experience.</p>
+                                <p class="hp-feedbackDivBody">Send your email to: <a name="hp-feedbackOpen" id="hp-feedbackOpen">docteam@microfocus.com</a></p>
+                                <img src="../Resources/_TopNav/Images/_TopNav_ic-email.png" />
+                                <!-- Localizable -->
+                                <div style="display:none;" id="hp-feedbackBody">Add your Help Center feedback:</div>
+                                <!-- Localizable -->
+                            </div>
+                        </div>
+                        <div id="hp-feedbackDimmedDiv">
+                        </div>
+                        <div style="display:none;" id="hp-feedback-variables" productName="Function Reference" productVersion="2020" commentsEmailAddress="docteam@microfocus.com" productAcronym="VuGen" topicTitle="VuGen Function Reference" skinLine1="VuGen 2020 Function Reference" skinLine2="">
+                            <script src="../Resources/_TopNav/_TopNav_Feedback.js">
+                            </script>
+                        </div>
+                        <p class="footerlink"><a href="https://admhelp.microfocus.com/lr/en/latest/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm" target="_blank">LoadRunner Help Center</a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <!-- </div> -->
+            <!--</MadCap:conditionalText> -->
+            <p style="visibility:hidden"> </p>
+            <p><a href="../Resources/MasterPages/_rsc_HTML5_bannerTitle.htm" style="visibility: hidden;"></a><a href="../Resources/MasterPages/_rsc_aboutSearch.htm" style="visibility: hidden;"></a>
+            </p>
+        </div>
+    </body>
+</html>

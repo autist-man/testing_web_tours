@@ -1,0 +1,2550 @@
+﻿/*<meta />*/
+
+/* This header may be removed before distributing to customers. 
+
+FILE:         _rsc_IE.css
+DESCRIPTION:  Cascading Style Sheet for ADM products
+MODIFIED:     Jan 2018
+LEVEL         CSS Level 3 (plus support for Madcap Flare Webhelp)
+VERSION:      ADM Flare File Set 7.7
+			
+Remarks: 
+	Colors used: 
+	- 0073E7: W3C Compliant blue: MadCap|breadcrumbsProxy; MadCap|helpControlMenuItem + highlighted;
+	- 9b1e83: .visited purple; 
+	- 000000: black;
+	- cccccc: lighter grey (table borders);
+	- 999999: underlines and other rules;
+	- 333333: code/pre;
+	- ffffff: white;
+	- #E4E5E6: mouse grey: admonition background and border;
+	- #E5E8E8: very light grey: in media print section, in div depracated, div example, th background color;
+*/
+
+@import url('_rsc_Fonts.css');
+
+/* Beginnning of default section*/
+/* IMPORTANT!!!!! Instruction to editor: When making changes to this section, make the same change to the SingleHTML.css and the css section in the Single HTML masterpage, or copy the whole default section, and the remove all the img styles, and the h3 and h4 styles. */
+/*COPY FROM HERE TO END OF DEFAULT SECTION! */
+
+@namespace MadCap "localhost";
+
+/* Paragraphs */
+
+body
+{
+	font-family: MetricRegular, Arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.2em;
+	margin-bottom: 1.0em;
+	mc-hyphenate: never;
+	color: #000000;
+}
+
+p
+{
+	margin-top: 0em;
+	margin-bottom: 0.95em;
+	font-family: MetricRegular, Arial;
+}
+
+p.avoidPageBreak
+{
+	page-break-inside: avoid;
+}
+
+p.keepWithNext
+{
+	page-break-after: avoid;
+}
+
+p.hanging_indent
+{
+	text-indent: -25px;
+	padding-left: 25px;
+}
+
+p.intro_phrase
+{
+	padding-top: 0.5em;
+	font-size: 1.15em;
+	font-family: MetricMedium, Arial;
+	padding-top: 1.0em;
+	font-weight: normal;
+	mc-next-class: none;
+	/* SF SFFS 7.0 Nov2016 makes next line a regular p */
+}
+
+p.toggle	/* SF Added in SFFS 7.2 March 2017 - for togglers */
+{
+	margin-top: 0em;
+	font-family: MetricRegular, Arial;
+	line-height: 1em;
+	height: 14px;
+}
+
+p.XSmall	/* SF AFFS2.30 July2015 CR83: New paragraph for xs text; see also small.XSmall */
+{
+	margin-top: 0em;
+	margin-bottom: 1.1em;
+	font-size: 80%;
+	mc-next-class: none;
+	/* SF AFFS2.30 July2015 makes next line a regular p */
+}
+
+/* Links */
+
+a
+{
+	color: #0073E7;
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #0073E7;
+}
+
+/* Signposting external links)*/
+	a[target="_blank"]:after {
+	    content: url(../Images/_TopNav_cp-external-link.png);
+		padding-left: 3px;
+		
+	}
+	
+	.footerlink a:after 
+	{
+	  content: "";
+	}
+	
+	a.copyright:after 
+	{
+	  content: "";
+	}
+
+	/*the following nolinkicon classes are used to create an external link but without the signposting icon*/
+	a.NoLinkIcon
+	{
+	  color: #0073E7;
+	  text-decoration: none;
+	}
+	
+	a.NoLinkIcon[target="_blank"]:after 
+	{
+	  content:"";
+	  padding-left: 0px;
+	}
+	
+	/*the following a class is used to automatically add a pdf icon to external links that open pdf files.*/
+	a[href$= ".pdf"]:after 
+	{ 
+      content: url(../Images/_TopNav_cp-adobe.png);
+	  padding-left: 4px;
+	  display:inline-block;
+ 	}        
+  
+ 	 
+/*End of "Signposting external links" */
+
+
+
+span.MCPopup > a:link
+{
+	color: #0073E7;
+	text-decoration: none;
+	content: "\0000a0";
+	padding-right: 18px;
+	display: inline;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-image: url('_rsc_DropDownClosed.gif');
+}
+
+a:visited
+{
+	color: #9b1e83;
+	
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+span.MCPopup > a:hover	/*Do not remove: used in template files*/
+{
+	text-decoration: underline;
+}
+
+
+a.avoidPrint	/*Do not remove: used in template files*/
+{
+	
+}
+
+a.MiniTOC1:link,
+a.MiniTOC2:link,
+a.MiniTOC3:link,
+a.MiniTOC4:link,
+a.MiniTOC5:link,
+a.MiniTOC6:link,
+a.MiniTOC7:link,
+a.MiniTOC8:link
+{
+	font-weight: normal;
+	color: #0073E7;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+a.MiniTOC1:visited,
+a.MiniTOC2:visited,
+a.MiniTOC3:visited,
+a.MiniTOC4:visited,
+a.MiniTOC5:visited,
+a.MiniTOC6:visited,
+a.MiniTOC7:visited,
+a.MiniTOC8:visited
+{
+	color: #9b1e83;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a.MiniTOC1:hover,
+a.MiniTOC2:hover,
+a.MiniTOC3:hover,
+a.MiniTOC4:hover,
+a.MiniTOC5:hover,
+a.MiniTOC6:hover,
+a.MiniTOC7:hover,
+a.MiniTOC8:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|miniTocProxy
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	border-top-style: none;
+	mc-output-support: all;
+}
+
+/* td.GenMiniTOCText is required to add a bullet to the list of entries in PDF miniTOC, see @media print */
+
+td.GenMiniTOCText1,
+td.GenMiniTOCText2,
+td.GenMiniTOCText3,
+td.GenMiniTOCText4,
+td.GenMiniTOCText5,
+td.GenMiniTOCText6,
+td.GenMiniTOCText7,
+td.GenMiniTOCText8
+{
+	margin-top: 0px;
+	mc-auto-number-format: '• ';
+	margin-left: 8px;
+	margin-right: 16px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+/* p.MiniTOC1_0 is required to add a bullet to the list of entries in WebHelp and HTML5 miniTOC */
+
+p.MiniTOC1_0,
+p.MiniTOC2_0,
+p.MiniTOC3_0,
+p.MiniTOC4_0,
+p.MiniTOC5_0,
+p.MiniTOC6_0,
+p.MiniTOC7_0,
+p.MiniTOC8_0,
+p.MiniTOC9_0
+{
+	margin-top: 0px;
+	margin-bottom: 0.95em;
+	display: list-item;
+	list-style-type: disc;
+}
+
+a.pop
+{
+	color: #0073E7;
+	/*new rbrd: changed from 3A83E6*/
+}
+
+a.pop:visited
+{
+	color: #9b1e83;
+	/*was #822980*/
+}
+
+a.pop:hover
+{
+	text-decoration: underline;
+}
+
+a.Popup
+{
+	text-decoration: none;
+	content: "\0000a0";
+	padding-right: 18px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url('_rsc_DropDownClosed.gif');
+	display: inline;
+}
+
+a.Popup:hover
+{
+	text-decoration: underline;
+}
+
+/* Miscellaneous Styles */
+
+abbr
+{
+	font-variant: normal;
+}
+
+acronym
+{
+	font-variant: normal;
+}
+
+address
+{
+	font-style: inherit;
+}
+
+blockquote
+{
+	margin: 0;
+}
+
+/* Headings */
+
+h1
+{
+	font-family: MetricRegular, Arial;
+	color: #000000;
+	font-weight: 500;
+	font-style: normal;
+	/*SF AFFS2.30 July 2015 CR84: Change: enlarged*/
+	line-height: normal;
+	margin: 0.2em 0em 0.2em;
+	font-size: 2.0em;
+}
+
+h1.appendix
+{
+	mc-disabled: true;
+}
+
+/*h1.chapternum
+{
+	mc-disabled: true;
+}*/
+
+h1.partnum
+{
+	mc-disabled: true;
+}
+
+/*h1.frontMatter
+{
+	font-size: 1.3em;
+	color: #000000;
+}*/
+
+h2
+{
+	font-family: MetricRegular, Arial;
+	color: #000000;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.6em;
+	line-height: normal;
+	margin-top: 1.0em;
+	margin-bottom: 0.5em;
+	border: 0;
+	border-bottom: 1.5px solid #d1d1d1;
+}
+
+h2.appendix
+{
+	mc-disabled: true;
+}
+
+/*h2.chapternum
+{
+	mc-disabled: true;
+}*/
+
+h2.frontMatter
+{
+	font-size: 1.1em;
+	margin-top: .025em;
+	margin-bottom: 0.25em;
+	border-bottom:none;
+}
+
+h3
+{
+	mc-disabled: true;
+}
+
+h4
+{
+	mc-disabled: true;
+}
+
+h5
+{
+	mc-disabled: true;
+}
+
+h6
+{
+	mc-disabled: true;
+}
+
+/* Rules */
+
+hr
+{
+	color: #999999;
+	height: 0.05em;
+	width: 100%;
+}
+
+/* Images */
+
+img
+{
+	border: none;
+}
+
+img.floatLeft
+{
+	border: none;
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+	mc-disabled: true;
+}
+
+img.floatRight
+{
+	border: none;
+	display: inline;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	mc-disabled: true;
+}
+
+img.maxwidth100	/* SF AFFS2.30_3 October 2015. Limits image's max width to 100% of screen */
+{
+	max-width: 100%;
+	height: auto;
+}
+
+img.z_migration_tba_PDF	/*Deprecated */
+{
+	max-width: 100%;
+	mc-disabled: true;
+}
+
+img.zoom4Detail	/*SF AFFS2.30 July2015. CR82: New - used to zoom into an image on hover*/
+{
+	mc-thumbnail: popup;
+	mc-thumbnail-max-width: 600px;
+	mc-thumbnail-max-height: 450px;
+	max-width: 100%;
+	mc-disabled: true;
+}
+
+/* SFFS 6.00 - ".zoom4Detail" feature: adds magnifying glass functionality to an image for zooming in - replaces img.zoom4detail style */
+
+.zoom4Detail
+{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #e1e1e1;
+	padding: 8px;
+	margin: 8px;
+	background-color: #fff;
+	line-height: 0;
+	max-width: 100%;
+}
+
+.zoom4Detail img
+{
+	mc-thumbnail: popup;
+	mc-thumbnail-max-width: 600px;
+	mc-thumbnail-max-height: 450px;
+	max-width: 100%;
+}
+
+.zoom4Detail a:before
+{
+	content: url('../Images/_rsc_zoom4detail.png');
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.zoom4Detail img:hover
+{
+	cursor: zoom-in;
+}
+
+#TopNav .hp-play-wrapper img.MCPopupFullImage
+{
+	mc-disabled: true;
+	max-height: none !important;
+	mc-thumbnail: none;
+	cursor: default;
+}
+
+.MCPopupFullImage:hover
+{
+	cursor: zoom-out;
+}
+
+/* end of .zoom4details feature styles */
+/* "cf": used for changing to a different image file when hovering over an image - 'cf' stands for 'change file' */
+
+#cf
+{
+	position: relative;
+	height: 125px;
+	width: 150px;
+	margin: 0 auto;
+}
+
+#cf img
+{
+	position: absolute;
+	left: 0;
+}
+
+#cf img.top:hover
+{
+	opacity: 0;
+}
+
+MadCap|slideshow.noBorder	/* SF AFFS2.30 July2015 CR81: New - slideshow without gray border*/
+{
+	box-shadow: none;
+}
+
+/* Definition list tags, used in API docs */
+
+dl
+{
+	margin: 0;
+}
+
+dt
+{
+	margin-top: 0.8em;
+}
+
+dd
+{
+	margin-left: 20px;
+}
+
+/* Lists */
+
+ol
+{
+	margin-left: 20px;
+	margin-top: 0.95em;
+	/*rbrd has: margin-bottom: 0.95em;*/
+	padding: 0px;
+	padding-left: 0.2em;
+}
+
+ul
+{
+	margin-left: 8px;
+	margin-top: 0.95em;
+	/*rbrd has: margin-bottom: 0.95em;*/
+	padding: 0px;
+	padding-left: 0.2em;
+}
+
+ol li
+{
+	list-style-type: decimal;
+	margin-left: 8px;
+	margin-bottom: 0.95em;
+}
+
+ul li
+{
+	list-style-type: disc;
+	margin-left: 8px;
+	margin-bottom: 0.95em;
+}
+
+ol li p,
+ul li p
+{
+	margin-left: 0pt;
+	margin-bottom: 0.95em;
+}
+
+ul ul li p,
+ul ol li p,
+ol ul li p,
+ol ol li p
+{
+	margin-left: 0pt;
+	margin-bottom: 0.95em;
+}
+
+ol ol ul ol li,
+ul ul ul li p,
+ul ol ol li p,
+ul ul ol li p,
+ul ol ul li p,
+ol ul ul li p,
+ol ol ol li p,
+ol ul ol li p,
+ol ol ul li p
+{
+	margin-left: 0pt;
+	margin-bottom: 0.95em;
+}
+
+ol ul li,
+ul ul li
+{
+	list-style-type: disc;
+	margin-left: 6px;
+	margin-bottom: 0.95em;
+}
+
+ol ol li,
+ul ol li
+{
+	list-style-type: lower-alpha;
+	margin-left: 4px;
+	margin-bottom: 0.95em;
+}
+
+ol ol ol li,
+ol ul ol li,
+ul ol ol li,
+ul ul ol li
+{
+	list-style-type: lower-roman;
+	margin-left: 8px;
+}
+
+ol ol ol ol li,
+ol ol ul ol li,
+ol ul ol ol li,
+ul ol ol ol li,
+ol ul ul ol li,
+ul ul ol ol li,
+ul ol ul ol li,
+ul ul ul ol li
+{
+	list-style-type: upper-alpha;
+	margin-left: 8px;
+}
+
+ul ul ul ul li,
+ul ul ol ul li,
+ul ol ul ul li,
+ol ul ul ul li,
+ul ol ol ul li,
+ol ol ul ul li,
+ol ul ol ul li,
+ol ol ol ul li
+{
+	list-style-type: disc;
+	margin-left: 8px;
+}
+
+ol ul ul li,
+ol ol ul li,
+ul ul ul li,
+ul ol ul li
+{
+	list-style-type: disc;
+	margin-left: 8px;
+}
+
+menu
+{
+	margin: 0;
+}
+
+/* Paragraph Classes */
+
+p.Index1,
+p.Index2,
+p.Index3,
+p.Index4
+{
+	margin-bottom: 0em;
+	margin-top: 0em;
+	white-space: normal;
+}
+
+/* Admonitons */
+/* indicates deprecation of methods in APIs and command line tools */
+
+div.Admonition_Deprecated
+{
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 5px;
+	padding-top: 11px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 0px;
+	background-color: #e4e5e6;
+	border: 1px;
+	border-style: solid;
+	border-color: #e4e5e6;
+}
+
+div.Admonition_Deprecated > p:first-child
+{
+	mc-auto-number-format: '{b}Deprecated: {/b}';
+	/* Localizable */
+}
+
+div.Admonition_Note,
+div.Admonition_Caution,
+div.Admonition_Tip
+{
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 5px;
+	padding-top: 0.5em;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 0.5em;
+	background-color: #e4e5e6;
+	border: 1px;
+	border-style: solid;
+	border-color: #e4e5e6;
+}
+
+div.Admonition_Note > p:first-child
+{
+	mc-auto-number-format: '{b}Note: {/b}';
+	margin-bottom: 0.95em;
+	/* Localizable */
+}
+
+div.Admonition_Caution > p:first-child
+{
+	mc-auto-number-format: '{b}Caution: {/b}';
+	margin-bottom: 0.95em;
+	/* Localizable */
+}
+
+div.Admonition_Tip > p:first-child
+{
+	mc-auto-number-format: '{b}Tip: {/b}';
+	margin-bottom: 0.95em;
+	/* Localizable */
+}
+
+div.avoidPageBreak
+{
+	page-break-inside: avoid;
+}
+
+div.keepWithNext
+{
+	page-break-after: avoid;
+}
+
+div.frontMatter
+{
+	font-size: 0.8em;
+}
+
+/* Table styles */
+
+table
+{
+	color: #000000;
+	background-color: transparent;
+	border: solid 1pt #cccccc;
+	border-collapse: collapse;
+	caption-side: top;
+	font-size: 100%;
+	line-height: normal;
+	margin-bottom: 1.1em;
+	mc-caption-continuation: ', continued';
+	/* Localizable */
+	mc-caption-repeat: true;
+	text-align: left;
+	mc-hide-bottom-ruling: false;
+}
+
+table.NinetyPercent	/* SF AFFS2.30 July2015 CR85 New */
+{
+	font-size: 90%;
+}
+
+table.no_lines,
+table.no_lines td,
+table.no_lines th
+{
+	border: none;
+	border-collapse: collapse;
+	background-color: transparent;
+	color: #000000;
+	font-size: 100%;
+}
+
+caption
+{
+	color: #000000;
+	text-align: left;
+	font-family: 'MetricMedium', Arial, Tahoma, 'Lucida Sans Unicode', sans-serif;
+	font-weight: normal;
+	font-size: 1.05em;
+	padding-bottom: 0.1em;
+}
+
+th
+{
+	border: solid 1pt #cccccc;
+	/*grey*/
+	border-right-style: solid;
+	border-right-color: #cccccc;
+	/*grey*/
+	border-right-width: 1px;
+	border-top: .1em solid #cccccc;
+	/*grey*/
+	font-weight: bold;
+	font-size: 1.0em;
+	padding: 0.5em;
+	vertical-align: bottom;
+	text-align: left;
+	background-color: #E5E8E8;
+	/*background color=  light grey*/
+	border-bottom-width: 1.5px;
+	color: #000000;
+	/* text color = black */
+}
+
+th.center
+{
+	text-align: center;
+}
+
+/* sf: 2/July/15 Consider moving this and tr.allowBreak to the print media section when cleaning up */
+
+tr
+{
+	page-break-inside: avoid;
+	/*SF AFFS2.30 July2015 CR74 Prevent table rows from breaking across PDF pages */
+}
+
+tr.allowBreak
+{
+	page-break-inside: auto;
+}
+
+td
+{
+	background-color: transparent;
+	border-top-style: solid;
+	border-top-color: #cccccc;
+	border-top-width: 1px;
+	border-right-style: solid;
+	border-right-color: #cccccc;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 1px;
+	border-spacing: 0px 0px;
+	color: #000000;
+	padding: 0.5em;
+	vertical-align: top;
+	text-align: left;
+}
+
+td.center
+{
+	text-align: center;
+}
+
+/*Added SFFS 7.4.1: table cell border styles for TopNav Content and PDFs page - 7 categories */
+td.cat1, td.cat2, td.cat3, td.cat4, td.cat5, td.cat6, td.cat7
+{
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: solid !important;
+	border-top-width: 1.5px !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: 1.5px !important;
+	padding: 0.5em;
+	color: #696969 !important;
+	font-weight: bold !important;
+	font-size: 0.95em !important;
+} 
+
+td.cat1 /*Emerald*/
+{
+	border-top-color: #00a989 !important;
+	border-bottom-color: #00a989 !important;
+}
+
+td.cat2 /*Ultramarine*/
+{
+	border-top-color: #3939c6 !important;
+	border-bottom-color: #3939c6 !important;
+}
+
+td.cat3 /*Olive*/
+{
+	border-top-color: #5bba36 !important;
+	border-bottom-color: #5bba36 !important;
+}
+
+td.cat4 /*Goldenrod*/
+{
+	border-top-color: #ffb000 !important;
+	border-bottom-color: #ffb000 !important;
+}
+
+td.cat5 /*Sky blue*/
+{
+	border-top-color: #00abf3 !important;
+	border-bottom-color: #00abf3 !important;
+}
+
+td.cat6 /*Purple*/
+{
+	border-top-color: #9b1e83 !important;
+	border-bottom-color: #9b1e83 !important;
+}
+
+td.cat7 /*Grey*/
+{
+	border-top-color: #b9b8bb !important;
+	border-bottom-color: #b9b8bb !important;
+}
+/*End of table cell border styles for TopNav Content and PDFs page */
+
+
+td.narrow
+/* SF AFFS2.30 July2015 CR87: For images in tables */
+/* 	When you create an image map in a table, 
+	use the following "td" style to create less padding around the image, and a small left margin*/
+{
+	padding: 0em;
+	margin-left: 1px;
+}
+
+th.null
+{
+	border: none;
+	color: #000000;
+}
+
+td.null
+{
+	border: none;
+	border-collapse: collapse;
+}
+
+/*Added by Penny SFFS 6.00*/
+
+td[style^="font-weight: bold"]
+{
+	font-size: 0.95em !important;
+}
+
+td span[style^="font-weight: bold"]
+{
+	font-size: 0.95em !important;
+}
+
+/*End of Added by Penny SFFS 6.00*/
+/* Paragraph Tag for Code */
+
+
+
+pre
+{
+	color: #333333;
+	/*deep charcoal*/
+	font-family: 'Consolas', 'Courier New';
+	font-size: 0.9em;
+	/* SF 11/Feb/2015: fix for CR#30 */
+	line-height: 1.25em;
+}
+
+/*pre.hanging_indent
+{
+	text-indent: -25px;
+	padding-left: 25px;
+}
+*/
+
+/* <SF> SFFS7.0 - this style was removed because has no function at all*/
+/* Character Tags */
+
+b
+{
+	font-size: 0.95em;
+}
+
+
+span[style^="font-weight: bold"]
+{
+	font-size: 0.95em !important;
+}
+code	/* for code */
+{
+	color: #333333;
+	/*deep charcoal*/
+	font-family: 'Consolas', 'Courier New';
+	font-size: 0.9em;
+}
+
+small.XSmall	/* SF AFFS2.30 July2015 CR83: New for extra small text - see also p.XSmall */
+{
+	font-size: 80%;
+}
+
+span.path	/* SF AFFS2.30_1 September 2015 for file/folder paths */
+{
+	/*font-weight: bold;*/
+}
+
+/* backgrounds for examples */
+/* fixing bottom padding in div.example */
+
+div.example
+{
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 5px;
+	overflow: auto;
+	overflow-Y: hidden;
+	padding-top: 11px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 9px;
+	background-color: #e4e5e6;
+	/*light grey*/
+	border: 1px;
+	border-style: solid;
+	border-color: #e4e5e6;
+	/*light grey*/
+	display: block;
+	mc-disabled: false;
+}
+
+div.example > p:first-child
+{
+	margin-bottom: 0.95em;
+	/* Localizable */
+}
+
+/* MadCap Flare Styles */
+
+MadCap|dropDownHotspot
+{
+	font-family: MetricRegular, Arial;
+	font-size: 1.0em;
+	font-weight: normal;
+	color: #000000;
+	/*black*/
+}
+
+MadCap|breadcrumbsProxy
+{
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+	mc-breadcrumbs-count: 5;
+	mc-breadcrumbs-prefix: ' ';
+	mc-label: '';
+	border-bottom: none;
+	/* 1px solid #999999;*/
+	font-size: 0.8em;
+	/*grey*/
+}
+
+MadCap|breadcrumbsProxy:visited
+{
+	color: #000000;
+	/*black*/
+}
+
+span.MCBreadcrumbsDivider,
+span.MCBreadcrumbs
+{
+	color: #000000;
+	/*black*/
+}
+
+MadCap|conceptLink
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+	text-decoration: none;
+}
+
+MadCap|conceptLink:link
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+}
+
+MadCap|conceptLink:visited
+{
+	color: #9b1e83;
+	/*was #822980 "link blue" */
+}
+
+MadCap|conceptLink:hover
+{
+	text-decoration: underline;
+	mc-format: '{quote}{para}{quote}';
+	/* Localizable */
+}
+
+MadCap|conceptLink.ListFormatHeader
+{
+	color: #000000;
+	/* "black" */
+	mc-help-control-display: list;
+	mc-image: none;
+	mc-label: 'See Also';
+	/* Localizable */
+	font-weight: bold;
+}
+
+MadCap|conceptLinkControlListItemLink,
+MadCap|keywordLinkControlListItemLink,
+MadCap|relatedTopicsControlListItemLink
+{
+	font-weight: normal;
+}
+
+MadCap|conceptLinkControlListItemLink:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|dropDown
+{
+	margin-bottom: 1.1em;
+}
+
+MadCap|dropDownHead
+{
+	margin-bottom: 0.95em;
+	font-color: #000000;
+}
+
+MadCap|dropDownHead.noBold4Print
+{
+	margin-bottom: 0.95em;
+	/*sf wendy didn;t have this one but we did so i left it in and changed it to 0.95 like the others*/
+}
+
+MadCap|dropDownHead.boldPrint
+{
+	margin-bottom: 0.95em;
+}
+
+MadCap|dropDownBody
+{
+	margin-left: 1.2em;
+	margin-top: 0.7em;
+}
+
+MadCap|dropDownHotspot:hover,
+MadCap|dropDownHead:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|expanding
+{
+	mc-image-position: right;
+}
+
+MadCap|expandingHead:hover
+{
+	text-decoration: underline;
+}
+
+/*wendy added in pageentry and pagedefinition*/
+
+div.GlossaryPageEntry
+{
+	padding-bottom: 0.5em;
+}
+
+div.GlossaryPageDefinition
+{
+	padding-bottom: 0.5em;
+}
+
+MadCap|glossaryTerm
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+	font-weight: normal;
+	mc-image-position: right;
+	text-decoration: none;
+	mc-closed-image: url('_rsc_Glossary.png');
+	mc-open-image: url('_rsc_Glossary.png');
+}
+
+MadCap|glossaryTerm:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|glossaryTerm.Expanding
+{
+	color: #0073E7;
+	font-weight: normal;
+}
+
+MadCap|glossaryTerm.Expanding:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|glossaryTerm.Hyperlink
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+}
+
+MadCap|glossaryTerm.Hyperlink:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|glossaryTerm.Popup
+{
+	color: #0073E7;
+}
+
+MadCap|glossaryTerm.Popup:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|helpControlMenu
+{
+	background-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-color: #ffffff;
+}
+
+MadCap|helpControlMenuItem
+{
+	background-color: #ffffff;
+	background-position: right;
+	border: 1px solid #999999;
+	padding: 2px 2px 2px 2px;
+	color: #3A83E6;
+	border-color: #ffffff;
+	margin-bottom: 0em;
+	/* from wendy: last 3 required to get HTML5 Help's Concept Link popup formatted correctly */
+	list-style-type: none;
+	margin-left: 0.50em;
+}
+
+MadCap|helpControlMenuItem.Highlighted
+{
+	background-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-top-color: #ffffff;
+	color: #3A83E6;
+	text-decoration: underline;
+}
+
+MadCap|indexProxy
+{
+	border-top-style: none;
+	border-top-width: 0px;
+}
+
+MadCap|keywordLink:link
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+}
+
+MadCap|keywordLink:visited
+{
+	color: #9b1e83;
+	
+}
+
+MadCap|keywordLink:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|keywordLink.ListFormatHeader
+{
+	color: #000000;
+	mc-help-control-display: list;
+	mc-image: none;
+	font-weight: bold;
+}
+
+MadCap|keywordLinkControlListItemLink:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|popup:link
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+	text-decoration: underline;
+}
+
+MadCap|popup:visited
+{
+	color: #9b1e83;
+	
+}
+
+MadCap|popup:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|popupBody
+{
+	clear: both;
+	float: right;
+	height: auto;
+	border-color: #999999;
+	text-indent: 0;
+}
+
+MadCap|popupHead
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+	text-decoration: none;
+	content: "\0000a0";
+	padding-right: 18px;
+	display: inline;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-image: url('_rsc_DropDownClosed.gif');
+}
+
+MadCap|popupHead:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|relatedTopics
+{
+	color: #0073E7;
+	mc-label: 'Related Information';
+	/* Localizable */
+	mc-use-custom-sort-order: true;
+	text-decoration: none;
+}
+
+MadCap|relatedTopics:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|relatedTopics.ListFormatHeader
+{
+	color: #000000;
+	font-weight: bold;
+	mc-help-control-display: list;
+	mc-image: none;
+	mc-label: 'Related Topics';
+	/* Localizable */
+}
+
+MadCap|relationshipsProxy
+{
+	font-size: 1.0em;
+}
+
+MadCap|relationshipsHeading
+{
+	font-size: 1.0em;
+	margin-bottom: 0.3em;
+	margin-top: 1.0em;
+}
+
+MadCap|relationshipsHeading.concept
+{
+	font-size: 1.0em;
+	mc-label: 'Related Information';
+	/* Localizable */
+}
+
+MadCap|relationshipsHeading.reference
+{
+	font-size: 1.0em;
+	mc-label: 'Reference Materials';
+	/* Localizable */
+}
+
+MadCap|relationshipsHeading.task
+{
+	font-size: 1.0em;
+	mc-label: 'Related Tasks';
+	/* Localizable */
+}
+
+MadCap|relationshipsItem
+{
+	font-size: 1.0em;
+	margin-bottom: 0em;
+	margin-left: 1.2em;
+	display: list-item;
+	list-style-type: disc;
+}
+
+MadCap|tocProxy
+{
+	mc-output-support: pdf;
+}
+
+MadCap|toggler
+{
+	mc-image-position: right;
+	mc-open-image: url('_rsc_checked.png');
+	/* QCCR1K4320 */
+	mc-closed-image: url('_rsc_unchecked.png');
+	/* QCCR1K4320 */
+}
+
+MadCap|toggler:link
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+}
+
+MadCap|toggler:visited
+{
+	color: #9b1e83;
+	
+}
+
+MadCap|toggler:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|xref
+{
+	color: #0073E7;
+	/* changed to W3C Compliant blue - was HPE green..  */
+	text-decoration: none;
+	mc-format: '{para}';
+}
+
+MadCap|xref:link
+{
+	color: #0073E7;
+	text-decoration: none;
+}
+
+MadCap|xref:visited
+{
+	color: #9b1e83;
+	
+}
+
+MadCap|xref:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|xref.noNum
+{
+	color: #0073E7;
+	mc-format: '{para}';
+}
+
+MadCap|xref.noNum:visited
+{
+	color: #9b1e83;
+	
+	mc-format: '{para}';
+}
+
+MadCap|xref.pageNumOnly
+{
+	mc-format: '{page}';
+}
+
+span.noGlossary
+{
+	mc-disable-glossary-terms: true;
+}
+
+.hyphenate	/*QCCR1K4316*/
+{
+	mc-hyphenate: always;
+}
+
+/* using for Flare workaround to include banner files in output files */
+/* when Target,Advanced tab, Exclude content not linked directly or indirectly from the target is set */
+
+ins
+{
+	background-image: url('../MasterPages/_rscB_banner_graphic.png');
+}
+
+/* for bi-directional text */
+
+/*
+dir
+{
+	margin: 0;
+	display: none;
+}
+*/
+
+/* hides character styles in the XML editor */
+
+abbr,
+acronym,
+big,
+cite,
+em,
+ins,
+samp,
+strong,
+tt,
+u,
+var
+{
+	mc-disabled: true;
+}
+
+/* end of Default section*/
+
+/* old dropdown head style to be deprecated */
+
+MadCap|dropDownHead.z_migration_tba_PDF
+{
+	margin-bottom: 0.95em;
+	/*wendy*/
+}
+
+/* end of deprecated section */
+/* Print Output */
+/* PDF output requires fonts that are installed on the author's computer, local fonts won't work */
+
+@media print
+{
+	/* Paragraphs */
+
+
+	body
+	{
+		color: #000000;
+		font-size: 12pt;
+		line-height: 18px;
+		margin-bottom: 12pt;
+		mc-hyphenate: never;
+		/*padding-left: 16pt; QCCR1K4260 */
+		font-family: 'MetricNEW', Arial;
+		/* rbrd: all these removed: Tahoma, 'Lucida Sans Unicode', sans-serif;*/
+	}
+
+	p
+	{
+		orphans: 2;
+		widows: 2;
+		font-family: 'MetricNEW', Arial;
+		/*new rbrd: added*/
+	}
+
+	/* formating miniTOC to look like a bullet list */
+
+	MadCap|miniTocProxy
+	{
+		margin-top: 0px;
+		margin-bottom: 12pt;
+		padding-left: 0px;
+		border-top-style: none;
+		mc-output-support: all;
+	}
+
+	/* td.GenMiniTOCText is required to add a bullet to the list of entries in PDF miniTOC */
+
+	td.GenMiniTOCText1,
+	td.GenMiniTOCText2,
+	td.GenMiniTOCText3,
+	td.GenMiniTOCText4,
+	td.GenMiniTOCText5,
+	td.GenMiniTOCText6,
+	td.GenMiniTOCText7,
+	td.GenMiniTOCText8
+	{
+		mc-auto-number-format: '•  ';
+		mc-auto-number-class: miniTOC_bullet;
+		margin-left: 8px;
+		margin-right: 16px;
+		padding-left: 9px;
+		padding-right: 9px;
+		margin-top: 0px;
+	}
+
+	span.miniTOC_bullet
+	{
+		color: #000000;
+		font-size: 14pt;
+		vertical-align: middle;
+	}
+
+	/* p.MiniTOC = all sorts of formatting for miniTOC */
+
+	p.MiniTOC1,
+	p.MiniTOC2,
+	p.MiniTOC3,
+	p.MiniTOC4,
+	p.MiniTOC5,
+	p.MiniTOC6,
+	p.MiniTOC7,
+	p.MiniTOC8,
+	p.MiniTOC9
+	{
+		color: #0073E7;
+		font-weight: normal;
+		font-size: 11pt;
+		display: list-item;
+		list-style-type: disc;
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+	}
+
+	/* p.MiniTOC1_0 is required to add a bullet to the list of entries in WebHelp and HTML5 miniTOC	*/
+
+	p.MiniTOC1_0,
+	p.MiniTOC2_0,
+	p.MiniTOC3_0,
+	p.MiniTOC4_0,
+	p.MiniTOC5_0,
+	p.MiniTOC6_0,
+	p.MiniTOC7_0,
+	p.MiniTOC8_0,
+	p.MiniTOC9_0
+	{
+		margin-top: 0px;
+		margin-bottom: 0pt;
+		display: list-item;
+		list-style-type: disc;
+	}
+
+	p.pdf
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+	}
+
+	p.PDFcoverReleaseDates
+	{
+		font-family: 'MetricNEW', Arial;
+		font-weight: normal;
+		font-size: 12pt;
+		margin-bottom: -1em;
+	}
+
+	p.PDFheader
+	{
+		padding-left: -16pt;
+		margin-top: 6pt;
+		margin-bottom: 6pt;
+	}
+
+	p.intro_phrase	/* QCCR1K4343 */
+	{
+		font-family: 'MetricNEW Medium', Arial;
+		/*, Tahoma, 'Lucida Sans Unicode', sans-serif*/
+		font-weight: normal;
+		page-break-after: avoid;
+		font-size: 14.5pt;
+	}
+
+	p.toggle	/* Added in SFFS 7.2 Apr 2017 */
+	{
+		display: none!important;
+	}
+
+	/* Links */
+
+	a
+	{
+		color: #0073E7;
+		/* changed to W3C Compliant blue - was HPE green..  */
+	}
+
+	a:link
+	{
+		text-decoration: none;
+		color: #0073E7;
+		/* changed to W3C Compliant blue - was HPE green..  */
+	}
+
+	a:focus
+	{
+		text-decoration: underline;
+	}
+
+	a.avoidPrint
+	{
+		display: none;
+	}
+
+	a.pop
+	{
+		color: #000000;
+		text-decoration: none;
+	}
+
+	a.Popup
+	{
+		text-decoration: none;
+	}
+
+	/* Headings */
+
+	h1
+	{
+		font-weight: normal;
+		font-style: normal;
+		line-height: 90%;
+		/*	margin-left: -14pt; QCCR1K4260 */
+		page-break-after: avoid;
+		margin-top: 15pt;
+		margin-bottom: 10pt;
+		color: #000000;
+		/*black; new rbrd: changed from 007dba*/
+		font-size: 26pt;
+		font-family: 'MetricNEW Medium', Arial;
+	}
+
+	h1.PDFcover
+	{
+		font-family: 'MetricNEW Medium', Arial;
+		line-height: 95%;
+		font-size: 29pt;
+		word-wrap: break-word;
+	}
+
+	h1.appendix
+	{
+		mc-auto-number-format: 'Appendix {chapnum}: ';
+		/* Localizable */
+		page-break-after: avoid;
+	}
+
+	h1.chapternum
+	{
+		mc-auto-number-format: 'Chapter {chapnum}: ';
+		/* Localizable */
+		page-break-after: avoid;
+	}
+
+	h1.partnum
+	{
+		/*	margin-left: -14pt;QCCR1K4260 */
+		mc-auto-number-format: 'Part {volnum}: ';
+		/* Localizable */
+		page-break-after: avoid;
+		padding-left: 0pt;
+	}
+
+	h1.frontMatter
+	{
+		font-weight: bold;
+		font-style: normal;
+		font-size: 16pt;
+		page-break-before: auto;
+		margin-top: 20pt;
+		margin-bottom: 5pt;
+		mc-heading-level: 0;
+	}
+
+	h2
+	{
+		color: #000000;
+		line-height: 90%;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 23pt;
+		page-break-after: avoid;
+		margin-top: 10pt;
+		margin-bottom: 5pt;
+		font-family: 'MetricNEW Medium', Arial;
+		border-bottom: none;
+	}
+
+	h2.PDFcover
+	{
+		font-family: 'MetricNEW', Arial;
+		font-weight: normal;
+		font-size: 22pt;
+		word-wrap: break-word;
+		line-height: 95%;
+		margin-bottom: 0;
+		mc-heading-level: 0;
+		mc-hyphenate: never;
+	}
+
+	h2.appendix
+	{
+		mc-auto-number-format: 'Appendix {chapnum}: ';
+		/* Localizable */
+		page-break-after: avoid;
+		padding-left: 0pt;
+	}
+
+	h2.chapternum
+	{
+		mc-auto-number-format: 'Chapter {chapnum}: ';
+		/* Localizable */
+		page-break-after: avoid;
+		padding-left: 0pt;
+	}
+
+	h2.frontMatter
+	{
+		font-weight: bold;
+		font-style: normal;
+		font-size: 12pt;
+		page-break-after: avoid;
+		page-break-before: auto;
+		margin-top: 5pt;
+		margin-bottom: 0pt;
+		mc-heading-level: 0;
+		padding-top: 10pt;
+	}
+
+	h3
+	{
+		mc-disabled: false;
+		font-family: 'MetricNEW Medium', Arial;
+		line-height: 90%;
+		font-size: 20pt;
+		font-weight: normal;
+		font-style: normal;
+		page-break-after: avoid;
+		/*	margin-left: -14pt; QCCR1K4260 */
+		margin-top: 20pt;
+		margin-bottom: 10pt;
+	}
+
+	h3.PDFcover
+	{
+		font-family: 'MetricNEW', Arial;
+		font-weight: normal;
+		font-size: 14pt;
+		margin-bottom: 0em;
+		mc-heading-level: 0;
+		mc-hyphenate: never;
+	}
+
+	h4
+	{
+		mc-disabled: false;
+		color: #000000;
+		font-family: 'MetricNEW', Arial;
+		line-height: 90%;
+		font-size: 17pt;
+		font-weight: normal;
+		font-style: normal;
+		margin-top: 16pt;
+		margin-bottom: 10pt;
+		page-break-after: avoid;
+		/*	margin-left: -14pt; QCCR1K4260 */
+	}
+
+	h5
+	{
+		color: #000000;
+		font-family: 'MetricNEW', Arial;
+		line-height: 90%;
+		font-size: 15pt;
+		font-weight: normal;
+		font-style: normal;
+		margin-top: 15pt;
+		margin-bottom: 10pt;
+		page-break-after: avoid;
+		/*	margin-left: -14pt; QCCR1K4260 */
+	}
+
+	h6
+	{
+		color: #000000;
+		font-family: 'MetricNEW', Arial;
+		line-height: 90%;
+		font-size: 13pt;
+		font-weight: normal;
+		font-style: normal;
+		margin-top: 12pt;
+		margin-bottom: 10pt;
+		line-height: normal;
+		page-break-after: avoid;
+		/*	margin-left: -14pt; QCCR1K4260 */
+	}
+
+	h1,
+	h2,
+	h3
+	{
+		page-break-after: avoid;
+	}
+
+	h1.noTOC,
+	h2.noTOC,
+	h3.noTOC,
+	h4.noTOC,
+	h5.noTOC,
+	h6.noTOC
+	{
+		mc-heading-level: 0;
+	}
+
+	h2.noTOC	/*sf I found this right at the end of frank's  rebranded css. Not sure what it is and if it's even necessary. Put it in anyway... we can take it out if no good.*/
+	{
+		color: #000000;
+	}
+
+	/* Rules */
+
+	hr
+	{
+		color: #000000;
+		height: 1pt;
+	}
+
+	hr.pdfTitle
+	{
+		background-color: #0073E7;
+		height: 9pt;
+		width: 504pt;
+	}
+
+	/* Paragraph Tag for Code */
+
+	pre
+	{
+		font-size: 10pt;
+	}
+
+	/* Character Tags */
+
+	b
+	{
+		font-family: MetricNEW Semibold;
+		font-size: 11pt;
+	}
+
+	i
+	{
+		font-family: MetricNEW Regular Italic;
+		font-size: 12.5pt;
+	}
+
+	code	/* for code */
+	{
+		font-size: 10pt;
+	}
+
+	small.XSmall	/* SF AFFS2.30 July2015 CR83: New for extra small text - see also p.XSmall */
+	{
+		font-size: 10pt;
+	}
+
+	/* Images */
+
+	img
+	{
+		orphans: 2;
+		widows: 2;
+		float: none;
+		page-break-inside: auto;
+		/* max-width: 100%;   removing due to MadCap defect 88519*/
+	}
+
+	div.zoom4Detail	/* removes the border in PDFs from the image that has div.zoom4detail applied  - see div.zoom4detail in default section*/
+	{
+		border: none;
+	}
+
+	/* Lists */
+	/*Applied Wendy's margin changes*/
+
+	li.pdf
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		list-style-type: disc;
+		margin-left: 10pt;
+		mc-hyphenate: inherit;
+		/*QCCR1K4316*/
+	}
+
+	ol
+	{
+		margin-bottom: 5pt;
+		margin-top: 5pt;
+	}
+
+	ul
+	{
+		margin-bottom: 5pt;
+		margin-top: 5pt;
+	}
+
+	ol li p,
+	ul li p
+	{
+		margin-left: 0pt;
+		margin-bottom: 5pt;
+	}
+
+	ul ul li p,
+	ul ol li p,
+	ol ul li p,
+	ol ol li p
+	{
+		margin-left: 0pt;
+		margin-bottom: 5pt;
+	}
+
+	ul ul ul li p,
+	ul ol ol li p,
+	ul ul ol li p,
+	ul ol ul li p,
+	ol ul ul li p,
+	ol ol ol li p,
+	ol ul ol li p,
+	ol ol ul li p
+	{
+		margin-left: 0pt;
+		margin-bottom: 5pt;
+	}
+
+	ol li
+	{
+		list-style-type: decimal;
+		margin-bottom: 5pt;
+		margin-left: 5pt;
+	}
+
+	ul li
+	{
+		list-style-type: disc;
+		margin-bottom: 5pt;
+		margin-left: 5pt;
+	}
+
+	ul ol li,
+	ol ol li
+	{
+		list-style-type: lower-alpha;
+		margin-bottom: 5pt;
+		margin-left: 2pt;
+	}
+
+	/* fixing problem of unordered sublists having larger bullet than main list */
+
+	ul ul li,
+	ol ul li
+	{
+		list-style-type: disc;
+		margin-bottom: 5pt;
+		/*SF fix for CR 68 - changed from 12pt to 5pt*/
+		margin-left: 6pt;
+	}
+
+	ol ol ol li,
+	ol ul ol li,
+	ul ol ol li,
+	ul ul ol li
+	{
+		list-style-type: lower-roman;
+		margin-bottom: 5pt;
+		margin-left: 8pt;
+	}
+
+	ul ul ul li,
+	ul ol ul li,
+	ol ul ul li,
+	ol ol ul li
+	{
+		list-style-type: circle;
+		margin-bottom: 5pt;
+		margin-left: 8pt;
+	}
+
+	/* Admonitons */
+
+	div.Admonition_Note,
+	div.Admonition_Caution,
+	div.Admonition_Tip,
+	div.Admonition_Deprecated
+	{
+		background-color: #E5E8E8;
+		border-color: #E5E8E8;
+		color: #000000;
+		padding-top: 5pt;
+		/*wendy added*/
+		padding-bottom: 5pt;
+		/*wendy*/
+		padding-right: 10px;
+	}
+
+	/* backgrounds for examples */
+
+	div.example
+	{
+		background-color: #E5E8E8;
+		border-color: #E5E8E8;
+	}
+
+	div.frontMatter
+	{
+		font-size: 9pt;
+	}
+
+	/* Table styles */
+
+	table
+	{
+		border-collapse: collapse;
+		border: solid 1px #cccccc;
+		margin-bottom: 5pt;
+		background-color: transparent;
+		mc-hyphenate: inherit;
+		font-size: 100%;
+		/*SF AFFS2.30 July 2015 CR72: changed back to 100%*/
+	}
+
+	tr
+	{
+		/*border: solid 1px #cccccc;*/
+		border-right: solid 1px #cccccc;
+		border-left: solid 1px #cccccc;
+		border-top: solid 1px #cccccc;
+		border-bottom: solid 1px #cccccc;
+	}
+
+	td
+	{
+		border-right: solid 1px #cccccc;
+		border-left: solid 1px #cccccc;
+		border-top: solid 1px #cccccc;
+		border-bottom: solid 1px #cccccc;
+		background-color: transparent;
+		color: #000000;
+		line-height: 18px;
+		mc-hyphenate: inherit;
+		/*page-break-inside: avoid;*/
+		/*SF AFFS2.30 July2015S Part of fix for CR74: Commented out bc avoids page break in cell, even if tr.allowBreak applied to the row. i.e. overrides the tr.allowBreak. Revisit when cleaning up.*/
+	}
+
+	td.null
+	{
+		border: none;
+		border-collapse: collapse;
+		background-color: transparent;
+	}
+
+	th
+	{
+		border-bottom: solid 1px #cccccc;
+		border-right: solid 1px #cccccc;
+		border-top: none;
+		color: #000000;
+		/*font-size: 100%;*/
+		background-color: #E5E8E8;
+	}
+
+	table.no_lines,
+	table.no_lines td,
+	table.no_lines th
+	{
+		color: #000000;
+		font-size: 100%;
+	}
+
+	caption
+	{
+		font-family: 'MetricNEW', Arial;
+		font-weight: bold;
+		font-size: 9pt;
+		padding-bottom: 3pt;
+	}
+
+	/* MadCap Flare Styles */
+
+	MadCap|footnotesBlock
+	{
+		border: none;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		font-family: 'MetricNEW', Arial;
+		font-size: 12.5pt;
+		font-weight: bold;
+		color: #1e1e1e;
+		/*very dark grey*/
+	}
+
+	a.MCDropDownHotSpot_0:link
+	{
+		color: #000000;
+	}
+
+	MadCap|dropDownHead,
+	MadCap|dropDownHead.boldPrint
+	{
+		font-family: 'MetricNEW', Arial;
+		font-size: 12.5pt;
+		font-weight: bold;
+		/*ALM CR 15 - Make default behavior = bold */
+		color: #1e1e1e;
+		margin-top: 12pt;
+		/*QCCR1K4260 */
+		margin-bottom: 5pt;
+		/*QCCR1K4260 */
+		page-break-after: avoid;
+		/**ALM CR 54 - Keep DD headings with next in PDFs **/
+		page-break-inside: avoid;
+		/**ALM CR 54 - Prevent DD headings from breaking across pages in PDFs **/
+	}
+
+	/*MadCap|dropDownHead.boldPrint
+	{
+		font-size: 12pt;
+		margin-top: 12pt;
+		margin-bottom: 5pt;
+	}*/
+
+	MadCap|dropDownHead.noBold4Print
+	{
+		/*ALM CR 15 - Provide non-bold format, since default is bold */
+		font-size: 100%;
+		font-weight: normal;
+	}
+
+	MadCap|dropDownBody
+	{
+		margin-left: 0pt;
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{quote}{para}{quote} {pageref}';
+		/* Localizable */
+		color: #0073E7;
+	}
+
+	MadCap|xref
+	{
+		color: #0073E7;
+	}
+
+	MadCap|xref.noNum
+	{
+		color: #0073E7;
+		mc-format: '{quote}{para}{quote}';
+		/* Localizable */
+	}
+
+	MadCap|popup
+	{
+		color: #000000;
+	}
+
+	MadCap|popupHead
+	{
+		color: #000000;
+		text-decoration: none;
+	}
+
+	MadCap|toggler
+	{
+		color: #000000;
+	}
+
+	/* Modifications to MadCap Flare styles to show drop-down text  */
+
+	div.MCDropDownBody,
+	div.MCDropDownBody_0
+	{
+		display: block !important;
+	}
+
+	img.MCDropDownIcon,
+	img.MCDropDownBody_0
+	{
+		display: none !important;
+	}
+
+	/* TOC */
+
+	MadCap|tocProxy
+	{
+		border-top-style: none;
+	}
+
+	p.toc1
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 12pt;
+		line-height: normal;
+		margin-left: 0in;
+		orphans: 2;
+		widows: 2;
+		margin-top: 20pt;
+		/*QCCR1K4260 */
+		/*SF"20pt" taken from wendy's 2.01-fixes 15Oct2014- is this a mistake??*/
+		margin-bottom: 2pt;
+		/*QCCR1K4260 */
+	}
+
+	p.toc2
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		orphans: 2;
+		widows: 2;
+		margin-left: 0.2in;
+		margin-top: 2pt;
+		/*QCCR1K4260 */
+		margin-bottom: 2pt;
+		/*QCCR1K4260 */
+	}
+
+	p.toc3
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		orphans: 2;
+		widows: 2;
+		margin-left: 0.40in;
+		margin-top: 2pt;
+		/*QCCR1K4260 */
+		margin-bottom: 2pt;
+		/*QCCR1K4260 */
+	}
+
+	p.toc4
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		orphans: 2;
+		widows: 2;
+		margin-left: 0.6in;
+		margin-top: 2pt;
+		/*QCCR1K4260 */
+		margin-bottom: 2pt;
+		/*QCCR1K4260 */
+	}
+
+	p.toc5
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		orphans: 2;
+		widows: 2;
+		margin-left: 0.8in;
+		margin-top: 2pt;
+		/*QCCR1K4260 */
+		margin-bottom: 2pt;
+		/*QCCR1K4260 */
+	}
+
+	p.toc6
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		margin-left: 1.0in;
+		orphans: 2;
+		widows: 2;
+		margin-top: 2pt;
+		/*QCCR1K4260 */
+		margin-bottom: 2pt;
+		/*QCCR1K4260 */
+	}
+
+	/* Glossary and  Index Page Styles */
+
+	MadCap|indexProxy
+	{
+		border-top-style: none;
+		border-top-width: 0px;
+	}
+
+	p.IndexHeading
+	{
+		border: none;
+		color: #0073E7;
+		text-align: left;
+	}
+
+	MadCap|glossaryProxy
+	{
+		border-top-style: none;
+		border-top-width: 0px;
+		font-size: 10pt;
+		font-weight: normal;
+	}
+
+	MadCap|glossaryTerm
+	{
+		color: #000000;
+	}
+
+	MadCap|glossaryTerm.Popup
+	{
+		color: #000000;
+	}
+
+	div.GlossaryPageHeading
+	{
+		border: none;
+		color: #000000;
+		/*Changed from 007dba*/
+		font-size: 14pt;
+		font-weight: bold;
+		line-height: normal;
+		margin-bottom: 12pt;
+		border-bottom-style: solid;
+		border-bottom-color: #000000;
+		/*Changed from 007dba*/
+		border-bottom-width: 1px;
+		mc-hyphenate: never;
+	}
+
+	div.GlossaryPageEntry
+	{
+		padding-bottom: 0pt;
+	}
+
+	div.GlossaryPageDefinition
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: normal;
+		line-height: normal;
+		margin-bottom: 5pt;
+		margin-left: 10pt;
+		mc-hyphenate: never;
+		padding-bottom: 5pt;
+	}
+
+	div.GlossaryPageTerm
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		line-height: normal;
+		margin-bottom: 0pt;
+		mc-hyphenate: never;
+	}
+
+	/* old dropdown head style to be deprecated */
+
+	MadCap|dropDownHead.z_migration_tba_PDF
+	{
+		font-size: 120%;
+		font-weight: bold;
+		margin-bottom: 5pt;
+		page-break-after: avoid;
+	}
+
+	/* end of deprecated section */
+}
+
+/*end of media print*/
+
+
+@media PartChapNum
+{
+	h1.appendix
+	{
+		mc-disabled: false;
+	}
+
+	h1.chapternum
+	{
+		mc-disabled: false;
+	}
+
+	h1.partnum
+	{
+		mc-disabled: false;
+	}
+}
+
+/*end of media PartChapNum */
+
+
+ul.smallsquare
+{
+	
+}
+
+ul.smallsquare > li > ul > li > ul
+{
+	list-style-image: none;
+}
+
+ul.smallsquare > li > ul > li > ul > li::marker
+{
+	font-family: Wingdings;
+	content: '§';
+}

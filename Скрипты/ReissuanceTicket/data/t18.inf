@@ -1,0 +1,11 @@
+[t18]
+FileName1=t18.txt
+URL1=https://api3.fri-gate0.biz:80/?1600108596132&kf2uzwmt
+Total=1
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=t18_RequestBody.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_16.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\mtemu\Desktop\Тестирование\Домашки\Скрипты\script\ReissuanceTicket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\mtemu\desktop\тестирование\домашки\скрипты\script\reissuanceticket\\logfile.log
+c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\reissuanceticket\\combined_ReissuanceTicket.c
+c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\reissuanceticket\\pre_cci.c

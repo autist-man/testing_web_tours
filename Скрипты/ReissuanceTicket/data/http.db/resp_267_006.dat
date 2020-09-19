@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--QCCR1K4344-->
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="FuncRef.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Web Vuser Functions (WEB)|Alphabetical List of Web Vuser Functions">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>web_submit_data</title>
+        <link rel="icon" type="image/x-icon" href="https://software.microfocus.com/images/favicon.ico" />
+        <!-- Google Tag Manager -->
+        <script type="text/javascript">/*<![CDATA[*/(function(w,d,s,l,i){if(location.protocol.toLowerCase().indexOf('file:')===0)return;w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NJ9842');/*]]>*/</script>
+        <!-- End Google Tag Manager -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <style>html,
+body
+{
+	height: 100%;
+	margin-right: 2em;
+}
+
+.wrapper
+{
+	min-height: 100% !important;
+	margin: 0 auto -10em;
+	padding-left: 0.2em;
+}
+
+footer,
+.float
+{
+	height: 10em;
+	margin: 0;
+	clear: both;
+}
+
+div.roundcorners
+{
+	-moz-border-radius-bottomleft: 1em;
+	border-bottom-left-radius: 1em;
+	-moz-border-radius-topright: 1em;
+	border-top-right-radius: 1em;
+	background-color: #f2f2f2;
+	width: 100% !important;
+	padding: 0em;
+}
+
+p.footerlink
+{
+	line-height: 1em;
+	padding: 0em;
+	margin-top: 0;
+	margin-bottom: .6em;
+}
+
+p.footerlink a:visited
+{
+	color: #0073E7 !important;
+}
+
+p.footerlink a:hover
+{
+	color: #000000 !important;
+}
+
+p.spacer
+{
+	font-size: .5em;
+	line-height: .5em;
+	padding: 0em;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+
+</style>
+        <link href="../../Resources/Stylesheets/_rsc_SuperDocs.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../FuncRef.htm#FuncRef/web/lrFr_web_submit_data.htm">Open topic with navigation</a>
+        </p>
+        <div class="wrapper">
+            <div class="nocontent">
+                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="5" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                </div>
+            </div><a name="kanchor1804"></a><a name="kanchor1805"></a>
+            <h1>web_submit_data</h1>
+            <p>Performs an "unconditional" or "contextless" form submission. </p>
+            <h2>C Language</h2><pre xml:space="preserve">int <b>web_submit_data(</b> const char *<i>StepName</i>, const char *<i>Action, </i>&lt;<i>List of Attributes</i>&gt;, ITEMDATA, &lt;<i>List of data</i>&gt;, [ EXTRARES, &lt;<i>List of Resource Attributes</i>&gt;,] LAST&#160;<span style="font-weight: bold;">);&#160;</span></pre>
+            <table border="0" cellpadding="5">
+                <tr align="left" valign="top">
+                    <td><a href="examples/lrFuncRef_WVF_w_sbmt_data_Example.htm" title="" alt="" class="MCXref xref">Example: web_submit_data</a>
+                    </td>
+                    <td><a href="categories/lrFr_webCat_Action_Funcs.htm" title="" alt="" class="MCXref xref">Action Functions</a>
+                    </td>
+                </tr>
+            </table>
+            <h2>Java Language</h2><pre xml:space="preserve">int <i>object.</i><b>submit_data</b>( String <i>stepName</i>, String <i>action</i>, String[] <i>options</i>, String[] <i>data </i>); </pre>
+            <table border="0" cellpadding="5">
+                <tr align="left" valign="top">
+                    <td><a href="examples/lrFuncRef_WJV_w.sbmtd_Example.htm" title="" alt="" class="MCXref xref">Example: web.submit_data</a>
+                    </td>
+                    <td><a href="../webjv/lrFuncRef_WJVC_Action_Funcs.htm" title="" alt="" class="MCXref xref"> Action Functions</a>
+                    </td>
+                    <td><a href="../_Direct/lrFuncRef_allp_Java_Syntax.htm" title="" alt="" class="MCXref xref">Java Syntax</a>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th> Argument
+                    </th>
+                    <th> Description
+                    </th>
+                </tr>
+                <tr>
+                    <td><i>object</i>
+                    </td>
+                    <td> An expression evaluating to an object of type WebApi. Usually <b>web</b> for Java. See also Function and Constant Prefixes.
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>StepName</i>
+                    </td>
+                    <td> The name of the step, as it appears in the graphical script.
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>Action</i>
+                    </td>
+                    <td> The HTTP address of the action to perform when submitting the data. The syntax is "Action=&lt;<i>urlAddress</i>&gt;"
+                         Action: The ACTION attribute of the FORM element. The ACTION attribute specifies the address (URL) to be used to carry out the action of the form. You can also specify Action/sfx, which indicates to search the form using the suffix of the action.
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>List of Attributes</i>
+                    </td>
+                    <td>
+                        <p>The following attributes are supported:</p>
+                        <ul>
+                            <li value="1"><b>                        
+                        Method: </b>The form submission method: POST or GET (default: POST).</li>
+                            <li value="2"><b>EncType</b>: The encoding method used.</li>
+                            <li value="3"><b>EncodeAtSign:</b> Encode the <code>"@"</code> sign as in its ASCII representation. The possible values are <b>Yes</b> or <b>No</b>.</li>
+                            <li value="4"><b>TargetFrame</b>: The name of the frame containing the current link or resource. Click <a href="etc/lrFuncRef_WVF_TargetFrame.htm" title="" alt="" class="MCXref xref">TargetFrame</a> for more information.</li>
+                            <li value="5"><b>RecContentType</b>: The content type, for example, text/html.</li>
+                            <li value="6"><b>Referer:</b> The URL of the referring web page. The page that referred to the current page. If the location was explicitly expressed, this attribute is omitted.</li>
+                            <li value="7"><b>Mode</b>: The Recording Level: HTML or HTTP. Click <a href="etc/lrFuncRef_WVF_Recording_Level_Mode.htm" title="" alt="" class="MCXref xref">Recording Level / Mode (Web)</a> for more information.</li>
+                            <li value="8"><b>UserAgent</b>: Identifies a component other than the browser that will execute the step, for example, an ActiveX component running under the browser. This user agent header is sent for the requests made by the step. No check is made to confirm that the user agent argument matches the browser's User-Agent Runtime Setting. Non-browser steps do not affect the emulated browser context, nor do they build a new context from the result.
+</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span style="font-style: italic;"><a href="#Item_Data">ITEMDATA</a></span>
+                    </td>
+                    <td> A marker that separates between the attributes and the list of data fields. (Not used in Java syntax)
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>List of Data </i>
+                    </td>
+                    <td> The list of data fields used to define the form submission. Because the request is contextless, the list of data fields includes all hidden fields. The rules of data encoding for submission of forms apply. For a list of the possible entries in the list, see "Item Data", below.
+                         The value fields can be encoded or plain, for example:
+                         "name=n1", "value=v1", ENDITEM,
+                         "name=n2", "EncryptedValue=qwerty", ENDITEM,
+                         name: The name attribute within an INPUT element of the field. It is the name of the field as it appears on the web page.
+                    </td>
+                </tr>
+                <tr>
+                    <td> EXTRARES
+                    </td>
+                    <td> A demarcation parameter indicating that the next parameter will be a list of resource attributes.
+                    </td>
+                </tr>
+                <tr>
+                    <td> List of Resource Attributes
+                    </td>
+                    <td><a href="etc/lrFuncRef_WVF_Lst_Resrce_Atts.htm" title="" alt="" class="MCXref xref">List of Resource Attributes</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> LAST
+                    </td>
+                    <td> A marker that indicates the end of the field list.
+                    </td>
+                </tr>
+            </table>
+            <h2> Return Values</h2>
+            <p>This function returns LR_PASS (0) on success, and LR_FAIL (1) on failure.</p>
+            <h2> Parameterization</h2>
+            <p>The following argument(s) can be parameterized using standard parameterization: Action, Method, List of Data Fields</p>
+            <h2>General Information</h2>
+            <p>The <b>web_submit_data</b> function is an action function that performs an "unconditional" or "contextless" form submission. (Each Web Action Function in a script causes the browser to display a new web page or frame. All Web Action functions can be recorded by VuGen.) This function allows you to generate GET and POST requests as made by the HTML forms. You do not need to have a form context to execute this request. </p>
+            <p><b>web_submit_data</b> is recorded only when VuGen is in either the URL–based recording mode, or in the HTML–based recording mode with the <b>A script containing explicit URLs only</b> option checked (see VuGen's Recording Options).</p>
+            <p>The method indicates how the data of the form is sent to the server, whether as a query within the URL (GET), or as a request body (POST).</p>
+            <p>This function is generated when VuGen is set to record a web session in HTTP (all requests from the server) recording mode. VuGen also records a <b>web_submit_data</b> statement whenever a form is submitted and it is unable to generate a <a href="lrFr_web_submit_form.htm" title="" alt="" class="MCXref xref">web_submit_form</a> statement.</p>
+            <p>Examples of non–HTML–generated resources are .gif and .jpg images. The <i>List of Resource Attributes</i> is only inserted when the recording option for these resources is set at <b>Record within the current script step</b>. This is the default setting. See the <i>Virtual User Generator User Guide</i>.</p>
+            <p>In Java calls to <b>lrapi.web.submit_data</b> the list of attributes, including hidden fields, is part of the <i>options </i>array<i>. </i>The list of data and the list of resources are part of the <i>data </i>array.</p>
+            <p>The HTTP header can be modified to pass additional information about the request to the server. Using HTTP headers you can, for example, allow other content types in the response such as compressed files, or you can request a web page only on certain conditions. To modify the HTTP header in the request see <a href="lrFr_web_add_header.htm" title="" alt="" class="MCXref xref">web_add_header</a>, or to modify all subsequent requests see <a href="lrFr_web_add_auto_header.htm" title="" alt="" class="MCXref xref">web_add_auto_header</a>.</p>
+            <p>The<b> EncType</b> attribute specifies a Content Type to be specified as the value of the "Content–Type" request header. It indicates the encoding type (either URL–encoding or multi–part) to be used for generating an HTTP request from other arguments. The allowed specifications are:</p>
+            <ul>
+                <li value="1">
+                    <p>"EncType=application/x–www–form–urlencoded"</p>
+                </li>
+                <li value="2">
+                    <p>"EncType=multipart/form–data" (any "; boundary=" is silently ignored) </p>
+                </li>
+                <li value="3">
+                    <p>"EncType=" (an empty string, indicating that no "Content–Type" request header is to be generated). </p>
+                </li>
+            </ul>
+            <p>An <b>EncType</b> specification silently overrides any web_add_[auto_]header for "Content–Type". If <b>EncType</b> is omitted, any applicable web_add_[auto_]header is used. If there is none and "Method=POST", "application/x–www–form–urlencoded" is used. If Method is not POST, no "Content–Type" request header is generated. </p>
+            <p class="intro_phrase"><a name="Item_Data"></a>Item Data</p>
+            <p>The possible entries in the ItemData section are:</p>
+            <ul>
+                <li value="1">
+                    <p><b>Name</b> - The form field name. For example: <code>"Name=name_of_files"</code></p>
+                </li>
+                <li value="2">
+                    <p><b>Value</b> - The value in the Content-Disposition parameter of the multipart message. For example: "<code>Value=c:/dummy/dummy.doc"</code></p>
+                </li>
+                <li value="3">
+                    <p><b>File</b> - Whether the message content is a file. For example: <code>"File=Yes"</code></p>
+                </li>
+                <li value="4">
+                    <p><b>ContentType</b> - The value in the ContentType parameter of the multipart message (for example: <code>"ContentType=text/special")</code>. <b>ContentType</b>, a file type specifier, is needed in the ItemData section in cases where the EncType is a multipart/form–data file upload. <b>ContentType </b>is passed as one value of a data clause in the ITEMDATA section where "File=Yes" is specified, and applies only to the file in the same clause. </p>
+                </li>
+                <li value="5">
+                    <p><b>FilePath</b>- The path to the uploaded file, for example, <code>"FilePath=stub.txt".</code> The path can be relative (recommended) or absolute. If relative, the path is based on the path specified in the <b>Value</b> entry. Backslashes must be escaped. <b>FilePath</b> is passed as one value of a data clause in the ITEMDATA section where "File=Yes" is specified. </p>
+                </li>
+                <li value="6">
+                    <p><b>ContentTransferEncoding</b> - The value in the Content-Transfer-Encoding parameter of the multipart message (for example, <code>"ContentTransferEncoding=html/text")</code>. <b>ContentTransferEncoding</b> is passed as one value of a data clause in the ITEMDATA section where "File=Yes" is specified.</p>
+                </li>
+            </ul>
+            <p>Normally, a "Content–Type" entity header is generated in the request body according to the extension of the uploaded file. For example:</p>
+            <div class="Admonition_Code">
+                <p class="Example">–––––––––––––––––––––––––––––7d025e2b16b064e\r\n Content–Disposition: form–data; name="uploaded_file"; filename="D:\\temp\\a.txt"\r\n <b>Content–Type: text/plain</b>\r\n \r\n</p>
+            </div>
+            <p>However, especially for non–browser applications, content type based on the file type may not be correct. To override it, <b>ContentType</b> can be specified. Specifying an empty value will cause the Content–Type header not to be included for this file.</p>
+            <p>When the uploaded file is empty, "application/x–unknown–content–type" is used regardless of the file extension. Explicitly specifying <b>ContentType</b>, empty or not, overrides this mechanism.</p>
+            <p>No attempt is made to check whether the specified <b>ContentType</b> is recognized or valid.</p>
+            <p>When <span style="font-weight: bold;">web_submit_data</span> is recorded, "name" and "value" are generally recorded for items in the ITEMDATA section. If you do not wish the recorded value to appear in the script, you can encode it. Change the word "Value" to "EncryptedValue", and substitute the encoded value for the recorded value. </p>
+            <p>For example:</p>
+            <div class="Admonition_Code">
+                <p>Change:</p>
+                <p class="Example">"Name=grpType", "Value=radRoundtrip", ENDITEM, </p>
+                <p>to:</p>
+                <p class="Example">"Name=grpType", "EncryptedValue=409e41ebf102f3036b0549c799be3609", ENDITEM, </p>
+            </div>
+            <p>To get an encoded value  for later use, copy the value. Then go to Windows <b>Start menu&#160;&gt; Password Encoder</b>. Paste the value into the <b>Password</b> field, and click <b>Generate</b>. The masked string appears in the <b>Encoded String</b> box. Click <b>Copy</b> and paste the masked string into a parameter for later use, or assign the value to a string variable.</p>
+            <p>Another option for encoding the value is to convert the entire value string to an <b>lr_unmask</b> call. Select an entire string between quote marks, not including the quote marks. Right-click in the string and select <b>Mask String</b>. The output looks like:</p>
+            <div class="Admonition_Code">
+                <p>"Name=grpType", lr_unmask("40d176c46f3cf2f5fbfaa806bd1bcee65f0371858163"), ENDITEM, </p>
+            </div>
+            <p>&#160;</p>
+            <p>This function is supported for all web scripts.</p>
+            <p>&#160;</p>
+            <!--        hr width="100%" size="4" align="center" padding-bottom="0" style="clear:both" /> -->
+            <div class="float">
+            </div>
+        </div>
+        <div class="footer" style="font-size: .65em">
+            <!-- <MadCap:conditionalText MadCap:conditions="_rsc_Conditions.Footer"> -->
+            <!--<div class="roundcorners">-->
+            <table class="no_lines" style="border-top:1px solid #B9B8BB;  width:100%; margin-left: auto; margin-right: auto;  ">
+                <col style="width: 250px;" />
+                <col style="width: 329px;" />
+                <col style="width: 237px;" />
+                <tr style="height: 0.5em;">
+                    <td style="vertical-align: top" />
+                    <td style="vertical-align: top;direction: ltr;text-align: center;" />
+                    <td style="vertical-align: top; text-align: right" />
+                </tr>
+                <tr>
+                    <td style="vertical-align: top">
+                        <img src="../../Resources/MasterPages/_rscB_banner_graphic.png" style="width: 120px;" />
+                        <p class="footerlink" style="margin-top:1em;font-weight:600;color:#656668">Last updated <span class="_rscC_Basic_Variables_rsc_LastUpdatedDate">March 30, 2020</span></p>
+                        <p class="footerlink"><a href="https://www.microfocus.com/en-us/legal/terms-of-use" target="_blank">Terms of Use</a>&#160;|&#160;<a href="https://www.microfocus.com/about/legal/" target="_blank">Privacy</a><br /><a href="../../Resources/MasterPages/_rsc_3P_Legal_Notices.htm#1"> © <span class="_rscC_Basic_Variables_rsc_Copyright_Date_Range">1994-2020</span> <span class="_rscB_Branding_Variables_rsc_Copyright_Name_Short">Micro Focus</span></a></p>
+                    </td>
+                    <td style="vertical-align: top;direction: ltr;text-align: center;padding-top:0">
+                        <p>&#160;</p>
+                    </td>
+                    <td style="vertical-align: top; text-align: right;padding-top:0;font-size:1.125em">
+                        <!--<MadCap:snippetBlock src="../Snippets/Required/_rsc_FeedbackSnip.flsnp" />-->
+                        <p class="footerlink"><a href="javascript:sendFeedback();" class="avoidPrint" data-mc-conditions="_rsc_Conditions.Footer">Send Help Center Feedback</a>
+                        </p>
+                        <!-- Localizable -->
+                        <div id="hp-feedbackDiv" class="hp-feedbackDiv">
+                            <div class="hp-feedbackDivClose"><a href="javascript:closeFeedback();" id="hp-feedbackClose"><img src="../../Resources/_TopNav/Images/_TopNav_ic-close.png" /></a>
+                            </div>
+                            <div class="hp-feedbackDivContent">
+                                <!-- Localizable -->
+                                <h1 class="feedback hp-feedbackDivHeader">Send Help Center Feedback</h1>
+                                <p class="hp-feedbackDivBody">Let us know how we can improve your Help Center experience.</p>
+                                <p class="hp-feedbackDivBody">Send your email to: <a name="hp-feedbackOpen" id="hp-feedbackOpen">docteam@microfocus.com</a></p>
+                                <img src="../../Resources/_TopNav/Images/_TopNav_ic-email.png" />
+                                <!-- Localizable -->
+                                <div style="display:none;" id="hp-feedbackBody">Add your Help Center feedback:</div>
+                                <!-- Localizable -->
+                            </div>
+                        </div>
+                        <div id="hp-feedbackDimmedDiv">
+                        </div>
+                        <div style="display:none;" id="hp-feedback-variables" productName="Function Reference" productVersion="2020" commentsEmailAddress="docteam@microfocus.com" productAcronym="VuGen" topicTitle="web_submit_data" skinLine1="VuGen 2020 Function Reference" skinLine2="">
+                            <script src="../../Resources/_TopNav/_TopNav_Feedback.js">
+                            </script>
+                        </div>
+                        <p class="footerlink"><a href="https://admhelp.microfocus.com/lr/en/latest/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm" target="_blank">LoadRunner Help Center</a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <!-- </div> -->
+            <!--</MadCap:conditionalText> -->
+            <p style="visibility:hidden"> </p>
+            <p><a href="../../Resources/MasterPages/_rsc_HTML5_bannerTitle.htm" style="visibility: hidden;"></a><a href="../../Resources/MasterPages/_rsc_aboutSearch.htm" style="visibility: hidden;"></a>
+            </p>
+        </div>
+    </body>
+</html>

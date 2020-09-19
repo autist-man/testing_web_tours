@@ -1,0 +1,39 @@
+﻿var css = "#hp-feedbackDiv{background-color:white;box-shadow:1px 1px 3.92px 0.08px rgba(66,66,66,0.4);display:none;height:220px;left:50%;margin-left:-268px;margin-top:-110px;padding:10px 10px 20px 10px;position:fixed;top:50%;width:536px;word-wrap:break-word;z-index:4;}#hp-feedbackDiv .hp-feedbackDivClose{position:absolute;right:2px;text-align:right;top:2px;}#hp-feedbackDiv .hp-feedbackDivClose img{position:absolute;right:10px;top:10px;}#hp-feedbackDiv .hp-feedbackDivContent{text-align:left;}#hp-feedbackDiv .hp-feedbackDivContent .hp-feedbackDivBody{line-height:22px;margin-bottom:0;margin-top:0;}#hp-feedbackDiv .hp-feedbackDivContent .hp-feedbackDivBody:first-of-type{margin-top:20px;}#hp-feedbackDiv #hp-feedbackOpen{color:#0073e7;}#hp-feedbackDiv .hp-feedbackDivContent img{bottom:20px;height:108px;position:absolute;right:20px;width:172px;}#hp-feedbackDimmedDiv{background-color:#FFFFFF;display:none;filter:alpha(opacity=80);height:100%;left:0px;opacity:.8;position:fixed;top:0px;width:100%;z-index:3;}#feedback-header,#feedback-image{display:none;}@media only screen and (max-width:640px){#hp-feedbackDiv{margin-left:-9em!important;width:18em!important;}#hp-feedbackDiv #hp-feedbackClose > img{margin-top:-2px!important;}#hp-feedbackDiv p + img{height:4em!important;width:auto!important;}#feedback-header,#feedback-image{display:block;}}";
+
+var style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'feedback-css';
+if ('textContent' in style) {
+  style.textContent = css;
+} else {
+  style.styleSheet.cssText = css;
+}
+document.getElementsByTagName('head')[0].appendChild(style);
+function sendFeedback() {
+  var feedbackVariables = document.getElementById("hp-feedback-variables");
+  var productName = feedbackVariables.getAttribute("productName");
+  var productVersion = feedbackVariables.getAttribute("productVersion");
+  var commentsEmailAddress = feedbackVariables.getAttribute("commentsEmailAddress");
+  var firstheading = '';
+  var string = feedbackVariables.getAttribute("topicTitle");
+
+  if (!/[^\u0000-\u00ff]/.test(string))
+    firstheading = feedbackVariables.getAttribute("topicTitle");
+
+  document.getElementById('hp-feedbackDiv').style.display = "block";
+
+  var topicURL = document.URL;
+
+  var emailBody = document.getElementById('hp-feedbackBody').innerHTML;
+  emailBody += ' (topic ' + decodeURIComponent(topicURL) + ')' + encodeURIComponent('\n\n');
+  document.getElementById('hp-feedbackOpen').href = 'mailto:' + commentsEmailAddress + '?subject=Feedback on ' + productName + " " + productVersion + ": " + firstheading + '&body=' + emailBody;
+
+  dimDiv = document.getElementById('hp-feedbackDimmedDiv');
+  dimDiv.style.display = "block";
+  dimDiv.onclick = closeFeedback;
+}
+
+function closeFeedback() {
+  document.getElementById('hp-feedbackDiv').style.display = "none";
+  document.getElementById('hp-feedbackDimmedDiv').style.display = "none";
+}

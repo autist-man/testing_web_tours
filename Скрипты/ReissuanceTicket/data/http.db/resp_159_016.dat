@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<!--QCCR1K4344-->
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="FuncRef.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Web Vuser Functions (WEB)|Alphabetical List of Web Vuser Functions">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>web_url</title>
+        <link rel="icon" type="image/x-icon" href="https://software.microfocus.com/images/favicon.ico" />
+        <!-- Google Tag Manager -->
+        <script type="text/javascript">/*<![CDATA[*/(function(w,d,s,l,i){if(location.protocol.toLowerCase().indexOf('file:')===0)return;w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NJ9842');/*]]>*/</script>
+        <!-- End Google Tag Manager -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <style>html,
+body
+{
+	height: 100%;
+	margin-right: 2em;
+}
+
+.wrapper
+{
+	min-height: 100% !important;
+	margin: 0 auto -10em;
+	padding-left: 0.2em;
+}
+
+footer,
+.float
+{
+	height: 10em;
+	margin: 0;
+	clear: both;
+}
+
+div.roundcorners
+{
+	-moz-border-radius-bottomleft: 1em;
+	border-bottom-left-radius: 1em;
+	-moz-border-radius-topright: 1em;
+	border-top-right-radius: 1em;
+	background-color: #f2f2f2;
+	width: 100% !important;
+	padding: 0em;
+}
+
+p.footerlink
+{
+	line-height: 1em;
+	padding: 0em;
+	margin-top: 0;
+	margin-bottom: .6em;
+}
+
+p.footerlink a:visited
+{
+	color: #0073E7 !important;
+}
+
+p.footerlink a:hover
+{
+	color: #000000 !important;
+}
+
+p.spacer
+{
+	font-size: .5em;
+	line-height: .5em;
+	padding: 0em;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+
+</style>
+        <link href="../../Resources/Stylesheets/_rsc_SuperDocs.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../FuncRef.htm#FuncRef/web/lrFr_web_url.htm">Open topic with navigation</a>
+        </p>
+        <div class="wrapper">
+            <div class="nocontent">
+                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="5" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                </div>
+            </div><a name="kanchor1376"></a><a name="kanchor1377"></a>
+            <h1>web_url</h1>
+            <p>Loads the specified web page (GET request).</p>
+            <h2>C Language</h2><pre xml:space="preserve">int <b>web_url(</b> const char *<i>StepName</i>, const char *<i>url</i>, &lt;<i>List of Attributes</i>&gt;, [EXTRARES, &lt;<i>List of Resource Attributes</i>&gt;,] LAST&#160;<span style="font-weight: bold;">);</span></pre>
+            <div align="left">
+                <table border="0" cellpadding="5">
+                    <tr align="left" valign="top">
+                        <td>
+                            <div><a href="examples/lrFuncRef_WVF_w_url_Example.htm" title="" alt="" class="MCXref xref">Example: web_url</a>
+                            </div>
+                        </td>
+                        <td>
+                            <div><a href="categories/lrFr_webCat_Action_Funcs.htm" title="" alt="" class="MCXref xref">Action Functions</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h2>Java Language</h2><pre xml:space="preserve">int <i>object.</i><b>url</b>( String <i>stepName</i>, String <i>url</i>, String[] argumentList&#160;<span style="font-weight: bold;">);</span></pre>
+            <div align="left">
+                <table border="0" cellpadding="5">
+                    <tr align="left" valign="top">
+                        <td>
+                            <div><a href="examples/lrFuncRef_WJV_w.url_Example.htm" title="" alt="" class="MCXref xref">Example: web.url</a>
+                            </div>
+                        </td>
+                        <td>
+                            <div><a href="../webjv/lrFuncRef_WJVC_Action_Funcs.htm" title="" alt="" class="MCXref xref"> Action Functions</a>
+                            </div>
+                        </td>
+                        <td>
+                            <div><a href="../_Direct/lrFuncRef_allp_Java_Syntax.htm" title="" alt="" class="MCXref xref">Java Syntax</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div align="left">
+                <table>
+                    <tr>
+                        <th>
+                            <div> Argument</div>
+                        </th>
+                        <th>
+                            <div> Description</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div><i>object</i>
+                            </div>
+                        </td>
+                        <td>
+                            <div> An expression evaluating to an object of type WebApi. Usually <b>web</b> for Java. See also Function and Constant Prefixes.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div><i>StepName</i>
+                            </div>
+                        </td>
+                        <td>
+                            <div> The label of the step in the Graphical script. Also used as the transaction name for automatic transactions.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div> URL</div>
+                        </td>
+                        <td>
+                            <div> The URL (Uniform Resource Locator) of the web page to load. The format is <code>"URL=&lt;</code><i>address</i><code>&gt;"</code>. The URL may be any of the following protocols: HTTP, HTTPS, or FTP. For authentication purposes, include both the user name and the password in the URL attribute using the following format: ftp://username:password@server/dir/path.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div><i>List of Attributes</i>
+                            </div>
+                        </td>
+                        <td>
+                            <div> See below in this section: <a href="#List_Attributes" class="MCXref xref"> List of Attributes</a></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div> EXTRARES</div>
+                        </td>
+                        <td>
+                            <div> A demarcation parameter indicating that the next parameter will be a list of resource attributes.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div> List of Resource Attributes</div>
+                        </td>
+                        <td>
+                            <div><a href="etc/lrFuncRef_WVF_Lst_Resrce_Atts.htm" title="" alt="" class="MCXref xref">List of Resource Attributes</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div><i>LAST</i>
+                            </div>
+                        </td>
+                        <td>
+                            <div> A marker that indicates the end of the argument list.</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h2> Return Values</h2>
+            <p>This function returns LR_PASS (0) on success, and LR_FAIL (1) on failure.</p>
+            <h2> Parameterization</h2>
+            <p>The following argument(s) can be parameterized using standard parameterization: <i>List of Attributes</i></p>
+            <h2>General Information</h2>
+            <p>The <b>web_url</b> function is an action function that loads the web page (GET request) specified by the URL argument. (Each Web Action Function in a script causes the browser to display a new web page or frame. All Web Action functions can be recorded by VuGen.) The <b>web_url</b> function does not require a context.</p>
+            <p><b>web_url</b> is recorded only when VuGen is in either URL–based recording mode, or in HTML–based recording mode with the <b>A script containing explicit URLs only</b> option checked (see VuGen's Recording Options).</p>
+            <p>You can use <b>web_url</b> to simulate the download of a file from an FTP server. The <b>web_url</b> function causes the server to perform the same tasks as if a file were actually being downloaded. The download is done in binary mode, unless "<i>FtpAscii</i>=1" is specified.</p>
+            <p>Examples of non–HTML–generated resources are .gif and .jpg images. The <i>List of Resource Attributes</i> is only inserted when the recording option for these resources is set at <b>Record within the current script step</b>. This is the default setting. See the <i>Virtual User Generator User Guide</i>.</p>
+            <p>The HTTP header can be modified to pass additional information about the request to the server. Using HTTP headers you can, for example, allow other content types in the response such as compressed files, or you can request a web page only on certain conditions. To modify the HTTP header in the request, see <a href="lrFr_web_add_header.htm" title="" alt="" class="MCXref xref">web_add_header</a>. To modify all subsequent requests, see <a href="lrFr_web_add_auto_header.htm" title="" alt="" class="MCXref xref">web_add_auto_header</a>.</p>
+            <div class="Admonition_Note">
+                <p data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>For Dynatrace integration, ensure that the <b>Enable Dynatrace AppMon</b> runtime setting is selected (<b>Runtime Settings &gt; Internet Protocol &gt; Preferences &gt; Advanced</b>). When enabled, the x-dynaTrace header required by Dynatrace AppMon is added to each HTTP request.</p>
+            </div>
+            <p>This function is supported for all web scripts.</p>
+            <h2> List of Attributes<a name="List_Attributes"></a></h2>
+            <table style="width: 100%;margin-left: auto;margin-right: auto;">
+                <col />
+                <col />
+                <tbody>
+                    <tr>
+                        <td><b>FtpAscii</b>
+                        </td>
+                        <td>"1" to perform an FTP transfer in ASCII mode, "0" for binary mode.</td>
+                    </tr>
+                    <tr>
+                        <td><b>TargetFrame</b>
+                        </td>
+                        <td>
+                            <p>The name of the frame containing the current link or resource. See <a href="etc/lrFuncRef_WVF_TargetFrame.htm" title="" alt="" class="MCXref xref">TargetFrame</a> for more information.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>RecContentType</b>
+                        </td>
+                        <td>
+                            <p>The content–type of RESPONSE header during recording, for example, <b>text/html</b>, <b>application/x–javascript</b>. It is read to determine whether the target URL is a recordable resource. See <a href="etc/lrFuncRef_WVF_RecContentType.htm" title="" alt="" class="MCXref xref">RecContentType</a> for more information.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Referer</b>
+                        </td>
+                        <td>
+                            <p>The URL of the referring web page. The page that referred to the current page. If the location was explicitly expressed, this attribute is omitted.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Resource</b>
+                        </td>
+                        <td>
+                            <p>A value indicating whether the URL is a resource:</p>
+                            <p>0 – the URL is not a resource</p>
+                            <p>1 – the URL is a resource</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>ResourceByteLimit </b>
+                        </td>
+                        <td>See <a href="etc/lrFuncRef_WVF_ResourceByteLimit.htm" title="" alt="" class="MCXref xref">ResourceByteLimit</a> for more information.</td>
+                    </tr>
+                    <tr>
+                        <td><b>Snapshot</b>
+                        </td>
+                        <td>
+                            <p>The file name of the snapshot file (<b>inf</b> extension), used for correlation.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Mode </b>
+                        </td>
+                        <td>
+                            <p>The Recording Level: HTML or HTTP. "Mode=HTML" is not allowed on <b>web_url</b> requests in concurrent groups. In a concurrent group, the responses of the downloaded resources looking for additional objects to download are not parsed. Click <a href="etc/lrFuncRef_WVF_Recording_Level_Mode.htm" title="" alt="" class="MCXref xref">Recording Level / Mode (Web)</a> for more information.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>UserAgent </b>
+                        </td>
+                        <td>Identifies a component other than the browser that will execute the step, for example, an ActiveX component running under the browser. This user agent header is sent for the requests made by the step. No check is made to confirm that the user agent argument matches the browser's User-Agent Runtime Setting. Non-browser steps do not affect the emulated browser context, nor do they build a new context from the result.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>EXTRARES handling</h2>
+            <p>When Mode=HTML, the response HTML returned from the server is parsed.  The response is scanned for embedded links to resources such as JavaScript, images, or CSS content, and automatically retrieves those resources if they are not already cached by the Vuser.  Many pages also retrieve content that is triggered by Javascript requests.  During a recording, VuGen adds these resources to the EXTRARES section of the request.  They are then requested as part of the page if not previously cached.</p>
+            <p>The EXTRARES section then includes one or more of these entries:</p>
+            <div class="Admonition_Code"><pre>"Url=xxxxx", "Referer=xxxxx", ENDITEM, </pre>
+            </div>
+            <p>&#160;</p>
+            <!--        hr width="100%" size="4" align="center" padding-bottom="0" style="clear:both" /> -->
+            <div class="float">
+            </div>
+        </div>
+        <div class="footer" style="font-size: .65em">
+            <!-- <MadCap:conditionalText MadCap:conditions="_rsc_Conditions.Footer"> -->
+            <!--<div class="roundcorners">-->
+            <table class="no_lines" style="border-top:1px solid #B9B8BB;  width:100%; margin-left: auto; margin-right: auto;  ">
+                <col style="width: 250px;" />
+                <col style="width: 329px;" />
+                <col style="width: 237px;" />
+                <tr style="height: 0.5em;">
+                    <td style="vertical-align: top" />
+                    <td style="vertical-align: top;direction: ltr;text-align: center;" />
+                    <td style="vertical-align: top; text-align: right" />
+                </tr>
+                <tr>
+                    <td style="vertical-align: top">
+                        <img src="../../Resources/MasterPages/_rscB_banner_graphic.png" style="width: 120px;" />
+                        <p class="footerlink" style="margin-top:1em;font-weight:600;color:#656668">Last updated <span class="_rscC_Basic_Variables_rsc_LastUpdatedDate">March 30, 2020</span></p>
+                        <p class="footerlink"><a href="https://www.microfocus.com/en-us/legal/terms-of-use" target="_blank">Terms of Use</a>&#160;|&#160;<a href="https://www.microfocus.com/about/legal/" target="_blank">Privacy</a><br /><a href="../../Resources/MasterPages/_rsc_3P_Legal_Notices.htm#1"> © <span class="_rscC_Basic_Variables_rsc_Copyright_Date_Range">1994-2020</span> <span class="_rscB_Branding_Variables_rsc_Copyright_Name_Short">Micro Focus</span></a></p>
+                    </td>
+                    <td style="vertical-align: top;direction: ltr;text-align: center;padding-top:0">
+                        <p>&#160;</p>
+                    </td>
+                    <td style="vertical-align: top; text-align: right;padding-top:0;font-size:1.125em">
+                        <!--<MadCap:snippetBlock src="../Snippets/Required/_rsc_FeedbackSnip.flsnp" />-->
+                        <p class="footerlink"><a href="javascript:sendFeedback();" class="avoidPrint" data-mc-conditions="_rsc_Conditions.Footer">Send Help Center Feedback</a>
+                        </p>
+                        <!-- Localizable -->
+                        <div id="hp-feedbackDiv" class="hp-feedbackDiv">
+                            <div class="hp-feedbackDivClose"><a href="javascript:closeFeedback();" id="hp-feedbackClose"><img src="../../Resources/_TopNav/Images/_TopNav_ic-close.png" /></a>
+                            </div>
+                            <div class="hp-feedbackDivContent">
+                                <!-- Localizable -->
+                                <h1 class="feedback hp-feedbackDivHeader">Send Help Center Feedback</h1>
+                                <p class="hp-feedbackDivBody">Let us know how we can improve your Help Center experience.</p>
+                                <p class="hp-feedbackDivBody">Send your email to: <a name="hp-feedbackOpen" id="hp-feedbackOpen">docteam@microfocus.com</a></p>
+                                <img src="../../Resources/_TopNav/Images/_TopNav_ic-email.png" />
+                                <!-- Localizable -->
+                                <div style="display:none;" id="hp-feedbackBody">Add your Help Center feedback:</div>
+                                <!-- Localizable -->
+                            </div>
+                        </div>
+                        <div id="hp-feedbackDimmedDiv">
+                        </div>
+                        <div style="display:none;" id="hp-feedback-variables" productName="Function Reference" productVersion="2020" commentsEmailAddress="docteam@microfocus.com" productAcronym="VuGen" topicTitle="web_url" skinLine1="VuGen 2020 Function Reference" skinLine2="">
+                            <script src="../../Resources/_TopNav/_TopNav_Feedback.js">
+                            </script>
+                        </div>
+                        <p class="footerlink"><a href="https://admhelp.microfocus.com/lr/en/latest/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm" target="_blank">LoadRunner Help Center</a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <!-- </div> -->
+            <!--</MadCap:conditionalText> -->
+            <p style="visibility:hidden"> </p>
+            <p><a href="../../Resources/MasterPages/_rsc_HTML5_bannerTitle.htm" style="visibility: hidden;"></a><a href="../../Resources/MasterPages/_rsc_aboutSearch.htm" style="visibility: hidden;"></a>
+            </p>
+        </div>
+    </body>
+</html>

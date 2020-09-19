@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 14 Sep 2020 18:30:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1340
+Connection: keep-alive
+Cache-Control: no-cache, private
+X-Time: 20.85302734375
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, PATCH, OPTIONS
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization, Cookie
+Access-Control-Max-Age: 0
+Access-Control-Allow-Origin: 
+Strict-Transport-Security: max-age=31536000
+

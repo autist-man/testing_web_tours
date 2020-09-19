@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="en-us">
+    <!-- saved from url=(0016)http://localhost -->
+    <Groups />
+    <Directional>
+        <DirectionalSynonym From="lr_db_execute" To="lr_db_executesqlstat" />
+        <DirectionalSynonym From="lr_db_get" To="lr_db_getvalu" />
+        <DirectionalSynonym From="lr_db" To="lr_db_getvalu" />
+        <DirectionalSynonym From="web.button" To="button" />
+    </Directional>
+</MadCapSynonyms>

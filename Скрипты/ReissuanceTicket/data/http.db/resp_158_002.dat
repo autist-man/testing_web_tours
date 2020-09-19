@@ -1,0 +1,99 @@
+﻿/*<meta />*/
+
+@font-face {
+  font-family: 'FontIcons';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./_rsc_icons/_rsc_icons.eot');
+  /* IE9 Compat Modes */
+  src: url('./_rsc_icons/_rsc_icons.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./_rsc_icons/_rsc_icons.woff') format('woff'), url('./_rsc_icons/_rsc_icons.ttf') format('truetype');
+}
+
+div#header,
+div#responsiveHeader,
+div#responsiveHeader .logo {
+  background: #0073e7;
+  color: #ffffff;
+}
+
+div#toc.tabs-panel-content {
+  background: #F5F7F8;
+}
+
+div.tabs-panel {
+  background-color: #F5F7F8;
+}
+
+@media only screen and (max-width: 640px) {
+  #home,
+  .toolbar-buttons {
+    display: none;
+  }
+  #contentBodyInner {
+    top: 67px;
+  }
+  /* PLACEHOLDER TEXT COLOR*/
+  #search-field-sidebar::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  #search-field-sidebar::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+}
+
+/* TOOLBAR ICONS */
+
+.toolbar-buttons .button {
+  background: none;
+  border: none;
+  position: relative;
+}
+
+.toolbar-buttons .button:before {
+  font-family: FontIcons;
+  font-size: 18px;
+  position: absolute;
+}
+
+.toolbar-buttons .button:hover:before {
+  color: #0073e7;
+}
+
+.toolbar-buttons .previous-topic-button:before {
+  content: "\e901";
+  font-size: 18px;
+  left: 0.5px;
+}
+
+.toolbar-buttons .next-topic-button:before {
+  content: "\e900";
+  font-size: 18px;
+ 
+}
+
+.toolbar-buttons .collapse-all-button:before {
+  content: "\e903";
+  font-size: 18px;
+  
+}
+
+.toolbar-buttons .expand-all-button:before {
+  content:"\e902";
+  font-size: 18px;
+  
+}
+
+.toolbar-buttons .remove-highlight-button:before {
+  content: "\e905";
+  font-size: 18px;
+  
+  
+}
+
+.toolbar-buttons .print-button:before {
+  content: "\e904";
+  font-size: 18px;
+}

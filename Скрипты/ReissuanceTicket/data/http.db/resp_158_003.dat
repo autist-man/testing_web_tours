@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebHelpSystem DefaultUrl="Content/FuncRef/Landing Page.htm" Toc="Data/Tocs/LrFr_TOC.js" Index="Data/Index.js" Concepts="Data/Concepts.js" Glossary="Data/Glossary.js" SearchDatabase="Data/Search.js" Alias="Data/Alias.xml" Synonyms="Data/Synonyms.xml" PathToScriptsFolder="Resources/Scripts/" SkinName="_rscC_HTML5_3P" SkinID="_rscC_HTML5_3P" Multilingual="false" Skins="_rscC_HTML5_3P" BuildTime="3/30/2020 6:46:35 PM" BuildVersion="15.0.7081.30245" TargetType="WebHelp2" SkinTemplateFolder="Skin/" InPreviewMode="false" TopNavTocPath="true" MoveOutputContentToRoot="false" ReplaceReservedCharacters="false" MakeFileLowerCase="false" UseCustomTopicFileExtension="false" PreventExternalUrls="false" EnableResponsiveOutput="true" IncludeGlossarySearchResults="true" ResultsPerPage="20" xml:lang="en-us" LanguageName="English" SearchEngine="MadCapSearch" IncludeCSHRuntime="true" DebugMode="false" ShowMadCapBacklink="false">
+    <!-- saved from url=(0016)http://localhost -->
+    <CatapultSkin Version="3" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="true" NavigationLinkTop="true" AutoSyncTOC="true" Title="" NavigationLinkBottom="false" EnableResponsiveOutput="true" Name="_rscC_HTML5_3P" SkinID="_rscC_HTML5_3P" SkinClass="_Skins__rscC_HTML5_3P" HideNavOnStartup="False" LogoUrl="">
+        <Toolbar EnableCustomLayout="true" Buttons="TopicRatings|Filler|PreviousTopic|NextTopic|ExpandAll|RemoveHighlight|Print"> //QCCR1K4347, QCCR1K3864, QCCR1K4294
+ 
+    <Script>$('&lt;link&gt;')
+  .appendTo($('head'))
+  .attr({
+    type: 'text/css',
+    rel: 'stylesheet'
+  })
+  .attr('href', 'Content/Resources/Stylesheets/_rsc_3P.css');
+
+$('&lt;link&gt;')
+  .appendTo($('head'))
+  .attr({
+    type: 'text/css',
+    rel: 'stylesheet'
+  })
+  .attr('href', 'content/resources/stylesheets/_rsc_3P.css');
+
+// ENTER FALLBACK PRODUCT NAME FOR LOCAL HELP ACCESS //
+var FALLBACK_PRODUCT_NAME = "VuGen Function Reference";
+var MARGIN_TOP = 0.8;
+var FONT_SIZE = 2.2;
+
+/*How to use the FALLBACK PRODUC NAME....
+			- Leave FALLBACK_PRODUCT_NAME blank to retain default behavior (no product name in IE11 and Chrome with local access)
+ 
+			- For a one-line banner , MARGIN_TOP = 0.8 and FONT_SIZE = 2.2
+
+			- For a two-line banner, enter "Line1 &lt;/br&gt; Line2"
+	                 	Example: FALLBACK_PRODUCT_NAME = "NNMi &lt;/br&gt; Ultimate"
+			  If you use two lines, change MARGIN_TOP to 0.5 and FONT_SIZE to 1.8
+				
+*/
+
+// DO NOT EDIT BELOW THIS LINE //
+// *************************** //
+
+$(document).ready(function () {
+  var $myfloat = "left";
+
+  if ($('html.right-layout').length &gt; 0) {
+    var $myfloat = "right";
+  }
+
+  //get the contents of the second header line and assign to variable//
+  var $div = $('&lt;div&gt;');
+  $div.load('Content/Resources/MasterPages/_rsc_HTML5_bannerTitle.htm #header-title2', function () {
+    //remove all spaces and returns from the result//
+    test = $(this).text()
+    test = test.replace(/\s+/g, '');
+    test = test.replace(/[\n\r]/g, '');
+
+    //set the base format for the header text//
+    $("#header-content").css({
+      "visibility": "visible",
+      "float": "left",
+      "font-family": "MetricMedium, Arial",
+      "float": $myfloat
+    });
+
+    if (test != "") { //if there is a second header variable  set formats for a 2-line banner//
+      // add styles for header text //
+      $("#header-content").css({
+        "margin-top": "0.5em",
+        "font-size": "1.8em"
+      });
+    } else { //if there is no second header variable, set formats for a 1-line banner//
+      // add styles for header text //
+      $("#header-content").css({
+        "margin-top": "0.8em",
+        "font-size": "2.2em"
+      });
+    }
+  });
+
+  // add divs for header text//
+  $("#header&gt;a").after('&lt;div id="header-content"&gt;&lt;/div&gt;');
+
+  // add divs for logo //
+  $("#header&gt;a").after('&lt;div id="header-logo"&gt;&lt;/div&gt;');
+
+  // load the contents of the #header-content from Content/Resources/MasterPages/_rsc_HTML5_bannerTitle.htm file into #header-content //
+  $("#header-content").load("Content/Resources/MasterPages/_rsc_HTML5_bannerTitle.htm #header-content", function (response, status) {
+    //provides handling for failed XMLHTTP request during local file access//
+    if (status == "error") {
+      //resets style attributes of containing &lt;div&gt; element (for IE 11, but applies to all failed requests) //
+      $("#header-content").html(FALLBACK_PRODUCT_NAME);
+      $("#header-content").css({
+        "margin-top": MARGIN_TOP + "em",
+        "font-size": FONT_SIZE + "em",
+        "font-family": "MetricMedium, Arial",
+        "visibility": "visible",
+        "float": "left",
+        "left": "20px",
+        "float": $myfloat
+      });
+    }
+  });
+
+  $('&lt;div id="responsiveHeaderTitle"&gt;&lt;/div&gt;')
+    .css({
+      "font-size": FONT_SIZE + "em",
+      "font-family": "MetricMedium, Arial",
+      "visibility": "visible",
+      "left": "70px",
+      "top": "15px",
+      "position": "absolute"
+    })
+    .appendTo('#responsiveHeader');
+  $("#responsiveHeaderTitle").load("Content/Resources/MasterPages/_rsc_HTML5_bannerTitle.htm #header-responsive-title");
+
+  //write the link to the standard logo file//
+  //	$("#header-logo").html("&lt;img src='Content/Resources/MasterPages/_rscB_banner_graphic.png' width=120px /&gt;");//
+  //write the call to the bannar graphic and format the div.//
+
+  //	 add styles to position the logo //
+  $("#header-logo").css({
+    "visibility": "visible",
+    "float": $myfloat,
+    "left": "20px",
+    "padding-left": "2em",
+    "margin-top": "2em"
+  });
+  $("span.tabs-nav-text").css({
+    "cursor": "default"
+  }); //QCCR1K4337
+  $("#contentBodyInner").css({
+    "border-left-color": "white",
+    "border-right-color": "white",
+    "margin-top": "0.5em"
+  });
+
+  $("#contentBody").css({
+    "margin-left": "1.5em"
+  }); //QCCR1K4337
+
+
+  $("div.search-filter-content").css({
+    "border": "1px solid #E5E8E8"
+  }); /*QCCR1K4340*/
+
+  //Get the name of the helpset's default file name
+  var url = window.location.pathname;
+  var defaultFile = url.substring(url.lastIndexOf('/') + 1);
+
+  if (defaultFile != "Default.htm") { //If the default filename is not Default.htm, reset the link using the correct default file name
+    var link = document.getElementById("searchLink");
+    var path = "./" + defaultFile + "#Resources/MasterPages/_rsc_aboutSearch.htm";
+    link.setAttribute("href", path);
+  }
+
+  var aid = setInterval(function() {
+    if ($('.tab.active').length &amp;&amp; $('#TocTab.tabs-nav-active').length) return;
+    clearInterval(aid);
+    $('#TocTab').closest('.tab').addClass('active');
+    $('#TocTab').removeClass('tabs-nav-inactive').addClass('tabs-nav-active');
+  }, 1000);
+});</Script></Toolbar>
+        <WebHelpOptions NavigationPanePosition="Left" TabletBreakpoint="640" MobileBreakpoint="640" />
+    </CatapultSkin>
+</WebHelpSystem>

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\mtemu\Desktop\Тестирование\Домашки\Скрипты\script\ViewingPurchasedTickets
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\mtemu\desktop\тестирование\домашки\скрипты\script\viewingpurchasedtickets\\logfile.log
+c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\viewingpurchasedtickets\\combined_ViewingPurchasedTickets.c
+c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\viewingpurchasedtickets\\pre_cci.c

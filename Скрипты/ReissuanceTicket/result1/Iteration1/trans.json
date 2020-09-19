@@ -1,0 +1,52 @@
+[
+    {
+        "transactionName": "go_to_site",
+        "rawStartTime": 1600493606798,
+        "rawEndTime": 1600493607701
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600493607702,
+        "rawEndTime": 1600493607852
+    },
+    {
+        "transactionName": "click_flight",
+        "rawStartTime": 1600493607854,
+        "rawEndTime": 1600493607994
+    },
+    {
+        "transactionName": "fill_find_flight",
+        "rawStartTime": 1600493607996,
+        "rawEndTime": 1600493608112
+    },
+    {
+        "transactionName": "choose_flight",
+        "rawStartTime": 1600493608114,
+        "rawEndTime": 1600493608277
+    },
+    {
+        "transactionName": "insert_payment_info",
+        "rawStartTime": 1600493608328,
+        "rawEndTime": 1600493608506
+    },
+    {
+        "transactionName": "viewing_receipts",
+        "rawStartTime": 1600493608508,
+        "rawEndTime": 1600493608751
+    },
+    {
+        "transactionName": "ñancel_reservation",
+        "rawStartTime": 1600493609180,
+        "rawEndTime": 1600493609450
+    },
+    {
+        "transactionName": "click_sing_off",
+        "rawStartTime": 1600493609452,
+        "rawEndTime": 1600493609587
+    },
+    {
+        "transactionName": "UC_02_ReissuanceTicket",
+        "rawStartTime": 1600493606796,
+        "rawEndTime": 1600493609589
+    }
+]

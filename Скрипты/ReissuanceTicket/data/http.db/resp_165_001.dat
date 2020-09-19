@@ -1,0 +1,135 @@
+/*<meta />*/
+
+/* This header may be removed before distributing to customers. 
+
+FILE:         _rsc_SuperDocs.css
+DESCRIPTION:  CSS for TopNav (SuperDocs) projects in the ADM Flare file set.
+MODIFIED:     Jan 2018
+VERSION:      For ADM SFFS fileset 7.7
+
+*/
+
+@import url('_rsc_IE.css') ;
+
+@import url('../_TopNav/_TopNav_Styles.css') ;
+
+@import url('_rsc_3P.css') ;
+
+/* h1, h2, h2.frontMatter, p.Intro_phrase all defined in _rsc_IE only*/
+
+/* SF: Added AFFS2.40 Nov2015 
+		-Use div.Responsive_Hide to hide a paragraph when the output is on viewed on a mobile device
+		-Use div.Responsive_Show to show a paragraph when the ouput  is on viewed on a mobile device
+		*/
+
+div.Responsive_Hide
+{
+	
+}
+
+div.Responsive_Show
+{
+	
+}
+
+h1.feedback
+{
+	font-size: 1.4em;
+	border: 0;
+	border-bottom: 1.5px solid #d1d1d1;
+	margin: 0.1em 0em 0.1em;
+}
+
+p.hpMiniTOCHeading
+{
+	font-size: 1.15em;
+	font-family: MetricMedium, Arial;
+	padding-bottom: 0;
+	font-weight: normal;
+	margin-top: 0em;
+	padding-top: 2px;
+	margin-bottom: 2px;
+}
+
+ul.hpMiniTOCItems
+{
+	font-size: 17.5px;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+ul.hpMiniTOCItems li
+{
+	list-style-image: url('../Images/_TopNav_mt-link.png');
+	margin-bottom: 5px;
+}
+
+ul.hpMiniTOCItems li a
+{
+	color: black;
+}
+
+ul.SeeAlso
+{
+	font-size: 17.5px;
+	margin-left: 43px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+ul.SeeAlso li
+{
+	margin-bottom: 5px;
+}
+
+p.SeeAlso
+{
+	font-size: 1.15em;
+	font-family: MetricMedium;
+	margin-bottom: 5px;
+	padding-top: 1.0em;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_
+{
+	padding-left: 2px;
+	padding-right: 0px;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_
+{
+	padding-left: 2px;
+	padding-right: 0px;
+}
+
+a.BackToTop
+{
+	font-size: 17px;
+	color: #000000;
+}
+
+@media print
+{
+	p.SeeAlso
+	{
+		font-family: 'MetricNEW Medium';
+		page-break-after: avoid;
+		font-weight: normal;
+		font-size: 14.5pt;
+		margin-bottom: 5pt;
+	}
+
+	ul.SeeAlso
+	{
+		margin-left: 43px;
+		margin-bottom: 5pt;
+		margin-top: 5px;
+	}
+
+	ul.SeeAlso li
+	{
+		font-size: 11.2pt;
+		margin-bottom: 5pt;
+	}
+}
+

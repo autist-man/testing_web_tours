@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>BuyingTicket</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="BuyingTicket.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="BuyingTicket.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_BuyingTicket.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="104530818440.idx" Filter="1" />
+    <FileEntry Name="119699492440.idx" Filter="1" />
+    <FileEntry Name="149327844440.idx" Filter="1" />
+    <FileEntry Name="154275469440.idx" Filter="1" />
+    <FileEntry Name="15427546944_1sF.71.idx" Filter="1" />
+    <FileEntry Name="15427546944_2gO.695.idx" Filter="1" />
+    <FileEntry Name="15427546944_2iD.599.idx" Filter="1" />
+    <FileEntry Name="15427546944_35M.197.idx" Filter="1" />
+    <FileEntry Name="15427546944_3Qf.715.idx" Filter="1" />
+    <FileEntry Name="15427546944_41h.1.idx" Filter="1" />
+    <FileEntry Name="15427546944_7CO.171.idx" Filter="1" />
+    <FileEntry Name="15427546944_aE8.625.idx" Filter="1" />
+    <FileEntry Name="15427546944_b4u.321.idx" Filter="1" />
+    <FileEntry Name="15427546944_dPp.751.idx" Filter="1" />
+    <FileEntry Name="15427546944_eMK.111.idx" Filter="1" />
+    <FileEntry Name="15427546944_ibJ.245.idx" Filter="1" />
+    <FileEntry Name="15427546944_IsV.833.idx" Filter="1" />
+    <FileEntry Name="15427546944_IyN.567.idx" Filter="1" />
+    <FileEntry Name="15427546944_Jhy.161.idx" Filter="1" />
+    <FileEntry Name="15427546944_Jzw.29.idx" Filter="1" />
+    <FileEntry Name="15427546944_Mfk.111.idx" Filter="1" />
+    <FileEntry Name="15427546944_NGH.819.idx" Filter="1" />
+    <FileEntry Name="15427546944_oea.537.idx" Filter="1" />
+    <FileEntry Name="15427546944_Orq.1.idx" Filter="1" />
+    <FileEntry Name="15427546944_q8j.545.idx" Filter="1" />
+    <FileEntry Name="15427546944_qB5.195.idx" Filter="1" />
+    <FileEntry Name="15427546944_qvz.667.idx" Filter="1" />
+    <FileEntry Name="15427546944_SVG.413.idx" Filter="1" />
+    <FileEntry Name="15427546944_tru.599.idx" Filter="1" />
+    <FileEntry Name="15427546944_Uq8.231.idx" Filter="1" />
+    <FileEntry Name="15427546944_xee.909.idx" Filter="1" />
+    <FileEntry Name="15427546944_xTD.917.idx" Filter="1" />
+    <FileEntry Name="170190304440.idx" Filter="1" />
+    <FileEntry Name="222031383440.idx" Filter="1" />
+    <FileEntry Name="89647919440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="BuyingTicket.c.pickle" Filter="1" />
+    <FileEntry Name="BuyingTicket.ci" Filter="1" />
+    <FileEntry Name="BuyingTicket.prm.bak" Filter="1" />
+    <FileEntry Name="BuyingTicket.sdf" Filter="1" />
+    <FileEntry Name="buyRequestFile.txt" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

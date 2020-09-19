@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\mtemu\Desktop\Тестирование\Домашки\Скрипты\script\SearchTicketsWithoutPayment
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\mtemu\desktop\тестирование\домашки\скрипты\script\searchticketswithoutpayment\\logfile.log
+c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\searchticketswithoutpayment\\combined_SearchTicketsWithoutPayment.c
+c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\searchticketswithoutpayment\\pre_cci.c

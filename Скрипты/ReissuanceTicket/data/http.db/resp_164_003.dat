@@ -1,0 +1,238 @@
+﻿/*<meta />*/
+
+/* This header may be removed before distributing to customers. 
+
+FILE:        _rsc_fonts.css
+DESCRIPTION: Font declarations for MetricNEW (MF) fonts
+MODIFIES: AUGUST 2019
+LEVEL        CSS Level 3
+VERSION:     For ADM SFFS 7.7
+*/
+
+@font-face
+{
+	font-family: 'FontIcons';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./_rsc_icons/_rsc_icons.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_icons/_rsc_icons.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./_rsc_icons/_rsc_icons.woff') format('woff'),
+	url('./_rsc_icons/_rsc_icons.ttf') format('truetype');
+			
+}
+
+@font-face
+{
+	font-family: 'MetricRegular';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./_rsc_fonts/Regular/MetricNEW-Web-Regular.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Regular/MetricNEW-Web-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+   	url('./_rsc_fonts/Regular/MetricNEW-Web-Regular.woff') format('woff'),
+	url('./_rsc_fonts/Regular/MetricNEW-App-Regular.ttf') format('truetype'),
+	url('./_rsc_fonts/Regular/MetricNEW-Desktop-Regular.otf') format('opentype');
+} 
+
+
+/* Added by Penny for semibold*/
+@font-face
+{
+	font-family: 'MetricRegular';
+	font-weight: bold;
+	font-style: normal;
+    src: url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.eot'); /* IE9 Compat Modes */
+    src: 
+    url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.woff') format('woff'),
+	url('./_rsc_fonts/Bold/MetricNEW-App-Semibold.ttf') format('truetype'),
+	url('./_rsc_fonts/Bold/MetricNEW-Desktop-Semibold.otf') format('opentype');
+} 
+
+@font-face
+{
+	font-family: 'MetricRegular';
+	font-weight: bold;
+	font-style: italic;
+    src: url('./_rsc_fonts/Italic/MetricNEW-Web-SemiboldItalic.eot'); /* IE9 Compat Modes */
+    src: 
+    url('./_rsc_fonts/Italic/MetricNEW-Web-SemiboldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./_rsc_fonts/Italic/MetricNEW-Web-SemiboldItalic.woff') format('woff'),
+	url('./_rsc_fonts/Italic/MetricNEW-App-SemiboldItalic.ttf') format('truetype'),
+	url('./_rsc_fonts/Italic/MetricNEW-Desktop-SemiboldItalic.otf') format('opentype');
+} 
+
+@font-face
+{
+    font-family:'MetricSemi';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.eot'); /* IE9 Compat Modes */
+    src: 
+    url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.woff') format('woff'),
+	url('./_rsc_fonts/Bold/MetricNEW-App-Semibold.ttf') format('truetype'),
+	url('./_rsc_fonts/Bold/MetricNEW-Desktop-Semibold.otf') format('opentype');
+} 
+
+/* Added by Penny for italic*/
+@font-face
+{
+	font-family: 'MetricRegular';
+	font-weight: normal;
+	font-style: italic;
+	src: url('./_rsc_fonts/Italic/MetricNEW-Web-RegularItalic.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Italic/MetricNEW-Web-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  	url('./_rsc_fonts/Italic/MetricNEW-Web-RegularItalic.woff') format('woff'),
+	url('./_rsc_fonts/Italic/MetricNEW-App-RegularItalic.ttf') format('truetype'),
+	url('./_rsc_fonts/Italic/MetricNEW-Desktop-RegularItalic.otf') format('opentype');
+} 
+
+
+/* End of added by Penny */
+
+
+@font-face
+{
+	font-family: 'MetricBold';
+	font-weight: bold;
+	font-style: normal;
+	src: url('./_rsc_fonts/Bold/MetricNEW-Web-Bold.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Bold/MetricNEW-Web-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+	url('./_rsc_fonts/Bold/MetricNEW-Web-Bold.woff') format('woff'),
+	url('./_rsc_fonts/Bold/MetricNEW-App-Bold.ttf') format('truetype'),
+	url('./_rsc_fonts/Bold/MetricNEW-Desktop-Bold.otf') format('opentype');
+} 
+
+
+@font-face
+{
+	font-family: 'MetricBlack';
+	font-weight: black;
+	font-style: normal;
+	src: url('./_rsc_fonts/Bold/MetricNEW-Web-Black.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Bold/MetricNEW-Web-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+	url('./_rsc_fonts/Bold/MetricNEW-Web-Black.woff') format('woff'),
+	url('./_rsc_fonts/Bold/MetricNEW-App-Black.ttf') format('truetype'),
+	url('./_rsc_fonts/Bold/MetricNEW-Desktop-Black.otf') format('opentype');
+} 
+
+
+@font-face
+{
+	font-family: 'MetricMedium';
+	font-weight: normal;
+	font-style: normal;
+    src: url('./_rsc_fonts/Bold/MetricNEW-Web-Medium.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Bold/MetricNEW-Web-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+   	url('./_rsc_fonts/Bold/MetricNEW-Web-Medium.woff') format('woff'),
+	url('./_rsc_fonts/Bold/MetricNEW-App-Medium.ttf') format('truetype'),
+	url('./_rsc_fonts/Bold/MetricNEW-Desktop-Medium.otf') format('opentype');
+} 
+
+
+@font-face
+{
+	font-family: 'MetricSemibold';
+	font-weight: normal;
+	font-style: normal;
+    src: url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+   	url('./_rsc_fonts/Bold/MetricNEW-Web-Semibold.woff') format('woff'),
+	url('./_rsc_fonts/Bold/MetricNEW-App-Semibold.ttf') format('truetype'),
+	url('./_rsc_fonts/Bold/MetricNEW-Desktop-Semibold.otf') format('opentype');
+} 
+
+
+
+@font-face
+{
+	font-family: 'MetricBoldItalic';
+	font-weight: bold;
+	font-style: italic;
+    src: url('./_rsc_fonts/BoldItalic/MetricNEW-Web-BoldItalic.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/BoldItalic/MetricNEW-Web-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('./_rsc_fonts/BoldItalic/MetricNEW-Web-BoldItalic.woff') format('woff'),
+	url('./_rsc_fonts/BoldItalic/MetricNEW-App-BoldItalic.ttf') format('truetype'),
+	url('./_rsc_fonts/BoldItalic/MetricNEW-Desktop-BoldItalic.otf') format('opentype');
+} 
+
+
+@font-face
+{
+	font-family: 'MetricBlackItalic';
+	font-weight: 900;
+	font-style: italic;
+    src: url('./_rsc_fonts/Italic/MetricNEW-Web-BlackItalic.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Italic/MetricNEW-Web-BlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('./_rsc_fonts/Italic/MetricNEW-Web-BlackItalic.woff') format('woff'),
+	url('./_rsc_fonts/Italic/MetricNEW-App-BlackItalic.ttf') format('truetype'),
+	url('./_rsc_fonts/Italic/MetricNEW-Desktop-BlackItalic.otf') format('opentype');
+} 
+
+
+@font-face
+{
+	font-family: 'MetricMediumItalic';
+	font-weight: 500;
+	font-style: italic;
+    src: url('./_rsc_fonts/Italic/MetricNEW-Web-MediumItalic.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Italic/MetricNEW-Web-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('./_rsc_fonts/Italic/MetricNEW-Web-MediumItalic.woff') format('woff'),
+	url('./_rsc_fonts/Italic/MetricNEW-App-MediumItalic.ttf') format('truetype'),
+	url('./_rsc_fonts/Italic/MetricNEW-Desktop-MediumItalic.otf') format('opentype');
+} 
+
+
+@font-face
+{
+	font-family: 'MetricLightItalic';
+	font-weight: 300;
+	font-style: italic;
+    src: url('./_rsc_fonts/Italic/MetricNEW-Web-LightItalic.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Italic/MetricNEW-Web-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('./_rsc_fonts/Italic/MetricNEW-Web-LightItalic.woff') format('woff'),
+	url('./_rsc_fonts/Italic/MetricNEW-App-LightItalic.ttf') format('truetype'),
+	url('./_rsc_fonts/Italic/MetricNEW-Desktop-LightItalic.otf') format('opentype');
+} 
+
+
+
+@font-face
+{
+	font-family: 'MetricThinItalic';
+	font-weight: 100;
+	font-style: italic;
+    src: url('./_rsc_fonts/Italic/MetricNEW-Web-ThinItalic.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Italic/MetricNEW-Web-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('./_rsc_fonts/Italic/MetricNEW-Web-ThinItalic.woff') format('woff'),
+	url('./_rsc_fonts/Italic/MetricNEW-App-LightItalic.ttf') format('truetype'),
+	url('./_rsc_fonts/Italic/MetricNEW-Desktop-LightItalic.otf') format('opentype');
+} 
+
+
+
+@font-face
+{
+	font-family: 'MetricLight';
+	font-weight: 300;
+	font-style: normal;
+	src: url('./_rsc_fonts/Light/MetricNEW-Web-Light.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Light/MetricNEW-Web-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+	url('./_rsc_fonts/Light/MetricNEW-Web-Light.woff') format('woff'),	
+	url('./_rsc_fonts/Light/MetricNEW-App-Light.ttf') format('truetype'),
+	url('./_rsc_fonts/Light/MetricNEW-Desktop-Light.otf') format('opentype');
+} 
+
+@font-face
+{
+	font-family: 'MetricThin';
+	font-weight: 100;
+	font-style: normal;
+	src: url('./_rsc_fonts/Light/MetricNEW-Web-Thin.eot'); /* IE9 Compat Modes */
+	src: url('./_rsc_fonts/Light/MetricNEW-Web-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+	url('./_rsc_fonts/Light/MetricNEW-Web-Thin.woff') format('woff'),
+	url('./_rsc_fonts/Light/MetricNEW-App-Thin.ttf') format('truetype'),
+	url('./_rsc_fonts/Light/MetricNEW-Desktop-Thin.otf') format('opentype');
+} 
+
+/* Copyright 2018 Micro Focus*/
