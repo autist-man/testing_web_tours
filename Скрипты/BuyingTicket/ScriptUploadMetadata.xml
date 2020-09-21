@@ -61,6 +61,9 @@
     <FileEntry Name="data.zip" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv8bM.89.log" Filter="1" />
+    <FileEntry Name="mdrvCZ2.181.log" Filter="1" />
+    <FileEntry Name="mdrvQzR.81.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

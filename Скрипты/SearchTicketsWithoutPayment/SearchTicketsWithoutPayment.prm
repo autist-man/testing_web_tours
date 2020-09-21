@@ -37,7 +37,7 @@ Type="Time"
 WorkingDaysOn="0"
 [parameter:numPassengers]
 Format="%lu"
-GenerateNewVal="EachOccurrence"
+GenerateNewVal="EachIteration"
 MaxValue="4"
 MinValue="1"
 OriginalValue=""
