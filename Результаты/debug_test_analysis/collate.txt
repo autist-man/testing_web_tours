@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\User\testing_web_tours_git\testing_web_tours\—ценарии\debug_test\debug_test.lrs
+Completed=0

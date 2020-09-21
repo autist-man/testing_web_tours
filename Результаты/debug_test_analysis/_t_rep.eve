@@ -1,0 +1,73 @@
+28 11 1600699891 2 172453040 1109028878 1699600
+28 4 BuyingTicket 1 1600699891 0 buyingticket_1 localhost 0 1
+28 10 localhost 28 0 0
+28 0 BuyingTicket 1 1600699891 0 localhost 0
+28 8 BuyingTicket 1  0 0
+28 2 BuyingTicket 1 1600699891 0 p 0 0
+28 4 SearchTicketsWithoutPayment 1 1600699895 0 searchticketswithoutpayment_1 localhost 0 1
+28 0 SearchTicketsWithoutPayment 1 1600699895 0 localhost 0
+28 8 SearchTicketsWithoutPayment 1  0 0
+28 2 SearchTicketsWithoutPayment 1 1600699895 0 p 0 0
+28 4 deletingtickets 1 1600699899 0 deletingtickets_1_1_1_1_1 localhost 0 1
+28 0 deletingtickets 1 1600699899 0 localhost 0
+28 8 deletingtickets 1  0 0
+28 2 deletingtickets 1 1600699899 0 p 0 0
+28 4 BuyingTicket 2 1600699903 0 buyingticket_1 localhost 0 1
+28 0 BuyingTicket 2 1600699903 0 localhost 0
+28 8 BuyingTicket 2  0 0
+28 2 BuyingTicket 2 1600699903 0 p 0 0
+28 4 ViewingPurchasedTickets 1 1600699907 0 viewingpurchasedtickets_1 localhost 0 1
+28 0 ViewingPurchasedTickets 1 1600699907 0 localhost 0
+28 8 ViewingPurchasedTickets 1  0 0
+28 2 ViewingPurchasedTickets 1 1600699907 0 p 0 0
+28 4 BuyingTicket 3 1600699911 0 buyingticket_1 localhost 0 1
+28 0 BuyingTicket 3 1600699911 0 localhost 0
+28 8 BuyingTicket 3  0 0
+28 2 BuyingTicket 3 1600699911 0 p 0 0
+28 4 SearchTicketsWithoutPayment 2 1600699915 0 searchticketswithoutpayment_1 localhost 0 1
+28 0 SearchTicketsWithoutPayment 2 1600699915 0 localhost 0
+28 8 SearchTicketsWithoutPayment 2  0 0
+28 2 SearchTicketsWithoutPayment 2 1600699915 0 p 0 0
+28 4 ReissuanceTicket 1 1600699919 0 reissuanceticket_1_1 localhost 0 1
+28 0 ReissuanceTicket 1 1600699919 0 localhost 0
+28 8 ReissuanceTicket 1  0 0
+28 2 ReissuanceTicket 1 1600699919 0 p 0 0
+28 4 BuyingTicket 4 1600699923 0 buyingticket_1 localhost 0 1
+28 0 BuyingTicket 4 1600699923 0 localhost 0
+28 8 BuyingTicket 4  0 0
+28 2 BuyingTicket 4 1600699923 0 p 0 0
+28 4 deletingtickets 2 1600699927 0 deletingtickets_1_1_1_1_1 localhost 0 1
+28 0 deletingtickets 2 1600699927 0 localhost 0
+28 8 deletingtickets 2  0 0
+28 2 deletingtickets 2 1600699927 0 p 0 0
+28 4 BuyingTicket 5 1600699931 0 buyingticket_1 localhost 0 1
+28 0 BuyingTicket 5 1600699931 0 localhost 0
+28 8 BuyingTicket 5  0 0
+28 2 BuyingTicket 5 1600699931 0 p 0 0
+28 4 ViewingPurchasedTickets 2 1600699935 0 viewingpurchasedtickets_1 localhost 0 1
+28 0 ViewingPurchasedTickets 2 1600699935 0 localhost 0
+28 8 ViewingPurchasedTickets 2  0 0
+28 2 ViewingPurchasedTickets 2 1600699935 0 p 0 0
+28 4 SearchTicketsWithoutPayment 3 1600699939 0 searchticketswithoutpayment_1 localhost 0 1
+28 0 SearchTicketsWithoutPayment 3 1600699939 0 localhost 0
+28 8 SearchTicketsWithoutPayment 3  0 0
+28 2 SearchTicketsWithoutPayment 3 1600699939 0 p 0 0
+28 4 BuyingTicket 6 1600699943 0 buyingticket_1 localhost 0 1
+28 0 BuyingTicket 6 1600699943 0 localhost 0
+28 8 BuyingTicket 6  0 0
+28 2 BuyingTicket 6 1600699943 0 p 0 0
+28 1 BuyingTicket 1 1600701272 0 2
+28 1 ViewingPurchasedTickets 1 1600701282 0 2
+28 1 BuyingTicket 2 1600701283 0 2
+28 1 BuyingTicket 3 1600701291 0 2
+28 1 BuyingTicket 4 1600701304 0 2
+28 1 ViewingPurchasedTickets 2 1600701310 0 2
+28 1 BuyingTicket 5 1600701311 0 2
+28 1 BuyingTicket 6 1600701324 0 2
+28 1 deletingtickets 1 1600701354 0 2
+28 1 SearchTicketsWithoutPayment 1 1600701360 0 2
+28 1 deletingtickets 2 1600701377 0 2
+28 1 SearchTicketsWithoutPayment 2 1600701380 0 2
+28 1 ReissuanceTicket 1 1600701400 0 2
+28 1 SearchTicketsWithoutPayment 3 1600701404 0 2
+28 12 1600701405 1 1600701405 0 1600701405

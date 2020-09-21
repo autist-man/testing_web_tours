@@ -1,0 +1,2 @@
+[Hosts]
+localhost=c:\user\testing_web_tours_git\testing_web_tours\результаты\debug_test_analysis\localhost_1.eve

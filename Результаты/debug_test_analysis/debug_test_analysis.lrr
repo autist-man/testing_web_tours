@@ -1,0 +1,40 @@
+[Scenario]
+Product=HPE LoadRunner Controller
+Version=12.55.0.0
+Path=C:\User\testing_web_tours_git\testing_web_tours\Сценарии\debug_test\debug_test.lrs
+Subject=debug_test
+Result_file=c:\user\testing_web_tours_git\testing_web_tours\результаты\debug_test_analysis\debug_test_analysis.lrr
+Description=
+ResultName=debug_test_analysis
+Time_Zone=-10800
+Start_time=1600699891
+Daylight_Bias=0
+Stop_time=1600701405
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 14 Vusers: 1 every 00:00:04 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:04 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+[Scripts]
+buyingticket_1=C:\User\testing_web_tours_git\testing_web_tours\Скрипты\BuyingTicket\BuyingTicket.usr
+searchticketswithoutpayment_1=C:\User\testing_web_tours_git\testing_web_tours\Скрипты\SearchTicketsWithoutPayment\SearchTicketsWithoutPayment.usr
+deletingtickets_1_1_1_1_1=C:\User\testing_web_tours_git\testing_web_tours\Скрипты\DeletingTickets\DeletingTickets.usr
+viewingpurchasedtickets_1=C:\User\testing_web_tours_git\testing_web_tours\Скрипты\ViewingPurchasedTickets\ViewingPurchasedTickets.usr
+reissuanceticket_1_1=C:\User\testing_web_tours_git\testing_web_tours\Скрипты\ReissuanceTicket\ReissuanceTicket.usr
+[Scripts_types]
+buyingticket_1=Multi+QTWeb
+searchticketswithoutpayment_1=Multi+QTWeb
+deletingtickets_1_1_1_1_1=Multi+QTWeb
+viewingpurchasedtickets_1=Multi+QTWeb
+reissuanceticket_1_1=Multi+QTWeb
