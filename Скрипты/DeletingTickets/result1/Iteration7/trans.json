@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "go_to_site",
+        "rawStartTime": 1600804284980,
+        "rawEndTime": 1600804285112
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600804285114,
+        "rawEndTime": 1600804285263
+    },
+    {
+        "transactionName": "viewing_receipts",
+        "rawStartTime": 1600804285265,
+        "rawEndTime": 1600804285465
+    },
+    {
+        "transactionName": "ñancel_reservation",
+        "rawStartTime": 1600804285956,
+        "rawEndTime": 1600804286235
+    },
+    {
+        "transactionName": "click_sing_off",
+        "rawStartTime": 1600804286237,
+        "rawEndTime": 1600804286358
+    },
+    {
+        "transactionName": "UC_4_DeletingTickets",
+        "rawStartTime": 1600804284978,
+        "rawEndTime": 1600804286359
+    }
+]

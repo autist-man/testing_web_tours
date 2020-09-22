@@ -238,15 +238,17 @@ Action()
 				int lenghtTicketsPartID = atoi(lr_eval_string("{ticketsPartID_count}"));
 				//identicalTicketsNum - хранит количество совпавших билетов по первым цифрам номера
 				int count, ord, result, identicalTicketsNum;
+				char * partFlightID;
 				//Итерация по каждому удаленному билету
 				for(ord = 0; ord < numberTickets; ord++){
 					identicalTicketsNum = 0;
 					//итерация по каждому билету после удаления
 					for(count = 1; count <= lenghtTicketsPartID; count++){
+						//Вытягиваем первые цифры билета
+						partFlightID = strtok(lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0])), "-");
 						//проверяем совпадают ли первые цифры удаленного билета с билетами после удаления
-						result = strncmp(lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0])),
-						                 lr_eval_string(lr_paramarr_idx("ticketsPartID",count)),
-						                 strlen(lr_eval_string(lr_paramarr_idx("ticketsPartID",count))));
+						result = strcmp(partFlightID,
+						                 lr_eval_string(lr_paramarr_idx("ticketsPartID",count)));
 						//если совпадение есть
 						//увеличиваем счетчик на 1
 						//если счетчик будет больше чем изначально для удаленного билета deletedTicketsID[ord][1]

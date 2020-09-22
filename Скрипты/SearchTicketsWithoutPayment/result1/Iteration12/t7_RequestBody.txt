@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Paris&departDate=09%2F22%2F2020&arrive=Los+Angeles&returnDate=10%2F08"
+"%2F2020&numPassengers=4&roundtrip=on&seatPref=None&seatType=Coach&.cgifields=roundtrip&.cgifie"
+"lds=seatType&.cgifields=seatPref&findFlights.x=33&findFlights.y=8"

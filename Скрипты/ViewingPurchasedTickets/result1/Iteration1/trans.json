@@ -1,27 +1,27 @@
 [
     {
         "transactionName": "go_to_site",
-        "rawStartTime": 1600493895208,
-        "rawEndTime": 1600493896140
+        "rawStartTime": 1600804463453,
+        "rawEndTime": 1600804463700
     },
     {
         "transactionName": "login",
-        "rawStartTime": 1600493896142,
-        "rawEndTime": 1600493896300
+        "rawStartTime": 1600804463702,
+        "rawEndTime": 1600804463849
     },
     {
         "transactionName": "viewing_receipts",
-        "rawStartTime": 1600493896302,
-        "rawEndTime": 1600493896613
+        "rawStartTime": 1600804463851,
+        "rawEndTime": 1600804464040
     },
     {
         "transactionName": "click_sing_off",
-        "rawStartTime": 1600493896615,
-        "rawEndTime": 1600493896777
+        "rawStartTime": 1600804464042,
+        "rawEndTime": 1600804464194
     },
     {
         "transactionName": "UC_05_ViewingPurchasedTickets",
-        "rawStartTime": 1600493895206,
-        "rawEndTime": 1600493896779
+        "rawStartTime": 1600804463451,
+        "rawEndTime": 1600804464195
     }
 ]

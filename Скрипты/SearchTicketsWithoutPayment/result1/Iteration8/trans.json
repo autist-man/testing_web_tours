@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "go_to_site",
+        "rawStartTime": 1600804425097,
+        "rawEndTime": 1600804425233
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600804425235,
+        "rawEndTime": 1600804425379
+    },
+    {
+        "transactionName": "click_flight",
+        "rawStartTime": 1600804425381,
+        "rawEndTime": 1600804425522
+    },
+    {
+        "transactionName": "fill_find_flight",
+        "rawStartTime": 1600804425524,
+        "rawEndTime": 1600804425642
+    },
+    {
+        "transactionName": "choose_flight",
+        "rawStartTime": 1600804425644,
+        "rawEndTime": 1600804425796
+    },
+    {
+        "transactionName": "click_sing_off",
+        "rawStartTime": 1600804425798,
+        "rawEndTime": 1600804425927
+    },
+    {
+        "transactionName": "UC_03_SearchTicketWithoutPayment",
+        "rawStartTime": 1600804425095,
+        "rawEndTime": 1600804425930
+    }
+]

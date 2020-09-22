@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\mtemu\Desktop\Тестирование\Домашки\Скрипты\script\SearchTicketsWithoutPayment
+-IC:\User\testing_web_tours_git\testing_web_tours\Скрипты\SearchTicketsWithoutPayment
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\mtemu\desktop\тестирование\домашки\скрипты\script\searchticketswithoutpayment\\logfile.log
-c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\searchticketswithoutpayment\\combined_SearchTicketsWithoutPayment.c
-c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\searchticketswithoutpayment\\pre_cci.c
+-ec:\user\testing_web_tours_git\testing_web_tours\скрипты\searchticketswithoutpayment\\logfile.log
+c:\user\testing_web_tours_git\testing_web_tours\скрипты\searchticketswithoutpayment\\combined_SearchTicketsWithoutPayment.c
+c:\user\testing_web_tours_git\testing_web_tours\скрипты\searchticketswithoutpayment\\pre_cci.c

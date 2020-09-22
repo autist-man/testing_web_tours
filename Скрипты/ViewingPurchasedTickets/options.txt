@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\mtemu\Desktop\Тестирование\Домашки\Скрипты\script\ViewingPurchasedTickets
+-IC:\User\testing_web_tours_git\testing_web_tours\Скрипты\ViewingPurchasedTickets
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\mtemu\desktop\тестирование\домашки\скрипты\script\viewingpurchasedtickets\\logfile.log
-c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\viewingpurchasedtickets\\combined_ViewingPurchasedTickets.c
-c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\viewingpurchasedtickets\\pre_cci.c
+-ec:\user\testing_web_tours_git\testing_web_tours\скрипты\viewingpurchasedtickets\\logfile.log
+c:\user\testing_web_tours_git\testing_web_tours\скрипты\viewingpurchasedtickets\\combined_ViewingPurchasedTickets.c
+c:\user\testing_web_tours_git\testing_web_tours\скрипты\viewingpurchasedtickets\\pre_cci.c

@@ -3528,15 +3528,17 @@ Action()
 				int lenghtTicketsPartID = atoi(lr_eval_string("{ticketsPartID_count}"));
 				 
 				int count, ord, result, identicalTicketsNum;
+				char * partFlightID;
 				 
 				for(ord = 0; ord < numberTickets; ord++){
 					identicalTicketsNum = 0;
 					 
 					for(count = 1; count <= lenghtTicketsPartID; count++){
 						 
-						result = strncmp(lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0])),
-						                 lr_eval_string(lr_paramarr_idx("ticketsPartID",count)),
-						                 strlen(lr_eval_string(lr_paramarr_idx("ticketsPartID",count))));
+						partFlightID = strtok(lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0])), "-");
+						 
+						result = strcmp(partFlightID,
+						                 lr_eval_string(lr_paramarr_idx("ticketsPartID",count)));
 						 
 						 
 						 
