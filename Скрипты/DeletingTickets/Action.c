@@ -4,10 +4,13 @@ Action()
 	
 	
 	//Фиксированный массив для хранения номеров удаленных билетов
-	//размерность массива фиксирована, чтобы динамически не выделять память под количество билетов (до 3 шт) для удаления
+	//Размерность массива фиксирована, чтобы динамически не выделять память под количество билетов (до 3 шт) для удаления
+	#define NUMBER_OF_TICKET 3
 	//Певый столбец массива предназначен для хранения удаленного номера билета в массиве параметров {arrayFlightID}
 	//Второй столбец служит счетчиком для определения кол-ва совпадающих билетов по первым номерам "arrayFlightID_2" =  "    ->382141149<-   -2208620-LD"
-	int deletedTicketsID[3][2];
+	#define COLUMNS 2
+	int deletedTicketsID[NUMBER_OF_TICKET][COLUMNS];
+	
 	//numberTickets - какое количесвто билетов удалить (по заданию от 1 до 3 билетов за раз)
 	int numberTickets;
 	
@@ -123,15 +126,23 @@ Action()
 				numberTickets = atoi(lr_eval_string("{numberTickets}"));
 				
 				//Инициализируем массив номерами билетов
-				for(count = 0; count < numberTickets; count++){
-					//номер чекбокса по списку в ответе запроса
-					//<label><input type="checkbox" name="  ->1<-  " value="on" /></label></font></b>
-					//<input type="hidden" name="flightID" value="36810199-120782-SC"  />
-					deletedTicketsID[count][0] = rand()%lenghtArrayFlightID + 1;
-					//количество совпадающих билетов по первым цифрам
-					//в последствии стравниваются билеты с удаленными билетами
-					//на совпадение этих цифр, если совпадает увеличиваем счетчик
-					deletedTicketsID[count][1] = 1;
+				//Инициализируем массив номерами билетов
+				//Алгоритм Кнута для генерации уникальных случайных чисел в массиве
+				//от ord = 0 до lenghtArrayFlightID - перебераем номер чекбокса по списку в ответе запроса
+				//<label><input type="checkbox" name="  ->1<-  " value="on" /></label></font></b>
+				//<input type="hidden" name="flightID" value="36810199-120782-SC"  />
+				//от count=0 до numberTickets -сколько чисел еще нужно найти
+				//гарантируется, что если numberTickets <= lenghtArrayFlightID числа в массиве будут уникальными
+				for(count = 0, ord = 0; count < numberTickets && ord < lenghtArrayFlightID; ord++){
+					int rn = lenghtArrayFlightID - ord;
+					int rm = numberTickets - count;
+					if(rand()%rn < rm){
+						deletedTicketsID[count][0] = ord + 1; //+1 чтобы номер чекбокса начинался с 1
+						//количество совпадающих билетов по первым цифрам
+						//в последствии стравниваются билеты с удаленными билетами
+						//на совпадение этих цифр, если совпадает увеличиваем счетчик
+						deletedTicketsID[count++][1] = 1;
+					}
 				}
 				
 								

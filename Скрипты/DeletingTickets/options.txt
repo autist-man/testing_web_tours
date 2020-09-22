@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\mtemu\Desktop\Тестирование\Домашки\Скрипты\script\DeletingTickets
+-IC:\User\testing_web_tours_git\testing_web_tours\Скрипты\DeletingTickets
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\mtemu\desktop\тестирование\домашки\скрипты\script\deletingtickets\\logfile.log
-c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\deletingtickets\\combined_DeletingTickets.c
-c:\users\mtemu\desktop\тестирование\домашки\скрипты\script\deletingtickets\\pre_cci.c
+-ec:\user\testing_web_tours_git\testing_web_tours\скрипты\deletingtickets\\logfile.log
+c:\user\testing_web_tours_git\testing_web_tours\скрипты\deletingtickets\\combined_DeletingTickets.c
+c:\user\testing_web_tours_git\testing_web_tours\скрипты\deletingtickets\\pre_cci.c

@@ -5,11 +5,15 @@ Action()
 	//Флаг определяющий будет ли билет в одну сторону или "туда и обратно"
 	//имеет два значения 0 и 1 - значения берутся из параметра {random_roundtrip_nember}
 	int random_roundtrip;
+	
 	//Фиксированный массив для хранения номеров удаленных билетов
-	//размерность массива фиксирована, чтобы динамически не выделять память под количество билетов (до 3 шт) для удаления
+	//Размерность массива фиксирована, чтобы динамически не выделять память под количество билетов (до 3 шт) для удаления
+	#define NUMBER_OF_TICKET 3
 	//Певый столбец массива предназначен для хранения удаленного номера билета в массиве параметров {arrayFlightID}
 	//Второй столбец служит счетчиком для определения кол-ва совпадающих билетов по первым номерам "arrayFlightID_2" =  "    ->382141149<-   -2208620-LD"
-	int deletedTicketsID[3][2];
+	#define COLUMNS 2
+	int deletedTicketsID[NUMBER_OF_TICKET][COLUMNS];
+	
 	//numberTickets - какое количесвто билетов удалить (по заданию от 1 до 3 билетов за раз)
 	int numberTickets;
 	
@@ -20,7 +24,6 @@ Action()
 	if(strcmp(lr_eval_string("{departCity}"),lr_eval_string("{arriveCity}")) == 0){
 		lr_advance_param("arriveCity");
 	}
-	
 	
 	lr_start_transaction("UC_02_ReissuanceTicket");
 	
@@ -344,8 +347,8 @@ Action()
 	
 /*			//Генерация тела запроса на покупку билетов независимо от типа билета (туда или "туда-обратно")
 			//и количества пассажиров, имена пассажирвов беруться рандомно из страндартных параметров
-			//работает 50/50 , узнать в чем ошибка основная ошибка "Error -27979: Requested form not found"
-			//lr_start_transaction("pay");
+			//За 25 итераций транзакия "pay_args" = 00:00.095 c
+			lr_start_transaction("pay_args");
 			{
 				//numPassengers - количество пассажиров
 				int numPassengers = atoi(lr_eval_string("{numPassengers}"));
@@ -377,12 +380,11 @@ Action()
 				form_args_add("Referer=http://localhost:1080/cgi-bin/reservations.pl");form_args_add(ENDITEM);
 				form_args_add(LAST);				
 			}
-			//Запрос на покупку билета через генерацию 	web_submit_form_custom
-			//работает 50/50 , узнать в чем ошибка "Error -27979: Requested form not found"		
+			lr_end_transaction("pay_args",LR_AUTO);
+			//Запрос на покупку билета через генерацию 	web_submit_form_custom	
 			web_submit_form("itinerare.pl", FORM_ARGS);
 			//Освобаждаем память "FORM_ARGS"
 			form_args_reset();
-
 */
 
 	lr_start_transaction("insert_payment_info");
@@ -529,7 +531,7 @@ Action()
 			//Генерация тела запроса на удаление билетов посредством записи тела запроса в файл
 			// с последующим считываниеи из него
 			//работает быстрее, чем через запись посредством контакенации
-			//за 25 итерации транзакия "file" = 00:00.084 c
+			//за 25 итерации транзакия "file" = 00:00.975 (условия: у всех пользователей в среднем куплено 20-30 билетов)
 			//lr_start_transaction("file");
 			{	
 				//FlightID - поле купленного билета "arrayFlightID_2" =  "382141149-2208620-LD"
@@ -546,15 +548,22 @@ Action()
 				numberTickets = atoi(lr_eval_string("{numberTickets}"));
 				
 				//Инициализируем массив номерами билетов
-				for(count = 0; count < numberTickets; count++){
-					//номер чекбокса по списку в ответе запроса
-					//<label><input type="checkbox" name="  ->1<-  " value="on" /></label></font></b>
-					//<input type="hidden" name="flightID" value="36810199-120782-SC"  />
-					deletedTicketsID[count][0] = rand()%lenghtArrayFlightID + 1;
-					//количество совпадающих билетов по первым цифрам
-					//в последствии стравниваются билеты с удаленными билетами
-					//на совпадение этих цифр, если совпадает увеличиваем счетчик
-					deletedTicketsID[count][1] = 1;
+				//Алгоритм Кнута для генерации уникальных случайных чисел в массиве
+				//от ord = 0 до lenghtArrayFlightID - перебераем номер чекбокса по списку в ответе запроса
+				//<label><input type="checkbox" name="  ->1<-  " value="on" /></label></font></b>
+				//<input type="hidden" name="flightID" value="36810199-120782-SC"  />
+				//от count=0 до numberTickets -сколько чисел еще нужно найти
+				//гарантируется, что если numberTickets <= lenghtArrayFlightID числа в массиве будут уникальными
+				for(count = 0, ord = 0; count < numberTickets && ord < lenghtArrayFlightID; ord++){
+					int rn = lenghtArrayFlightID - ord;
+					int rm = numberTickets - count;
+					if(rand()%rn < rm){
+						deletedTicketsID[count][0] = ord + 1; //+1 чтобы номер чекбокса начинался с 1
+						//количество совпадающих билетов по первым цифрам
+						//в последствии стравниваются билеты с удаленными билетами
+						//на совпадение этих цифр, если совпадает увеличиваем счетчик
+						deletedTicketsID[count++][1] = 1;
+					}
 				}
 				
 								
@@ -608,85 +617,10 @@ Action()
 			}
 			//lr_end_transaction("file", LR_AUTO);
 			
-/*Генерация тела запроса на удаление билетов посредством конкатенации работает медленнее, чем через запись в файл с последующим считыванием из него
-			//Версия без проверки номеров билетов
-			//за 25 итерации транзакия "string" = 00:00.240 c
-	        lr_start_transaction("string");
-
-			{
-				//строка содержит в себе итоговое тело запроса
-				char * deleteTicketBodyRequest = NULL;
-				char * partRequestBody;
-				//Хранятся поля купленных билетов
-				char * FlightID;
-				//lenghtArrayFlightID - количество билетов у пользователья
-				int lenghtArrayFlightID = atoi(lr_eval_string("{arrayFlightID_count}"));
-				//deleteNumberTicket - используется для определения случайным образом, какой номер билета удалить
-				//count - счетчик для цикла
-				//numberTickets - какое количесвто билетов удалить (по заданию от 1 до 3 билетов за раз)
-				int deleteNumberTicket, count, numberTickets;
-				//длина тела запроса
-				size_t sizeDeleteTicketBodyRequest = 1;
-				deleteTicketBodyRequest = (char*)malloc(sizeDeleteTicketBodyRequest);
-				deleteTicketBodyRequest[0] = '\0';
-
-				srand(time(NULL));
-				numberTickets = rand()%3 + 1;
-				
-				for(count = 1; count <= lenghtArrayFlightID; count++)
-				{
-					FlightID = lr_paramarr_idx("arrayFlightID", count);
-
-					lr_output_message("deleteTicket: %d", deleteNumberTicket);
-					lr_output_message("count: %d", count);
-					
-					if(count < numberTickets){
-						deleteNumberTicket = rand()%lenghtArrayFlightID + 1;
-        				lr_param_sprintf("partRequestBody",
-						       "%d=on&flightID=%s&.cgifields=%s&",
-						      	deleteNumberTicket, FlightID,FlightID);
-						
-					} else{
-        				lr_param_sprintf ("partRequestBody",
-						       "flightID=%s&.cgifields=%s&",
-						      	FlightID, FlightID);
-					}
-					//записываем значение запроса
-					partRequestBody = lr_eval_string("{partRequestBody}");
-					
-					//рассчитываем новую длину строки запроса
-					sizeDeleteTicketBodyRequest = sizeDeleteTicketBodyRequest + strlen(partRequestBody);
-					lr_output_message("sizeDeleteTicketBodyRequest: %d", sizeDeleteTicketBodyRequest);
-					
-					//расширяем строку тела запроса
-					deleteTicketBodyRequest = (char*) realloc (deleteTicketBodyRequest, sizeDeleteTicketBodyRequest * sizeof(char));
-					
-					if(deleteTicketBodyRequest == NULL){
-						lr_error_message("Error: Error reallocating memory");
-					}
-					//объединяем части тела запроса
-					strcat(deleteTicketBodyRequest, partRequestBody);
-					lr_output_message("deleteTicketBodyRequest: %s", deleteTicketBodyRequest);
-					
-				}
-				    lr_save_string ("removeFlights.x=48&removeFlights.y=6", "partRequestBody");
-				    sizeDeleteTicketBodyRequest = sizeDeleteTicketBodyRequest + strlen("removeFlights.x=48&removeFlights.y=6&");
-				    deleteTicketBodyRequest = (char*) realloc (deleteTicketBodyRequest, sizeDeleteTicketBodyRequest * sizeof(char));
-				    strcat(deleteTicketBodyRequest, lr_eval_string("{partRequestBody}"));
-				  	
-				  	lr_output_message("deleteTicketBodyRequest: %s", deleteTicketBodyRequest);
-				
-				lr_save_string(deleteTicketBodyRequest, "bodyPOSTRequest");
-              
-				free(deleteTicketBodyRequest);
-			}
-	        
-          lr_end_transaction("string", LR_AUTO);
- */
-
 /*		//Генерация запроса на удаление билетов через web_submit_form_custom
-		//работает 50/50, та же ошибка
-{
+		//за 25 итерации транзакия "array" = 00:00.920 (условия: у всех пользователей в среднем куплено 20-30 билетов)
+		//lr_start_transaction("array");
+	{
 				//FlightID - поле купленного билета "arrayFlightID_2" =  "382141149-2208620-LD"
 				//partFlightID - первые цифры в "arrayFlightID_2" =  " ->382141149<-   -2208620-LD"				
 				char * FlightID, * partFlightID;
@@ -700,15 +634,22 @@ Action()
 				numberTickets = atoi(lr_eval_string("{numberTickets}"));
 				
 				//Инициализируем массив номерами билетов
-				for(count = 0; count < numberTickets; count++){
-					//номер чекбокса по списку в ответе запроса
-					//<label><input type="checkbox" name="  ->1<-  " value="on" /></label></font></b>
-					//<input type="hidden" name="flightID" value="36810199-120782-SC"  />
-					deletedTicketsID[count][0] = rand()%lenghtArrayFlightID + 1;
-					//количество совпадающих билетов по первым цифрам
-					//в последствии стравниваются билеты с удаленными билетами
-					//на совпадение этих цифр, если совпадает увеличиваем счетчик
-					deletedTicketsID[count][1] = 1;
+				//Алгоритм Кнута для генерации уникальных случайных чисел в массиве
+				//от ord = 0 до lenghtArrayFlightID - перебераем номер чекбокса по списку в ответе запроса
+				//<label><input type="checkbox" name="  ->1<-  " value="on" /></label></font></b>
+				//<input type="hidden" name="flightID" value="36810199-120782-SC"  />
+				//от count=0 до numberTickets -сколько чисел еще нужно найти
+				//гарантируется, что если numberTickets <= lenghtArrayFlightID числа в массиве будут уникальными
+				for(count = 0, ord = 0; count < numberTickets && ord < lenghtArrayFlightID; ord++){
+					int rn = lenghtArrayFlightID - ord;
+					int rm = numberTickets - count;
+					if(rand()%rn < rm){
+						deletedTicketsID[count][0] = ord + 1; //+1 чтобы номер чекбокса начинался с 1
+						//количество совпадающих билетов по первым цифрам
+						//в последствии стравниваются билеты с удаленными билетами
+						//на совпадение этих цифр, если совпадает увеличиваем счетчик
+						deletedTicketsID[count++][1] = 1;
+					}
 				}
 				     form_args_add("Snapshot=t57.inf");
         			 form_args_add(ITEMDATA);
@@ -734,8 +675,8 @@ Action()
 		                form_args_add_paramarr("Name=", deletedTicketsID[count-1][0]);
 		                form_args_add("Value=on");
 		                form_args_add(ENDITEM);
-					} 
-			}
+					}
+				}
 
 				form_args_add("Name=removeFlights.x"); form_args_add("Value=47"); form_args_add(ENDITEM);
 				form_args_add("Name=removeFlights.y"); form_args_add("Value=7"); form_args_add(ENDITEM);
@@ -744,10 +685,13 @@ Action()
 				form_args_add("Referer=http://localhost:1080/cgi-bin/reservations.pl");
 			    form_args_add(ENDITEM);
 				form_args_add(LAST);
+				
 	}
+				//lr_end_transaction("array", LR_AUTO);
 	
-	//Запрос, ошибка "Error -27979: Requested form not found"	
+	//Запрос
 	web_submit_form("itinerary.pl", FORM_ARGS);
+	//Освобождаем память
 	form_args_reset();
 */	
 	

@@ -1,4 +1,4 @@
-# 1 "c:\\users\\mtemu\\desktop\\\362\345\361\362\350\360\356\342\340\355\350\345\\\344\356\354\340\370\352\350\\\361\352\360\350\357\362\373\\script\\reissuanceticket\\\\combined_ReissuanceTicket.c"
+# 1 "c:\\user\\testing_web_tours_git\\testing_web_tours\\\361\352\360\350\357\362\373\\reissuanceticket\\\\combined_ReissuanceTicket.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\mtemu\\desktop\\\362\345\361\362\350\360\356\342\340\355\350\345\\\344\356\354\340\370\352\350\\\361\352\360\350\357\362\373\\script\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
+# 1 "c:\\user\\testing_web_tours_git\\testing_web_tours\\\361\352\360\350\357\362\373\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\mtemu\\desktop\\\362\345\361\362\350\360\356\342\340\355\350\345\\\344\356\354\340\370\352\350\\\361\352\360\350\357\362\373\\script\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
+# 2 "c:\\user\\testing_web_tours_git\\testing_web_tours\\\361\352\360\350\357\362\373\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
 
 # 1 "globals.h" 1
 
@@ -3316,14 +3316,14 @@ void click_sing_off_request(){
  
 
 
-# 3 "c:\\users\\mtemu\\desktop\\\362\345\361\362\350\360\356\342\340\355\350\345\\\344\356\354\340\370\352\350\\\361\352\360\350\357\362\373\\script\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
+# 3 "c:\\user\\testing_web_tours_git\\testing_web_tours\\\361\352\360\350\357\362\373\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\mtemu\\desktop\\\362\345\361\362\350\360\356\342\340\355\350\345\\\344\356\354\340\370\352\350\\\361\352\360\350\357\362\373\\script\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
+# 4 "c:\\user\\testing_web_tours_git\\testing_web_tours\\\361\352\360\350\357\362\373\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -3333,11 +3333,15 @@ Action()
 	 
 	 
 	int random_roundtrip;
+	
 	 
 	 
+	
 	 
 	 
+	
 	int deletedTicketsID[3][2];
+	
 	 
 	int numberTickets;
 	
@@ -3348,7 +3352,6 @@ Action()
 	if(strcmp(lr_eval_string("{departCity}"),lr_eval_string("{arriveCity}")) == 0){
 		lr_advance_param("arriveCity");
 	}
-	
 	
 	lr_start_transaction("UC_02_ReissuanceTicket");
 	
@@ -3671,7 +3674,7 @@ Action()
 			 
 	
  
-# 387 "Action.c"
+# 389 "Action.c"
 
 	lr_start_transaction("insert_payment_info");
 	
@@ -3834,15 +3837,22 @@ Action()
 				numberTickets = atoi(lr_eval_string("{numberTickets}"));
 				
 				 
-				for(count = 0; count < numberTickets; count++){
-					 
-					 
-					 
-					deletedTicketsID[count][0] = rand()%lenghtArrayFlightID + 1;
-					 
-					 
-					 
-					deletedTicketsID[count][1] = 1;
+				 
+				 
+				 
+				 
+				 
+				 
+				for(count = 0, ord = 0; count < numberTickets && ord < lenghtArrayFlightID; ord++){
+					int rn = lenghtArrayFlightID - ord;
+					int rm = numberTickets - count;
+					if(rand()%rn < rm){
+						deletedTicketsID[count][0] = ord + 1;  
+						 
+						 
+						 
+						deletedTicketsID[count++][1] = 1;
+					}
 				}
 				
 								
@@ -3896,11 +3906,8 @@ Action()
 			}
 			 
 			
- 
-# 686 "Action.c"
-
  	
-# 753 "Action.c"
+# 697 "Action.c"
 	
  
 	
@@ -3982,12 +3989,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\mtemu\\desktop\\\362\345\361\362\350\360\356\342\340\355\350\345\\\344\356\354\340\370\352\350\\\361\352\360\350\357\362\373\\script\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
+# 5 "c:\\user\\testing_web_tours_git\\testing_web_tours\\\361\352\360\350\357\362\373\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\mtemu\\desktop\\\362\345\361\362\350\360\356\342\340\355\350\345\\\344\356\354\340\370\352\350\\\361\352\360\350\357\362\373\\script\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
+# 6 "c:\\user\\testing_web_tours_git\\testing_web_tours\\\361\352\360\350\357\362\373\\reissuanceticket\\\\combined_ReissuanceTicket.c" 2
 

@@ -1,2 +1,3 @@
-"outboundFlight=012%3B365%3B09%2F19%2F2020&numPassengers=3&advanceDiscount=0&seatType=Coach&sea"
-"tPref=Alise&reserveFlights.x=56&reserveFlights.y=16"
+"advanceDiscount=0&depart=Sydney&departDate=09%2F22%2F2020&arrive=Frankfurt&returnDate=10%2F07%"
+"2F2020&numPassengers=2&roundtrip=on&seatPref=Window&seatType=First&.cgifields=roundtrip&.cgifi"
+"elds=seatType&.cgifields=seatPref&findFlights.x=33&findFlights.y=8"

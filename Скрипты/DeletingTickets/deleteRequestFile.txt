@@ -1,1 +1,1 @@
-1=on&flightID=382089670-1125124-LD&.cgifields=382089670-1125124-LD&removeFlights.x=48&removeFlights.y=6
+1=on&flightID=0-7-SC&.cgifields=0-7-SC&2=on&flightID=0-15-SC&.cgifields=0-15-SC&flightID=0-23-SC&.cgifields=0-23-SC&removeFlights.x=48&removeFlights.y=6

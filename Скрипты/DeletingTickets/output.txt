@@ -1,15 +1,15 @@
-Virtual User Script started at: 19.09.2020 8:36:22
+Virtual User Script started at: 22.09.2020 17:10:59
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
-Run-Time Settings file: "C:\Users\mtemu\Desktop\Òåñòèðîâàíèå\Äîìàøêè\Ñêðèïòû\script\DeletingTickets\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "C:\User\testing_web_tours_git\testing_web_tours\Ñêðèïòû\DeletingTickets\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
-Action.c(16): Notify: Transaction "UC_4_DeletingTickets" started.
+Action.c(19): Notify: Transaction "UC_4_DeletingTickets" started.
 ..\\QueryLibrary\\go_to_site_request.h(6): Notify: Transaction "go_to_site" started.
 ..\\QueryLibrary\\go_to_site_request.h(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
 ..\\QueryLibrary\\go_to_site_request.h(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
@@ -51,7 +51,7 @@ Action.c(16): Notify: Transaction "UC_4_DeletingTickets" started.
 ..\\QueryLibrary\\go_to_site_request.h(64): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
 ..\\QueryLibrary\\go_to_site_request.h(67): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
 ..\\QueryLibrary\\go_to_site_request.h(67): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
-..\\QueryLibrary\\go_to_site_request.h(70): Notify: Transaction "go_to_site" ended with a "Pass" status (Duration: 0.4454 Wasted Time: 0.0822).
+..\\QueryLibrary\\go_to_site_request.h(70): Notify: Transaction "go_to_site" ended with a "Pass" status (Duration: 0,6255 Wasted Time: 0,0798).
 ..\\QueryLibrary\\login_request.h(6): Notify: Transaction "login" started.
 ..\\QueryLibrary\\login_request.h(10): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
 ..\\QueryLibrary\\login_request.h(10): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
@@ -77,61 +77,61 @@ Action.c(16): Notify: Transaction "UC_4_DeletingTickets" started.
 ..\\QueryLibrary\\login_request.h(32): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\QueryLibrary\\login_request.h(32): Registered web_reg_find successful for "Text=Welcome, <b>sasha</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
 ..\\QueryLibrary\\login_request.h(32): web_submit_data("login.pl") was successful, 5780 body bytes, 2060 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\QueryLibrary\\login_request.h(49): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.1389 Wasted Time: 0.0060).
-Action.c(28): Notify: Transaction "viewing_receipts" started.
-Action.c(32): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
-Action.c(32): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
-Action.c(35): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
-Action.c(35): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
-Action.c(38): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
-Action.c(38): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
-Action.c(41): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(41): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(44): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
-Action.c(44): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\login_request.h(49): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.1262 Wasted Time: 0.0057).
+Action.c(31): Notify: Transaction "viewing_receipts" started.
+Action.c(35): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(35): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(38): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(38): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(41): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(41): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(44): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(44): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
 Action.c(47): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
 Action.c(47): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
-Action.c(50): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
-Action.c(50): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
-Action.c(53): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
-Action.c(53): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
-Action.c(56): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
-Action.c(56): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
-Action.c(59): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
-Action.c(59): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(68): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-Action.c(68): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(79): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-Action.c(79): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(90): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(90): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(94): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
-Action.c(94): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
-Action.c(94): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
-Action.c(94): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(94): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(94): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(94): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
-Action.c(94): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
-Action.c(94): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(94): Registered web_reg_find successful for "Text=<B>Sasha Carrington
+Action.c(50): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(50): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(53): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(53): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(56): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(56): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(59): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(59): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(62): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(62): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(71): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(71): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(82): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(82): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(93): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(93): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(97): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(97): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(97): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(97): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(97): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(97): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(97): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(97): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(97): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(97): Registered web_reg_find successful for "Text=<B>Sasha Carrington
  's Flight Transaction Summary</B>" (count=1)  	[MsgId: MMSG-26364]
-Action.c(94): web_url("welcome.pl") was successful, 23364 body bytes, 1913 header bytes, 67 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(104): Notify: Transaction "viewing_receipts" ended with a "Pass" status (Duration: 0.2697 Wasted Time: 0.0083).
-Action.c(192): Notify: Transaction "ñancel_reservation" started.
-Action.c(196): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(196): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(201): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-Action.c(201): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(212): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(212): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(216): web_custom_request("itinerare.pl") started  	[MsgId: MMSG-26355]
-Action.c(216): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(216): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(216): Registered web_reg_find successful for "Text=<B>Sasha Carrington
+Action.c(97): web_url("welcome.pl") was successful, 9958 body bytes, 1913 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(107): Notify: Transaction "viewing_receipts" ended with a "Pass" status (Duration: 0.2533 Wasted Time: 0.0080).
+Action.c(203): Notify: Transaction "ñancel_reservation" started.
+Action.c(207): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(207): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(212): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(212): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(223): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(223): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(227): web_custom_request("itinerare.pl") started  	[MsgId: MMSG-26355]
+Action.c(227): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(227): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(227): Registered web_reg_find successful for "Text=<B>Sasha Carrington
  's Flight Transaction Summary</B>" (count=1)  	[MsgId: MMSG-26364]
-Action.c(216): web_custom_request("itinerare.pl") was successful, 15805 body bytes, 255 header bytes, 35 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(254): Notify: Transaction "ñancel_reservation" ended with a "Pass" status (Duration: 0.2987 Wasted Time: 0.0055).
+Action.c(227): web_custom_request("itinerare.pl") was successful, 2631 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(265): Notify: Transaction "ñancel_reservation" ended with a "Pass" status (Duration: 0.1263 Wasted Time: 0.0051).
 ..\\QueryLibrary\\click_sing_off_request.h(6): Notify: Transaction "click_sing_off" started.
 ..\\QueryLibrary\\click_sing_off_request.h(10): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
 ..\\QueryLibrary\\click_sing_off_request.h(10): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
@@ -159,15 +159,15 @@ Action.c(254): Notify: Transaction "ñancel_reservation" ended with a "Pass" stat
 ..\\QueryLibrary\\click_sing_off_request.h(41): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
 ..\\QueryLibrary\\click_sing_off_request.h(41): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\QueryLibrary\\click_sing_off_request.h(41): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-..\\QueryLibrary\\click_sing_off_request.h(41): web_url("welcome.pl") was successful, 2166 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\QueryLibrary\\click_sing_off_request.h(41): web_url("welcome.pl") was successful, 2172 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
 ..\\QueryLibrary\\click_sing_off_request.h(51): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
 ..\\QueryLibrary\\click_sing_off_request.h(51): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
 ..\\QueryLibrary\\click_sing_off_request.h(54): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
 ..\\QueryLibrary\\click_sing_off_request.h(54): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
 ..\\QueryLibrary\\click_sing_off_request.h(57): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
 ..\\QueryLibrary\\click_sing_off_request.h(57): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
-..\\QueryLibrary\\click_sing_off_request.h(60): Notify: Transaction "click_sing_off" ended with a "Pass" status (Duration: 0.1285 Wasted Time: 0.0037).
-Action.c(262): Notify: Transaction "UC_4_DeletingTickets" ended with a "Pass" status (Duration: 1.7962 Wasted Time: 0.1057).
+..\\QueryLibrary\\click_sing_off_request.h(60): Notify: Transaction "click_sing_off" ended with a "Pass" status (Duration: 0.1096 Wasted Time: 0.0039).
+Action.c(273): Notify: Transaction "UC_4_DeletingTickets" ended with a "Pass" status (Duration: 3.5811 Wasted Time: 0.1025).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

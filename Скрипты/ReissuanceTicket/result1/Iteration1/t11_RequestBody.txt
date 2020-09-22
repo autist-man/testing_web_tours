@@ -1,5 +1,0 @@
-"firstName=Sasha&lastName=Carrington&address1=Druzba&address2=Moscow&creditCard=843953977435993"
-"8&numPassengers=2&seetType=First&seatPref=None&JSFormSubmit=off&buyFlights.x=28&buyFlights.y=0"
-"&.cgifields=saveCC&oldCCOption=&advanceDiscount=0&pass1=Sasha+Carrington&pass2=Alex+Nelson&pas"
-"s3=Vanya+Zinchenco&pass4=Sasha+Oldman&outboundFlight=212%3B471%3B09%2F19%2F2020&expDate=04%2F2"
-"6&returnFlight=122%3B471%3B09%2F30%2F2020"

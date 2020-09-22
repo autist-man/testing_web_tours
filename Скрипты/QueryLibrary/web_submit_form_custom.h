@@ -27,9 +27,9 @@ int form_args_param_idx = 0;
 //в один параметр и добавляет в структуру "FORM_ARGS"
 void form_args_add_paramarr(char *pattern, int num){
     //Выделяем память для объединения "pattern" и "num"
-    //+1 - два символа под двухзначное число "num"
+    //+2 - два символа под двухзначное число "num"
     //+1 - для конца строки '\0'
-    char *param = (char*)malloc(strlen(pattern)+1+1);
+    char *param = (char*)malloc(strlen(pattern)+2+1);
     sprintf(param, "%s%d", pattern, num);
     //Сохраняем указатель на выделенную память
     //в массив "form_args_param_list"
