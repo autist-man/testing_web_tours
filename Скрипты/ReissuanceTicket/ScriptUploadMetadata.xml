@@ -104,9 +104,23 @@
     <FileEntry Name="deleteRequestFile.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv2W2.773.log" Filter="1" />
+    <FileEntry Name="mdrvATF.761.log" Filter="1" />
+    <FileEntry Name="mdrvAxB.669.log" Filter="1" />
+    <FileEntry Name="mdrvBSz.883.log" Filter="1" />
+    <FileEntry Name="mdrvDzo.127.log" Filter="1" />
+    <FileEntry Name="mdrvHSp.49.log" Filter="1" />
+    <FileEntry Name="mdrvHt3.97.log" Filter="1" />
+    <FileEntry Name="mdrvJ0H.751.log" Filter="1" />
+    <FileEntry Name="mdrvjtd.587.log" Filter="1" />
     <FileEntry Name="mdrvKW6.219.log" Filter="1" />
     <FileEntry Name="mdrvlrt.421.log" Filter="1" />
+    <FileEntry Name="mdrvmN3.551.log" Filter="1" />
+    <FileEntry Name="mdrvTEj.159.log" Filter="1" />
+    <FileEntry Name="mdrvtuy.739.log" Filter="1" />
+    <FileEntry Name="mdrvUme.199.log" Filter="1" />
     <FileEntry Name="mdrvxbD.283.log" Filter="1" />
+    <FileEntry Name="mdrvYLB.709.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

@@ -1,5 +1,0 @@
-"7=on&flightID=382160043-1064357-LD&.cgifields=382160043-1064357-LD&flightID=38188648-1576-LD&."
-"cgifields=38188648-1576-LD&flightID=382030068-23644-LD&.cgifields=382030068-23644-LD&flightID="
-"3821013-3098-LD&.cgifields=3821013-3098-LD&flightID=38205323-4194842-LD&.cgifields=38205323-41"
-"94842-LD&flightID=97-4-AD&.cgifields=97-4-AD&flightID=0-5-4&.cgifields=0-5-4&removeFlights.x=4"
-"8&removeFlights.y=6"

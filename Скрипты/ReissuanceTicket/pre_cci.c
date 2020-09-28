@@ -3825,7 +3825,7 @@ Action()
 			{	
 				 
 				 
-				char * FlightID, * partFlightID;
+				char * flightID, * partFlightID;
 				 
 				int lenghtArrayFlightID = atoi(lr_eval_string("{arrayFlightID_count}"));
 				 
@@ -3857,19 +3857,19 @@ Action()
 				
 								
 				if((deleteRequestFile = fopen("deleteRequestFile.txt", "w")) == 0){
-			       lr_output_message("Error: %s", "Не удалось открыть файл для записи запроса на удаление билетов");
+			       lr_error_message("Error: %s", "Не удалось открыть файл для записи запроса на удаление билетов");
 			       return 0;
 			    }
 				
 				for(count = 1; count <= lenghtArrayFlightID; count++)
 				{
-					FlightID = lr_paramarr_idx("arrayFlightID", count);
+					flightID = lr_paramarr_idx("arrayFlightID", count);
 					 
 					for(ord = 0; ord < numberTickets; ord++){
 						 
 						partFlightID = strtok(lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0])), "-");
 						 
-						result = strncmp(lr_eval_string(lr_paramarr_idx("arrayFlightID",count)),
+						result = strncmp(flightID,
 						                partFlightID,
 						                strlen(partFlightID));
 						 
@@ -3884,11 +3884,11 @@ Action()
 					if(count <= numberTickets){
         				fprintf(deleteRequestFile,
 						       "%d=on&flightID=%s&.cgifields=%s&",
-						      	deletedTicketsID[count-1][0], FlightID, FlightID);
+						      	deletedTicketsID[count-1][0], flightID, flightID);
 					} else{
         				fprintf(deleteRequestFile,
 						       "flightID=%s&.cgifields=%s&",
-						      	FlightID, FlightID);
+						      	flightID, flightID);
 					}
 				}   
 				fprintf(deleteRequestFile, "removeFlights.x=48&removeFlights.y=6");
@@ -3952,14 +3952,15 @@ Action()
 				int lenghtTicketsPartID = atoi(lr_eval_string("{ticketsPartID_count}"));
 				 
 				int count, ord, result, identicalTicketsNum;
-				char * partFlightID;
+				char * partFlightID, * flightID;
 				 
 				for(ord = 0; ord < numberTickets; ord++){
+					flightID = lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0]));
 					identicalTicketsNum = 0;
 					 
 					for(count = 1; count <= lenghtTicketsPartID; count++){
 						 
-						partFlightID = strtok(lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0])), "-");
+						partFlightID = strtok(flightID, "-");
 						 
 						result = strcmp(partFlightID,
 						                 lr_eval_string(lr_paramarr_idx("ticketsPartID",count)));

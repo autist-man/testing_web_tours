@@ -1,0 +1,66 @@
+﻿[Workspace]
+SessionStartTime=0
+SessionEndTime=6876
+VerNo=13
+IsSummaryData=0
+TimeFormat=0
+SesLang=RUS
+ABuild=0
+DataBaseName=maxi337701215DB
+DBType=1
+CurrServer=TEMUR
+CurrUser=sa
+CurrPswd===
+StorageLoc=\\TEMUR\Data\
+PhStorageLoc=C:\MSSQL7\Data\
+LocStorageLoc=
+LocPhStorageLoc=
+WinIntSec=0
+UseNetworkMode=0
+UseParallel=1
+UseManagedIndexes=1
+UseSpecMSSQLParams=1
+NumResults=1
+
+[Data Config]
+CollectionMode=3
+IngnoreFlds=Vuser ID
+IngnoreUIFlds=VuserID
+AggSecGran=60
+TransAgg=1
+DataPointAgg=1
+WebAgg=1
+MonAgg=0
+ErrAgg=0
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+
+[Result0]
+LRRID=
+ResultPath=c:\User\testing_web_tours_git\testing_web_tours\Результаты\maximum_search_test_analysis_50_p50\maximum_search_test_analysis_50_p50.lrr
+ResultTDPath=
+NumFilters=0
+ScenarioTimeZone=-10800
+DaylightSavingSecsAddition=0
+ScenarioStartTime=1601222473
+ScenarioEndTime=1601229349
+ResInSD=0
+WebGran=0
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+TDTestID=-1
+TDRunID=-1
+IsProTuneResult=0
+GraphScale=0
+Scenario Type=Manual
+Schedule Name=Schedule 1
+Mode=Scenario Scheduling
+Load Behavior=Initialize each Vuser just before it runs
+Scenario Duration=Start 14 Vusers: 1 every 00:00:04 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 9 Vusers: 1 every 00:00:04 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 9 Vusers: 1 every 00:00:04 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 9 Vusers: 1 every 00:00:04 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 9 Vusers: 1 every 00:00:04 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
+NumGraphs=16
+
+[DimensionFunctions]
+DimeFuncCount=0
+

@@ -11,6 +11,6 @@ Accept-Language: ru
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1600804393&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Sasha&address2&Moscow&username&sasha&hash&97&lastName&Carrington%0A&address1&Druzba%20street&creditCard&&expDate&%0A
-Content-Length: 247
+Cookie: MSO=SID&1600980898&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Sasha&address2&Moscow&username&sasha&hash&97&lastName&Carrington%0A&address1&Druzba%20street&creditCard&&expDate&%0A
+Content-Length: 242
 

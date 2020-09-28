@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 27.	[MsgId: MMSG-10545]
+..\\QueryLibrary\\click_flight_request.h(19):      admin@localhost and inform them of the time the error occurred,\n
+..\\QueryLibrary\\click_flight_request.h(19):     and anything you might have done that may have\n
+..\\QueryLibrary\\click_flight_request.h(19):     caused the error.</p>\n
+..\\QueryLibrary\\click_flight_request.h(19):     <p>More information about this error may be available\n
+..\\QueryLibrary\\click_flight_request.h(19):     in the server error log.</p>\n
+..\\QueryLibrary\\click_flight_request.h(19):     </body></html>\n
+..\\QueryLibrary\\click_flight_request.h(19): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MERR-26612]
+..\\QueryLibrary\\click_flight_request.h(19): Error -26366: "Text=No. of Passengers :" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

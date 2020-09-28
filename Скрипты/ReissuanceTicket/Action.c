@@ -536,7 +536,7 @@ Action()
 			{	
 				//FlightID - поле купленного билета "arrayFlightID_2" =  "382141149-2208620-LD"
 				//partFlightID - первые цифры в "arrayFlightID_2" =  " ->382141149<-   -2208620-LD"
-				char * FlightID, * partFlightID;
+				char * flightID, * partFlightID;
 				//lenghtArrayFlightID - количество билетов у пользователья
 				int lenghtArrayFlightID = atoi(lr_eval_string("{arrayFlightID_count}"));
 				//count - счетчик для цикла
@@ -568,19 +568,19 @@ Action()
 				
 								
 				if((deleteRequestFile = fopen("deleteRequestFile.txt", "w")) == NULL){
-			       lr_output_message("Error: %s", "Не удалось открыть файл для записи запроса на удаление билетов");
+			       lr_error_message("Error: %s", "Не удалось открыть файл для записи запроса на удаление билетов");
 			       return 0;
 			    }
 				
 				for(count = 1; count <= lenghtArrayFlightID; count++)
 				{
-					FlightID = lr_paramarr_idx("arrayFlightID", count);
+					flightID = lr_paramarr_idx("arrayFlightID", count);
 					//сравнение удаляющихся билетов с другими билетами по первым цифрам номера билета
 					for(ord = 0; ord < numberTickets; ord++){
 						//вытягиваем первые цифры билета удаления
 						partFlightID = strtok(lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0])), "-");
 						//сравниваем с другим билетом
-						result = strncmp(lr_eval_string(lr_paramarr_idx("arrayFlightID",count)),
+						result = strncmp(flightID,
 						                partFlightID,
 						                strlen(partFlightID));
 						//если совпадают и номер билета не равен самому себе
@@ -595,11 +595,11 @@ Action()
 					if(count <= numberTickets){
         				fprintf(deleteRequestFile,
 						       "%d=on&flightID=%s&.cgifields=%s&",
-						      	deletedTicketsID[count-1][0], FlightID, FlightID);
+						      	deletedTicketsID[count-1][0], flightID, flightID);
 					} else{
         				fprintf(deleteRequestFile,
 						       "flightID=%s&.cgifields=%s&",
-						      	FlightID, FlightID);
+						      	flightID, flightID);
 					}
 				}   
 				fprintf(deleteRequestFile, "removeFlights.x=48&removeFlights.y=6");
@@ -738,14 +738,15 @@ Action()
 				int lenghtTicketsPartID = atoi(lr_eval_string("{ticketsPartID_count}"));
 				//identicalTicketsNum - хранит количество совпавших билетов по первым цифрам номера
 				int count, ord, result, identicalTicketsNum;
-				char * partFlightID;
+				char * partFlightID, * flightID;
 				//Итерация по каждому удаленному билету
 				for(ord = 0; ord < numberTickets; ord++){
+					flightID = lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0]));
 					identicalTicketsNum = 0;
 					//итерация по каждому билету после удаления
 					for(count = 1; count <= lenghtTicketsPartID; count++){
 						//Вытягиваем первые цифры билета
-						partFlightID = strtok(lr_eval_string(lr_paramarr_idx("arrayFlightID",deletedTicketsID[ord][0])), "-");
+						partFlightID = strtok(flightID, "-");
 						//проверяем совпадают ли первые цифры удаленного билета с билетами после удаления
 						result = strcmp(partFlightID,
 						                 lr_eval_string(lr_paramarr_idx("ticketsPartID",count)));

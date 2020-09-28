@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=% работы в пользовательском режиме (ѕроцессор _Total)
+DataPointLabel_1=offline_datapoint_27
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=% работы в пользовательском режиме (ѕроцессор _Total)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=ѕроцент времени работы в пользовательском режиме - это процент времени работы процессора, которое он находилс€ в пользовательском режиме. (ѕользовательский режим €вл€етс€ ограниченным режимом работы процессора. ¬ пользовательском режиме работают приложени€, подсистемы обеспечени€ среды (например, Win32, POSIX) и интегрируемые подсистемы. Ќаоборот, привилегированный режим разработан дл€ компонентов операционной системы и позвол€ет напр€мую обращатьс€ к аппаратуре и всей пам€ти. ќперационна€ система переключает потоки приложений в привилегированный режим дл€ доступа к службам операционной системы.) Ётот счетчик отображает средний процент времени зан€тости процессора по отношению ко всему времени образца.

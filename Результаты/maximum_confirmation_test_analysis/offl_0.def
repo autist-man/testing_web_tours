@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Всего байт/с (Сетевой интерфейс Intel[R] Wireless-AC 9560 160MHz)
+DataPointLabel_1=offline_datapoint_0
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Всего байт/с (Сетевой интерфейс Intel[R] Wireless-AC 9560 160MHz)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Всего байт/с - это скорость, с которой происходит получение или посылка байт через сетевые адаптеры, включая символы обрамления (framing characters). 'Сетевой интерфейс\Всего байт/с' является суммой счетчиков 'Сетевой интерфейс\Получено байт/с' и 'Сетевой интерфейс\Отправлено байт/с'.

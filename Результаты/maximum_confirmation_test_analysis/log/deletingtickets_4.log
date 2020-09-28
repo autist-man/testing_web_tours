@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 28.	[MsgId: MMSG-10545]
+Action.c(212): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(212): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(223): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(223): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(227): web_custom_request("itinerare.pl") started  	[MsgId: MMSG-26355]
+Action.c(227): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(227): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(227): Error -26366: "Text=<B>Eachern Eagar
+ 's Flight Transaction Summary</B>" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

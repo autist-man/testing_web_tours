@@ -1,0 +1,2 @@
+[Hosts]
+localhost=c:\user\testing_web_tours_git\testing_web_tours\результаты\maximum_con_2\localhost_1.eve

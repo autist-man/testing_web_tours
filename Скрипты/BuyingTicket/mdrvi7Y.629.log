@@ -1,0 +1,893 @@
+Action.c(406):     </head>\n
+Action.c(406):     <body bgcolor="#E0E7F1">\n
+Action.c(406):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(406):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(406):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+Action.c(406):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Invoice</font></b></h1><blockq
+Action.c(406):     uote>\n
+Action.c(406):     <CENTER>\n
+Action.c(406):     <small><B>Thank you for booking through Web Tours.</B></small>\n
+Action.c(406):     <BR/>\n
+Action.c(406):     <BR/>\n
+Action.c(406):     <!-- Customer Name header -->\n
+Action.c(406):     <Table width="85%" border="0" cellspacing="0" >\n
+Action.c(406):       <TR bgcolor="#5E7884">\n
+Action.c(406):          <TD colspan="2" align="center">\n
+Action.c(406):             <font color="white"><b>SashaCarrington's Flight Invoice</b></font>\n
+Action.c(406):          </TD>\n
+Action.c(406):          <TD width="160" align="right">\n
+Action.c(406):              <font color="white"><small>Fri Sep 25 10:51:31 2020\n
+Action.c(406):     </small>\n
+Action.c(406):          </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     </Table>\n
+Action.c(406):     \n
+Action.c(406):     <Table width="85%" border="0" cellspacing="1" >\n
+Action.c(406):     <!-- Flight Item header -->\n
+Action.c(406):       <TR bgcolor="#EFF2F7">\n
+Action.c(406):          <TD colspan="2" align="left">\n
+Action.c(406):              Flights Reservation Requests:\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD align="center">Cost\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     \n
+Action.c(406):     <!-- Flight reserved -->\n
+Action.c(406):     <TR bgcolor="#EFF2F7">\n
+Action.c(406):         <TD valign="top">1.</TD>\n
+Action.c(406):         <TD align="left">\n
+Action.c(406):            A  Class ticket\n
+Action.c(406):      from Zurich to Los Angeles.</u></b>\n
+Action.c(406):     <br/>\n
+Action.c(406):     <center>\n
+Action.c(406):            <i>\n
+Action.c(406):               09/25/2020 :  11pm : Flight 933 leaves Zurich  for Los Angeles.<br>\n
+Action.c(406):               10/12/2020 :  8am : Flight 390 leaves Los Angeles  for Zurich.<br><br/>\n
+Action.c(406):            <br/>\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD valign="top">\n
+Action.c(406):              $993\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     <!-- Total Cost -->\n
+Action.c(406):       <TR bgcolor="#EFF2F7">\n
+Action.c(406):         <TD>*\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD > Total Cost\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD>\n
+Action.c(406):            <b> $993 </b>\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     \n
+Action.c(406):       <TR bgcolor="#EFF2F7">\n
+Action.c(406):         <TD>-\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD >\n
+Action.c(406):            Total Charged to Credit Card # 8439539774359938\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD>\n
+Action.c(406):            <b> $993 </b>\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     \n
+Action.c(406):       <TR bgcolor="#EFF2F7">\n
+Action.c(406):         <TD>*\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD >\n
+Action.c(406):             Credit Account Balance\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD>\n
+Action.c(406):            <b> $0.00 </b>\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR></Table>\n
+Action.c(406):     <BR/>\n
+Action.c(406):     <Table width="85%" border="0">\n
+Action.c(406):       <tr>\n
+Action.c(406):         <td align=right>\n
+Action.c(406):     <form method="post" action="" enctype="application/x-www-form-urlencoded">\n
+Action.c(406):     <input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" 
+Action.c(406):     /></form>    </td>\n
+Action.c(406):       </tr>\n
+Action.c(406):     </Table>\n
+Action.c(406):     \n
+Action.c(406):     </Center>\n
+Action.c(406):     \n
+Action.c(406):     </body>\n
+Action.c(406):     </html>
+Action.c(406): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+Action.c(406): t=6306621ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=866)
+Action.c(406):     0\r\n
+Action.c(406):     \r\n
+Action.c(406): t=6306622ms: 297-byte response headers for "http://localhost:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=867)
+Action.c(406):     HTTP/1.1 200 OK\r\n
+Action.c(406):     Date: Fri, 25 Sep 2020 07:51:31 GMT\r\n
+Action.c(406):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(406):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(406):     ETag: "30000000286cd-326-4b654c052c2c0"\r\n
+Action.c(406):     Accept-Ranges: bytes\r\n
+Action.c(406):     Content-Length: 806\r\n
+Action.c(406):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(406):     Connection: Keep-Alive\r\n
+Action.c(406):     Content-Type: image/gif\r\n
+Action.c(406):     \r\n
+Action.c(406): t=6306622ms: 806-byte response body for "http://localhost:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=867)
+Action.c(406): Registered web_reg_find successful for "Text=09/25/2020 :  11pm : Flight 933 leaves Zurich  for Los Angeles" (count=1)  	[MsgId: MMSG-26364]
+Action.c(406): Registered web_reg_find successful for "Text=10/12/2020 :  8am : Flight 390 leaves Los Angeles  for Zurich" (count=1)  	[MsgId: MMSG-26364]
+Action.c(406): web_custom_request("itinerare.pl") was successful, 3378 body bytes, 688 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(414): Notify: Transaction "insert_payment_info" ended with a "Pass" status (Duration: 5,0707 Think Time: 5,0124 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+..\\QueryLibrary\\click_sing_off_request.h(6): Notify: Transaction "click_sing_off" started.	[MsgId: MMSG-16999]
+..\\QueryLibrary\\click_sing_off_request.h(8): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(244): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(244): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(247): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(247): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(250): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(250): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(253): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(253): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(259): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(262): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(262): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(265): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(265): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(274): Notify: Parameter Substitution: parameter "numPassengers" =  "1"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Next row for parameter firstName = 6 [table  = firstName].	[MsgId: MMSG-13876]
+Action.c(284): Notify: Parameter Substitution: parameter "firstName" =  "Stepan"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Next row for parameter lastName = 6 [table  = lastName].	[MsgId: MMSG-13876]
+Action.c(284): Notify: Parameter Substitution: parameter "lastName" =  "Oakman"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Next row for parameter homeAddress = 6 [table  = homeAddress].	[MsgId: MMSG-13876]
+Action.c(284): Notify: Parameter Substitution: parameter "homeAddress" =  "High"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Next row for parameter homeCity = 6 [table  = homeCity].	[MsgId: MMSG-13876]
+Action.c(284): Notify: Parameter Substitution: parameter "homeCity" =  "Volgograg"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Next row for parameter creditCard = 6 [table  = creditCard].	[MsgId: MMSG-13876]
+Action.c(284): Notify: Parameter Substitution: parameter "creditCard" =  "6692022022962750"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Parameter Substitution: parameter "numPassengers" =  "1"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Parameter Substitution: parameter "seatType" =  "Coach"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Parameter Substitution: parameter "seatPref" =  "None"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Next row for parameter firstName = 6 [table  = firstName].	[MsgId: MMSG-13876]
+Action.c(284): Notify: Parameter Substitution: parameter "firstName" =  "Stepan"	[MsgId: MMSG-13992]
+Action.c(284): Notify: Next row for parameter lastName = 6 [table  = lastName].	[MsgId: MMSG-13876]
+Action.c(284): Notify: Parameter Substitution: parameter "lastName" =  "Oakman"	[MsgId: MMSG-13992]
+Action.c(325): Notify: Parameter Substitution: parameter "randomOutboundFlight" =  "413;105;09/25/2020"	[MsgId: MMSG-13992]
+Action.c(325): Notify: Parameter Substitution: parameter "expDate" =  "05/25"	[MsgId: MMSG-13992]
+Action.c(325): Notify: Saving Parameter "concatExpDateOutboundFlight = 413;105;09/25/2020:05/25".	[MsgId: MMSG-13798]
+Action.c(329): Notify: Parameter Substitution: parameter "concatExpDateOutboundFlight" =  "413;105;09/25/2020:05/25"	[MsgId: MMSG-13992]
+Action.c(329): Notify: Parameter Substitution: parameter "concatExpDateOutboundFlight" =  "413;105;09/25/2020:05/25"	[MsgId: MMSG-13992]
+Action.c(329): Received Regular Expression [([0-9]+)], ordinal [0], case-sensitive [true], parameter [concatStringExpDateOutboundFlight], size of buffer to scan: [24].	[MsgId: MMSG-17950]
+Action.c(329): Notify: Saving Parameter "concatStringExpDateOutboundFlight_1 = 413".	[MsgId: MMSG-13798]
+Action.c(329): Notify: Saving Parameter "concatStringExpDateOutboundFlight_2 = 105".	[MsgId: MMSG-13798]
+Action.c(329): Notify: Saving Parameter "concatStringExpDateOutboundFlight_3 = 09".	[MsgId: MMSG-13798]
+Action.c(329): Notify: Saving Parameter "concatStringExpDateOutboundFlight_4 = 25".	[MsgId: MMSG-13798]
+Action.c(329): Notify: Saving Parameter "concatStringExpDateOutboundFlight_5 = 2020".	[MsgId: MMSG-13798]
+Action.c(329): Notify: Saving Parameter "concatStringExpDateOutboundFlight_6 = 05".	[MsgId: MMSG-13798]
+Action.c(329): Notify: Saving Parameter "concatStringExpDateOutboundFlight_7 = 25".	[MsgId: MMSG-13798]
+Action.c(329): Notify: Saving Parameter "concatStringExpDateOutboundFlight_count = 7".	[MsgId: MMSG-13798]
+Action.c(337): Notify: Parameter Substitution: parameter "concatStringExpDateOutboundFlight_1" =  "413"	[MsgId: MMSG-13992]
+Action.c(337): Notify: Parameter Substitution: parameter "concatStringExpDateOutboundFlight_2" =  "105"	[MsgId: MMSG-13992]
+Action.c(337): Notify: Parameter Substitution: parameter "concatStringExpDateOutboundFlight_3" =  "09"	[MsgId: MMSG-13992]
+Action.c(337): Notify: Parameter Substitution: parameter "concatStringExpDateOutboundFlight_4" =  "25"	[MsgId: MMSG-13992]
+Action.c(337): Notify: Parameter Substitution: parameter "concatStringExpDateOutboundFlight_5" =  "2020"	[MsgId: MMSG-13992]
+Action.c(337): Notify: Parameter Substitution: parameter "concatStringExpDateOutboundFlight_6" =  "05"	[MsgId: MMSG-13992]
+Action.c(337): Notify: Parameter Substitution: parameter "concatStringExpDateOutboundFlight_7" =  "25"	[MsgId: MMSG-13992]
+Action.c(371): Notify: Saving Parameter "bodyPOSTRequest = firstName=Stepan&lastName=Oakman&address1=High&address2=Volgograg&creditCard=6692022022962750&numPassengers=1&seetType=Coach&seatPref=None&JSFormSubmit=off&buyFlights.x=28&buyFlights.y=0&.cgifields=saveCC&oldCCOption=&advanceDiscount=0&pass1=Stepan+Oakman&outboundFlight=413%3B105%3B09%2F25%2F2020&expDate=05%2F25".	[MsgId: MMSG-13798]
+Action.c(382): Notify: Parameter Substitution: parameter "outbound_flight_id" =  "4"	[MsgId: MMSG-13992]
+Action.c(382): Notify: Parameter Substitution: parameter "departTimeAnyFlight_4" =  "11pm"	[MsgId: MMSG-13992]
+Action.c(382): Notify: Saving Parameter "departFlightTime = 11pm".	[MsgId: MMSG-13798]
+Action.c(384): Notify: Parameter Substitution: parameter "outbound_flight_id" =  "4"	[MsgId: MMSG-13992]
+Action.c(384): Notify: Parameter Substitution: parameter "flightNumber_4" =  "413"	[MsgId: MMSG-13992]
+Action.c(384): Notify: Saving Parameter "departFlightNumber = 413".	[MsgId: MMSG-13798]
+Action.c(387): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(387): Notify: Parameter Substitution: parameter "departDate" =  "09/25/2020"	[MsgId: MMSG-13992]
+Action.c(387): Notify: Parameter Substitution: parameter "departFlightTime" =  "11pm"	[MsgId: MMSG-13992]
+Action.c(387): Notify: Parameter Substitution: parameter "departFlightNumber" =  "413"	[MsgId: MMSG-13992]
+Action.c(387): Notify: Parameter Substitution: parameter "departCity" =  "Paris"	[MsgId: MMSG-13992]
+Action.c(387): Notify: Parameter Substitution: parameter "arriveCity" =  "Frankfurt"	[MsgId: MMSG-13992]
+Action.c(387): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(406): web_custom_request("itinerare.pl") started  	[MsgId: MMSG-26355]
+Action.c(406): Notify: Parameter Substitution: parameter "bodyPOSTRequest" =  "firstName=Stepan&lastName=Oakman&address1=High&address2=Volgograg&creditCard=6692022022962750&numPassengers=1&seetType=Coach&seatPref=None&JSFormSubmit=off&buyFlights.x=28&buyFlights.y=0&.cgifields=saveCC&oldCCOption=&advanceDiscount=0&pass1=Stepan+Oakman&outboundFlight=413%3B105%3B09%2F25%2F2020&expDate=05%2F25"	[MsgId: MMSG-13992]
+Action.c(406): t=6307634ms: 394-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=596)
+Action.c(406):     HTTP/1.1 200 OK\r\n
+Action.c(406):     Date: Fri, 25 Sep 2020 07:51:32 GMT\r\n
+Action.c(406):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(406):     Expires: Thu, 24 Sep 2020 07:51:32 GMT\r\n
+Action.c(406):     Set-Cookie: MTUserInfo=firstName&Stepan&username&stepan123&address2&Volgograg&hash&115&add
+Action.c(406):     ress1&High%20street&lastName&Oakman%0A; path=/\r\n
+Action.c(406):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(406):     Connection: Keep-Alive\r\n
+Action.c(406):     Transfer-Encoding: chunked\r\n
+Action.c(406):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(406):     \r\n
+Action.c(406): t=6307634ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=596)
+Action.c(406):     9b1\r\n
+Action.c(406): t=6307634ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=596)
+Action.c(406):     \r\n
+Action.c(406): t=6307634ms: 2481-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=596)
+Action.c(406):     <!DOCTYPE html\n
+Action.c(406):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(406):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(406):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(406):     <head>\n
+Action.c(406):     <title>Reservation Made!</title>\n
+Action.c(406):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(406):     </head>\n
+Action.c(406):     <body bgcolor="#E0E7F1">\n
+Action.c(406):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(406):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(406):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+Action.c(406):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Invoice</font></b></h1><blockq
+Action.c(406):     uote>\n
+Action.c(406):     <CENTER>\n
+Action.c(406):     <small><B>Thank you for booking through Web Tours.</B></small>\n
+Action.c(406):     <BR/>\n
+Action.c(406):     <BR/>\n
+Action.c(406):     <!-- Customer Name header -->\n
+Action.c(406):     <Table width="85%" border="0" cellspacing="0" >\n
+Action.c(406):       <TR bgcolor="#5E7884">\n
+Action.c(406):          <TD colspan="2" align="center">\n
+Action.c(406):             <font color="white"><b>StepanOakman's Flight Invoice</b></font>\n
+Action.c(406):          </TD>\n
+Action.c(406):          <TD width="160" align="right">\n
+Action.c(406):              <font color="white"><small>Fri Sep 25 10:51:32 2020\n
+Action.c(406):     </small>\n
+Action.c(406):          </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     </Table>\n
+Action.c(406):     \n
+Action.c(406):     <Table width="85%" border="0" cellspacing="1" >\n
+Action.c(406):     <!-- Flight Item header -->\n
+Action.c(406):       <TR bgcolor="#EFF2F7">\n
+Action.c(406):          <TD colspan="2" align="left">\n
+Action.c(406):              Flights Reservation Requests:\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD align="center">Cost\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     \n
+Action.c(406):     <!-- Flight reserved -->\n
+Action.c(406):     <TR bgcolor="#EFF2F7">\n
+Action.c(406):         <TD valign="top">1.</TD>\n
+Action.c(406):         <TD align="left">\n
+Action.c(406):            A  Class ticket\n
+Action.c(406):      from Paris to Frankfurt.</u></b>\n
+Action.c(406):     <br/>\n
+Action.c(406):     <center>\n
+Action.c(406):            <i>\n
+Action.c(406):               09/25/2020 :  11pm : Flight 413 leaves Paris  for Frankfurt.<br>\n
+Action.c(406):            <br/>\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD valign="top">\n
+Action.c(406):              $105\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     <!-- Total Cost -->\n
+Action.c(406):       <TR bgcolor="#EFF2F7">\n
+Action.c(406):         <TD>*\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD > Total Cost\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD>\n
+Action.c(406):            <b> $105 </b>\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     \n
+Action.c(406):       <TR bgcolor="#EFF2F7">\n
+Action.c(406):         <TD>-\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD >\n
+Action.c(406):            Total Charged to Credit Card # 6692022022962750\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD>\n
+Action.c(406):            <b> $105 </b>\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR>\n
+Action.c(406):     \n
+Action.c(406):       <TR bgcolor="#EFF2F7">\n
+Action.c(406):         <TD>*\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD >\n
+Action.c(406):             Credit Account Balance\n
+Action.c(406):         </TD>\n
+Action.c(406):         <TD>\n
+Action.c(406):            <b> $0.00 </b>\n
+Action.c(406):         </TD>\n
+Action.c(406):       </TR></Table>\n
+Action.c(406):     <BR/>\n
+Action.c(406):     <Table width="85%" border="0">\n
+Action.c(406):       <tr>\n
+Action.c(406):         <td align=right>\n
+Action.c(406):     <form method="post" action="" enctype="application/x-www-form-urlencoded">\n
+Action.c(406):     <input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" 
+Action.c(406):     /></form>    </td>\n
+Action.c(406):       </tr>\n
+Action.c(406):     </Table>\n
+Action.c(406):     \n
+Action.c(406):     </Center>\n
+Action.c(406):     \n
+Action.c(406):     </body>\n
+Action.c(406):     </html>
+Action.c(406): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+Action.c(406): t=6307636ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=596)
+Action.c(406):     0\r\n
+Action.c(406):     \r\n
+Action.c(406): t=6307637ms: 298-byte response headers for "http://localhost:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=597)
+Action.c(406):     HTTP/1.1 200 OK\r\n
+Action.c(406):     Date: Fri, 25 Sep 2020 07:51:32 GMT\r\n
+Action.c(406):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(406):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(406):     ETag: "30000000286cd-326-4b654c052c2c0"\r\n
+Action.c(406):     Accept-Ranges: bytes\r\n
+Action.c(406):     Content-Length: 806\r\n
+Action.c(406):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(406):     Connection: Keep-Alive\r\n
+Action.c(406):     Content-Type: image/gif\r\n
+Action.c(406):     \r\n
+Action.c(406): t=6307637ms: 806-byte response body for "http://localhost:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=597)
+Action.c(406): Registered web_reg_find successful for "Text=09/25/2020 :  11pm : Flight 413 leaves Paris  for Frankfurt" (count=1)  	[MsgId: MMSG-26364]
+Action.c(406): web_custom_request("itinerare.pl") was successful, 3287 body bytes, 692 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(414): Notify: Transaction "insert_payment_info" ended with a "Pass" status (Duration: 5,0734 Think Time: 5,0155 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+..\\QueryLibrary\\click_sing_off_request.h(6): Notify: Transaction "click_sing_off" started.	[MsgId: MMSG-16999]
+..\\QueryLibrary\\click_sing_off_request.h(8): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+..\\QueryLibrary\\click_sing_off_request.h(10): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(10): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(16): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(16): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(19): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(19): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(22): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(22): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(25): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(25): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(28): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(28): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(31): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(31): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(34): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(34): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(37): web_reg_find started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\QueryLibrary\\click_sing_off_request.h(41): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310677ms: 373-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1138)
+..\\QueryLibrary\\click_sing_off_request.h(41):     HTTP/1.1 200 OK\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Date: Fri, 25 Sep 2020 07:51:35 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Server: Apache/2.2.21 (Win32)\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Set-Cookie: MSO=SID&1601020295&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 24-Sep-2020 07:51:35 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Keep-Alive: timeout=5, max=99\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Connection: Keep-Alive\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Transfer-Encoding: chunked\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310677ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1138)
+..\\QueryLibrary\\click_sing_off_request.h(41):     2ae\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310677ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1138)
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310677ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1138)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <!-- \n
+..\\QueryLibrary\\click_sing_off_request.h(41):      A Session ID has been created and loaded into a cookie called MSO.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      Also, the server options have been loaded into the cookie called\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      MSO as well.  The server options can be set via the Admin page.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      --->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <title>Web Tours</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        <!-- Frame Set -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <!-- Navigation Frame -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):                 noresize="noresize" scrolling="auto"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <!-- Home Frame -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):                 noresize="noresize" scrolling="auto"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        </frameset>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>
+..\\QueryLibrary\\click_sing_off_request.h(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\QueryLibrary\\click_sing_off_request.h(41): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\QueryLibrary\\click_sing_off_request.h(41): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310677ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=1140)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <HTML>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <HEAD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \t<title>Web Tours</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </HEAD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\QueryLibrary\\click_sing_off_request.h(41):     N: none}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\QueryLibrary\\click_sing_off_request.h(41):     CORATION: underline}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <body bgcolor="#e0e7f1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <table border="0">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TR><TD></TD></TR>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TR><TD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <blockquote>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <H1><b>Web Tours</b></H1>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Welcome to the Web Tours site.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     To make reservations,please enter your account information to the left.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+..\\QueryLibrary\\click_sing_off_request.h(41):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+..\\QueryLibrary\\click_sing_off_request.h(41):     tration</b></A> link.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/><br/><br/><br/><br/><br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/><small>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+..\\QueryLibrary\\click_sing_off_request.h(41):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </small>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </blockquote></TD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TD></TD></TR>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </table>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </HTML>\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310678ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1138)
+..\\QueryLibrary\\click_sing_off_request.h(41):     0\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310723ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1139)
+..\\QueryLibrary\\click_sing_off_request.h(41):     HTTP/1.1 200 OK\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Date: Fri, 25 Sep 2020 07:51:35 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Server: Apache/2.2.21 (Win32)\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Expires: Thu, 24 Sep 2020 07:51:35 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Keep-Alive: timeout=5, max=100\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Connection: Keep-Alive\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Transfer-Encoding: chunked\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310723ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1139)
+..\\QueryLibrary\\click_sing_off_request.h(41):     5d2\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310723ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1139)
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310723ms: 1490-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1139)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <!DOCTYPE html\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <head>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <title>Web Tours Navigation Bar</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </head>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <body bgcolor="#E0E7F1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     blockquote {font-family: tahoma; font-size : 10pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     small {font-family: tahoma; font-size : 8pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <input type="hidden" name="userSession" value="129689.776832726zzHAQVHpiQfiDDDDtAAcfpfAHDH
+..\\QueryLibrary\\click_sing_off_request.h(41):     f"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <table border="0"><tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><small>&nbsp;Username</small></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><small>&nbsp;Password</small></td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </form>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6310725ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1139)
+..\\QueryLibrary\\click_sing_off_request.h(41):     0\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+..\\QueryLibrary\\click_sing_off_request.h(41): web_url("welcome.pl") was successful, 2176 body bytes, 629 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\QueryLibrary\\click_sing_off_request.h(51): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(51): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(54): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(54): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(57): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(57): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(60): Notify: Transaction "click_sing_off" ended with a "Pass" status (Duration: 5,1019 Think Time: 5,0087 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(422): Notify: Transaction "UC_01_BuyingTicket" ended with a "Pass" status (Duration: 30,7946 Think Time: 30,0663 Wasted Time: 0,0014).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 9 (thread 9056), ended OK."	[MsgId: MMSG-10695]
+..\\QueryLibrary\\click_sing_off_request.h(10): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(10): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(16): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(16): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(19): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(19): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(22): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(22): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(25): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(25): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(28): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(28): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(31): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(31): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(34): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(34): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(37): web_reg_find started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\QueryLibrary\\click_sing_off_request.h(41): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311677ms: 373-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=868)
+..\\QueryLibrary\\click_sing_off_request.h(41):     HTTP/1.1 200 OK\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Date: Fri, 25 Sep 2020 07:51:36 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Server: Apache/2.2.21 (Win32)\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Set-Cookie: MSO=SID&1601020296&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 24-Sep-2020 07:51:36 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Keep-Alive: timeout=5, max=99\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Connection: Keep-Alive\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Transfer-Encoding: chunked\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311677ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=868)
+..\\QueryLibrary\\click_sing_off_request.h(41):     2ae\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311677ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=868)
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311677ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=868)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <!-- \n
+..\\QueryLibrary\\click_sing_off_request.h(41):      A Session ID has been created and loaded into a cookie called MSO.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      Also, the server options have been loaded into the cookie called\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      MSO as well.  The server options can be set via the Admin page.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      --->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <title>Web Tours</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        <!-- Frame Set -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <!-- Navigation Frame -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):                 noresize="noresize" scrolling="auto"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <!-- Home Frame -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):                 noresize="noresize" scrolling="auto"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        </frameset>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>
+..\\QueryLibrary\\click_sing_off_request.h(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\QueryLibrary\\click_sing_off_request.h(41): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\QueryLibrary\\click_sing_off_request.h(41): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311678ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=870)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <HTML>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <HEAD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \t<title>Web Tours</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </HEAD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\QueryLibrary\\click_sing_off_request.h(41):     N: none}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\QueryLibrary\\click_sing_off_request.h(41):     CORATION: underline}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <body bgcolor="#e0e7f1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <table border="0">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TR><TD></TD></TR>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TR><TD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <blockquote>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <H1><b>Web Tours</b></H1>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Welcome to the Web Tours site.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     To make reservations,please enter your account information to the left.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+..\\QueryLibrary\\click_sing_off_request.h(41):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+..\\QueryLibrary\\click_sing_off_request.h(41):     tration</b></A> link.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/><br/><br/><br/><br/><br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/><small>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+..\\QueryLibrary\\click_sing_off_request.h(41):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </small>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </blockquote></TD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TD></TD></TR>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </table>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </HTML>\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311679ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=868)
+..\\QueryLibrary\\click_sing_off_request.h(41):     0\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311723ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=869)
+..\\QueryLibrary\\click_sing_off_request.h(41):     HTTP/1.1 200 OK\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Date: Fri, 25 Sep 2020 07:51:36 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Server: Apache/2.2.21 (Win32)\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Expires: Thu, 24 Sep 2020 07:51:36 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Keep-Alive: timeout=5, max=100\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Connection: Keep-Alive\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Transfer-Encoding: chunked\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311723ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=869)
+..\\QueryLibrary\\click_sing_off_request.h(41):     5c8\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311723ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=869)
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311723ms: 1480-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=869)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <!DOCTYPE html\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <head>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <title>Web Tours Navigation Bar</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </head>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <body bgcolor="#E0E7F1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     blockquote {font-family: tahoma; font-size : 10pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     small {font-family: tahoma; font-size : 8pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <input type="hidden" name="userSession" value="129689.77691373zzHAQVHpQtAAcfpfAHt"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <table border="0"><tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><small>&nbsp;Username</small></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><small>&nbsp;Password</small></td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </form>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6311725ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=869)
+..\\QueryLibrary\\click_sing_off_request.h(41):     0\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+..\\QueryLibrary\\click_sing_off_request.h(41): web_url("welcome.pl") was successful, 2166 body bytes, 629 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\QueryLibrary\\click_sing_off_request.h(51): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(51): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(54): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(54): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(57): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(57): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(60): Notify: Transaction "click_sing_off" ended with a "Pass" status (Duration: 5,1030 Think Time: 5,0095 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(422): Notify: Transaction "UC_01_BuyingTicket" ended with a "Pass" status (Duration: 30,7324 Think Time: 30,0571 Wasted Time: 0,0013).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 11 (thread 7732), ended OK."	[MsgId: MMSG-10695]
+..\\QueryLibrary\\click_sing_off_request.h(10): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(10): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(16): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(16): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(19): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(19): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(22): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(22): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(25): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(25): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(28): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(28): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(31): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(31): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(34): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(34): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(37): web_reg_find started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\QueryLibrary\\click_sing_off_request.h(41): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312692ms: 373-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=598)
+..\\QueryLibrary\\click_sing_off_request.h(41):     HTTP/1.1 200 OK\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Date: Fri, 25 Sep 2020 07:51:37 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Server: Apache/2.2.21 (Win32)\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Set-Cookie: MSO=SID&1601020297&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 24-Sep-2020 07:51:37 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Keep-Alive: timeout=5, max=99\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Connection: Keep-Alive\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Transfer-Encoding: chunked\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312692ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=598)
+..\\QueryLibrary\\click_sing_off_request.h(41):     2ae\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312692ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=598)
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312692ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=598)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <!-- \n
+..\\QueryLibrary\\click_sing_off_request.h(41):      A Session ID has been created and loaded into a cookie called MSO.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      Also, the server options have been loaded into the cookie called\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      MSO as well.  The server options can be set via the Admin page.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):      --->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <title>Web Tours</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        <!-- Frame Set -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <!-- Navigation Frame -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):                 noresize="noresize" scrolling="auto"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <!-- Home Frame -->\n
+..\\QueryLibrary\\click_sing_off_request.h(41):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):                 noresize="noresize" scrolling="auto"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):        </frameset>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>
+..\\QueryLibrary\\click_sing_off_request.h(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\QueryLibrary\\click_sing_off_request.h(41): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\QueryLibrary\\click_sing_off_request.h(41): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312693ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=600)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <HTML>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <HEAD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \t<title>Web Tours</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </HEAD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\QueryLibrary\\click_sing_off_request.h(41):     N: none}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\QueryLibrary\\click_sing_off_request.h(41):     CORATION: underline}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <body bgcolor="#e0e7f1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <BR/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <table border="0">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TR><TD></TD></TR>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TR><TD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <blockquote>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <H1><b>Web Tours</b></H1>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Welcome to the Web Tours site.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     To make reservations,please enter your account information to the left.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+..\\QueryLibrary\\click_sing_off_request.h(41):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+..\\QueryLibrary\\click_sing_off_request.h(41):     tration</b></A> link.\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/><br/><br/><br/><br/><br/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <br/><small>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+..\\QueryLibrary\\click_sing_off_request.h(41):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </small>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </blockquote></TD>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <TD></TD></TR>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </table>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </HTML>\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312694ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=598)
+..\\QueryLibrary\\click_sing_off_request.h(41):     0\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312738ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=599)
+..\\QueryLibrary\\click_sing_off_request.h(41):     HTTP/1.1 200 OK\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Date: Fri, 25 Sep 2020 07:51:37 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Server: Apache/2.2.21 (Win32)\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Expires: Thu, 24 Sep 2020 07:51:37 GMT\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Keep-Alive: timeout=5, max=100\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Connection: Keep-Alive\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Transfer-Encoding: chunked\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312739ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=599)
+..\\QueryLibrary\\click_sing_off_request.h(41):     5d2\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312739ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=599)
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312739ms: 1490-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=599)
+..\\QueryLibrary\\click_sing_off_request.h(41):     <!DOCTYPE html\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <head>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <title>Web Tours Navigation Bar</title>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </head>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <body bgcolor="#E0E7F1">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     blockquote {font-family: tahoma; font-size : 10pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     small {font-family: tahoma; font-size : 8pt}\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </style>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <input type="hidden" name="userSession" value="129689.776994735zzHAQVHpQAtVzzzHtAAcfpfAHtc
+..\\QueryLibrary\\click_sing_off_request.h(41):     f"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <table border="0"><tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><small>&nbsp;Username</small></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><small>&nbsp;Password</small></td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </form>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </body>\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     </html>\n
+..\\QueryLibrary\\click_sing_off_request.h(41): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\QueryLibrary\\click_sing_off_request.h(41): t=6312740ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=599)
+..\\QueryLibrary\\click_sing_off_request.h(41):     0\r\n
+..\\QueryLibrary\\click_sing_off_request.h(41):     \r\n
+..\\QueryLibrary\\click_sing_off_request.h(41): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+..\\QueryLibrary\\click_sing_off_request.h(41): web_url("welcome.pl") was successful, 2176 body bytes, 629 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\QueryLibrary\\click_sing_off_request.h(51): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(51): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(54): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(54): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(57): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\QueryLibrary\\click_sing_off_request.h(57): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\QueryLibrary\\click_sing_off_request.h(60): Notify: Transaction "click_sing_off" ended with a "Pass" status (Duration: 5,1032 Think Time: 5,0099 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(422): Notify: Transaction "UC_01_BuyingTicket" ended with a "Pass" status (Duration: 30,7477 Think Time: 30,0670 Wasted Time: 0,0010).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 13 (thread 8204), ended OK."	[MsgId: MMSG-10695]
