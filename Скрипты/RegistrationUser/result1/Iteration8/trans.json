@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "go_to_site",
+        "rawStartTime": 1602090435992,
+        "rawEndTime": 1602090436137
+    },
+    {
+        "transactionName": "click_sign_up_now",
+        "rawStartTime": 1602090436139,
+        "rawEndTime": 1602090436261
+    },
+    {
+        "transactionName": "click_registration",
+        "rawStartTime": 1602090436263,
+        "rawEndTime": 1602090436388
+    },
+    {
+        "transactionName": "UC_00_registration",
+        "rawStartTime": 1602090435990,
+        "rawEndTime": 1602090436390
+    }
+]

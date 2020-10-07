@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\User\GitHub\testing_web_tours\Скрипты\RegistrationUser
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\user\github\testing_web_tours\скрипты\registrationuser\\logfile.log
+c:\user\github\testing_web_tours\скрипты\registrationuser\\combined_RegistrationUser.c
+c:\user\github\testing_web_tours\скрипты\registrationuser\\pre_cci.c
